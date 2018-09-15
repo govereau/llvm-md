@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>LLVM M.D.</title>
+  <link rel="stylesheet" type="text/css" href="doctor.css" />
+</head>
+<body>
+  <table border="0" width="100%">
+    <tr><td valign="bottom">
+      <h1>LLVM M.D.</h1>
+      <h2>A Denotational Translation Validator</h2>
+    </td>
+    <td valign="bottom" align="right"><img src="SEASLogo.png"></td></tr>
+  </table>
+
+  <div>
+    LLVM M.D. (Mis-optimization Detector) is a compiler research project at
+    <a href="http://seas.harvard.edu">Harvard University</a>.
+
+    <p/> Our goal is to detect when a compiler optimization changes the meaning
+    of the input program. This almost always indicates a bug in the optimizer.
+
+    <p/> For our project we are using the <a href="http://llvm.org">LLVM
+      optimization framework</a>.
+
+    <p/> Our tools work by analysing two LLVM programs and trying to determine
+    if they have the same meaning. Our tools do not require any integration
+    with the optimizer to work, and can also be used on hand-optimized code.
+    This technique is called "Translation Validation", and our work is focused
+    around scaling this technique to a real-world compiler such as LLVM.
+
+    <p/> We hope that our tools will be useful for compiler developers, and for
+    industries where safety-critical software is important and optimization is
+    needed.
+
+  <hr><h3>Publications</h3>
+  <div>
+    <a href="llvm-md.pdf">LLVM M.D.: A Denotational Translation Validator</a>.
+    This research paper presents the key ideas of the algorithm implemented in
+    LLVM M.D.
+
+    <p/>
+    <a href="pldi11.pdf">Evaluating Value-Graph Translation Validation for LLVM.</a>
+    By Jean-Baptiste Tristan, Paul Govereau and Greg Morrisett.
+    In ACM SIGPLAN 2011 Conference on Programming Language Design and Implementation (PLDI'11).
+
+    <p/>
+    <a href="paul_govereau.pdf">Denotational Translation Validation.</a>
+    A Dissertation presented by By Paul Govereau.
+  </div>
+
+  <div class="copy">Copyright &copy; 2010, Jean-Baptiste Tristan and Paul Govereau</div>
+</body>
+</html>
