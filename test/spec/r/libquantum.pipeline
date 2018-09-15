@@ -1,0 +1,208 @@
+FAIL quantum_frac_approx:Maybe.fromJust: Nothing
+BORING quantum_get_decoherence
+BORING quantum_set_decoherence
+BORING quantum_hash64
+BORING quantum_frand
+BORING muxfa
+BORING muxfa_inv
+BORING muxha
+BORING muxha_inv
+BORING addn
+BORING add_mod_n
+BORING quantum_char2double
+BORING quantum_objcode_stop
+BORING quantum_objcode_write
+BORING quantum_objcode_file
+BORING quantum_objcode_exit
+BORING mul_mod_n
+BORING quantum_qec_set_status
+BORING quantum_qec_get_status
+BORING quantum_sigma_x_ft
+BORING quantum_hash6449
+BORING quantum_get_version
+BORING spec_srand
+"quantum_ipow"
+OK 31 1.0e-3 quantum_ipow
+"quantum_gcd"
+OK 27 0.0 quantum_gcd
+"quantum_getwidth"
+OK 25 1.0e-3 quantum_getwidth
+"quantum_inverse_mod"
+OK 28 0.0 quantum_inverse_mod
+"quantum_conj"
+ALARM (term)quantum_conj:84
+"quantum_real"
+ALARM (term)quantum_real:15
+"quantum_imag"
+ALARM (term)quantum_imag:16
+"quantum_prob"
+ALARM (term)quantum_prob:39
+"quantum_prob_inline"
+ALARM (term)quantum_prob_inline:65
+"quantum_cexp"
+OK 33 0.0 quantum_cexp
+"quantum_decohere"
+ALARM (term)quantum_decohere:229
+"quantum_exp_mod_n"
+OK 67 2.0e-3 quantum_exp_mod_n
+"quantum_cnot"
+OK 86 3.0e-3 quantum_cnot
+"quantum_toffoli"
+OK 100 4.999e-3 quantum_toffoli
+"quantum_unbounded_toffoli"
+OK 259 1.7997e-2 quantum_unbounded_toffoli
+"quantum_sigma_x"
+OK 73 2.0e-3 quantum_sigma_x
+"quantum_sigma_y"
+OK 119 3.999e-3 quantum_sigma_y
+"quantum_sigma_z"
+OK 94 3.0e-3 quantum_sigma_z
+"quantum_swaptheleads"
+OK 169 6.998e-3 quantum_swaptheleads
+"quantum_swaptheleads_omuln_controlled"
+OK 46 1.0e-3 quantum_swaptheleads_omuln_controlled
+"quantum_gate1"
+ALARM (term)quantum_gate1:1193
+"quantum_add_hash"
+ALARM (term)quantum_add_hash:40
+"quantum_get_state"
+ALARM (term)quantum_get_state:72
+"quantum_prob_inline4"
+ALARM (term)quantum_prob_inline4:65
+"quantum_gate2"
+ALARM (term)quantum_gate2:1093
+"quantum_hadamard"
+ALARM (term)quantum_hadamard:124
+"quantum_walsh"
+OK 29 1.0e-3 quantum_walsh
+"quantum_r_x"
+ALARM (term)quantum_r_x:125
+"quantum_r_y"
+ALARM (term)quantum_r_y:115
+"quantum_r_z"
+ALARM (term)quantum_r_z:136
+"quantum_phase_scale"
+ALARM (term)quantum_phase_scale:100
+"quantum_phase_kick"
+ALARM (term)quantum_phase_kick:116
+"quantum_cond_phase"
+ALARM (term)quantum_cond_phase:132
+"quantum_cond_phase_inv"
+ALARM (term)quantum_cond_phase_inv:123
+"quantum_cond_phase_kick"
+ALARM (term)quantum_cond_phase_kick:127
+"quantum_gate_counter"
+OK 24 1.0e-3 quantum_gate_counter
+"quantum_real6"
+ALARM (term)quantum_real6:15
+"quantum_imag7"
+ALARM (term)quantum_imag7:16
+"quantum_memman"
+OK 23 1.0e-3 quantum_memman
+"quantum_new_matrix"
+OK 66 2.0e-3 quantum_new_matrix
+"quantum_delete_matrix"
+OK 28 1.0e-3 quantum_delete_matrix
+"quantum_print_matrix"
+ALARM (term)quantum_print_matrix:155
+"quantum_real14"
+ALARM (term)quantum_real14:15
+"quantum_imag15"
+ALARM (term)quantum_imag15:16
+"quantum_measure"
+ALARM (term)quantum_measure:73
+"quantum_prob_inline18"
+ALARM (term)quantum_prob_inline18:65
+"quantum_bmeasure"
+OK 156 5.999e-3 quantum_bmeasure
+"quantum_bmeasure_bitpreserve"
+ALARM (term)quantum_bmeasure_bitpreserve:316
+"quantum_real19"
+ALARM (term)quantum_real19:15
+"quantum_imag20"
+ALARM (term)quantum_imag20:16
+"test_sum"
+OK 196 1.0998e-2 test_sum
+"madd"
+OK 93 3.0e-3 madd
+"madd_inv"
+OK 91 1.999e-3 madd_inv
+"addn_inv"
+OK 26 1.0e-3 addn_inv
+"quantum_mu2char"
+OK 51 1.0e-3 quantum_mu2char
+"quantum_int2char"
+OK 50 1.0e-3 quantum_int2char
+"quantum_double2char"
+OK 40 0.0 quantum_double2char
+"quantum_char2mu"
+OK 56 1.0e-3 quantum_char2mu
+"quantum_char2int"
+OK 53 1.0e-3 quantum_char2int
+"quantum_objcode_start"
+OK 42 1.0e-3 quantum_objcode_start
+"quantum_objcode_put"
+ALARM (term)quantum_objcode_put:305
+"quantum_objcode_run"
+ALARM (term)quantum_objcode_run:261
+"emul"
+OK 52 1.0e-3 emul
+"muln"
+OK 60 1.999e-3 muln
+"muln_inv"
+OK 75 1.0e-3 muln_inv
+"quantum_qec_encode"
+OK 129 6.999e-3 quantum_qec_encode
+"quantum_qec_decode"
+OK 154 5.999e-3 quantum_qec_decode
+"quantum_qec_counter"
+OK 66 4.0e-3 quantum_qec_counter
+"quantum_cnot_ft"
+OK 43 9.99e-4 quantum_cnot_ft
+"quantum_toffoli_ft"
+ALARM (term)quantum_toffoli_ft:160
+"quantum_qft"
+OK 50 1.0e-3 quantum_qft
+"quantum_qft_inv"
+OK 49 1.0e-3 quantum_qft_inv
+"quantum_matrix2qureg"
+ALARM (term)quantum_matrix2qureg:223
+"quantum_new_qureg"
+ALARM (term)quantum_new_qureg:156
+"quantum_qureg2matrix"
+ALARM (term)quantum_qureg2matrix:61
+"quantum_destroy_hash"
+OK 26 0.0 quantum_destroy_hash
+"quantum_delete_qureg"
+OK 28 0.0 quantum_delete_qureg
+"quantum_delete_qureg_hashpreserve"
+OK 25 1.0e-3 quantum_delete_qureg_hashpreserve
+"quantum_print_qureg"
+ALARM (term)quantum_print_qureg:208
+"quantum_real43"
+ALARM (term)quantum_real43:15
+"quantum_imag44"
+ALARM (term)quantum_imag44:16
+"quantum_prob_inline45"
+ALARM (term)quantum_prob_inline45:65
+"quantum_print_expn"
+ALARM (term)quantum_print_expn:40
+"quantum_addscratch"
+OK 48 1.0e-3 quantum_addscratch
+"quantum_print_hash"
+ALARM (term)quantum_print_hash:45
+"quantum_kronecker"
+ALARM (term)quantum_kronecker:253
+"quantum_state_collapse"
+FAIL TIMEOUT quantum_state_collapse
+"quantum_dot_product"
+ALARM (term)quantum_dot_product:194
+"quantum_add_hash47"
+ALARM (term)quantum_add_hash47:40
+"quantum_get_state48"
+ALARM (term)quantum_get_state48:72
+"main"
+OK 489 0.171974 main
+"spec_rand"
+OK 38 1.0e-3 spec_rand
+COMPLETE

@@ -1,0 +1,23 @@
+BORING ht_val
+BORING ht_key
+BORING ht_node_create
+BORING ht_first
+BORING ht_count
+BORING __inline_memcpy_chk
+BORING write_count
+BORING toupper
+OK 49 0.993ms ht_hashcode
+ALARM 75 1.987ms ht_create
+OK 83 1.528ms ht_destroy
+FAIL ht_find:fetchVal:35
+FAIL ht_find_new:fetchVal:54
+FAIL ht_next:fetchVal:43
+OK 55 1.006ms hash_table_size
+FAIL generate_frequencies:fetchVal:43
+OK 308 14.084ms write_frequencies
+FAIL main:fetchVal:223
+COMPLETE
+
+real	0m0.096s
+user	0m0.088s
+sys	0m0.006s

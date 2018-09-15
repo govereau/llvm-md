@@ -1,0 +1,46 @@
+BORING main
+FAIL price_out_impl:Maybe.fromJust: Nothing
+BORING bea_is_dual_infeasible
+"global_opt"
+ALARM (term)global_opt:121
+"refresh_neighbour_lists"
+ALARM (term)refresh_neighbour_lists:71
+"refresh_potential"
+ALARM (term)refresh_potential:137
+"flow_cost"
+OK 232 2.6995e-2 flow_cost
+"flow_org_cost"
+OK 233 2.4996e-2 flow_org_cost
+"primal_feasible"
+FAIL primal_feasible:no calss for 108
+"dual_feasible"
+OK 133 6.999e-3 dual_feasible
+"getfree"
+OK 49 1.0e-3 getfree
+"read_min"
+ALARM (term)read_min:598
+"resize_prob"
+OK 150 6.998e-3 resize_prob
+"insert_new_arc"
+OK 115 7.999e-3 insert_new_arc
+"replace_weaker_arc"
+ALARM (term)replace_weaker_arc:98
+"suspend_impl"
+OK 192 1.1998e-2 suspend_impl
+"primal_start_artificial"
+OK 181 9.999e-3 primal_start_artificial
+"write_circulations"
+ALARM (term)write_circulations:204
+"update_tree"
+OK 468 8.6986e-2 update_tree
+"primal_iminus"
+OK 214 2.1997e-2 primal_iminus
+"primal_update_flow"
+OK 89 4.0e-3 primal_update_flow
+"primal_net_simplex"
+OK 305 2.6995e-2 primal_net_simplex
+"sort_basket"
+ALARM (term)sort_basket:121
+"primal_bea_mpp"
+ALARM (term)primal_bea_mpp:289
+COMPLETE

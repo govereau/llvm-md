@@ -1,0 +1,11 @@
+BORING fade
+BORING lerp
+BORING grad
+OK 102 1.902ms main
+OK 43 0.719ms init
+OK 153 2.702ms noise
+COMPLETE
+
+real	0m0.033s
+user	0m0.027s
+sys	0m0.004s

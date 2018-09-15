@@ -1,0 +1,8 @@
+BORING __inline_memset_chk
+OK 47 0.682ms main
+OK 124 3.196ms nsieve
+COMPLETE
+
+real	0m0.018s
+user	0m0.013s
+sys	0m0.004s

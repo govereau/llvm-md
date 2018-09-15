@@ -1,0 +1,27 @@
+BORING dump_list
+BORING dump_play
+BORING show_data
+BORING show_move
+BORING show_list
+BORING show_play
+ALARM 44 0.889ms copy_data
+OK 73 1.769ms next_data
+OK 50 0.86ms melt_data
+OK 52 1.141ms equal_data
+FAIL valid_data:fetchVal:25
+OK 46 0.858ms get_value
+FAIL in_wanted:fetchVal:52
+OK 68 1.159ms make_data
+FAIL make_list:fetchVal:140
+OK 188 6.508ms make_play
+OK 176 5.103ms make_wanted
+FAIL get_good_move:fetchVal:37
+OK 42 0.615ms get_winning_move
+OK 46 0.896ms where
+ALARM 46 0.996ms get_real_move
+OK 113 2.803ms main
+COMPLETE
+
+real	0m0.092s
+user	0m0.084s
+sys	0m0.006s

@@ -1,0 +1,339 @@
+BORING write_appl_gauge_info
+BORING setup
+BORING initial_set
+BORING readin
+BORING make_3n_gathers
+BORING third_neighbor
+BORING update_h
+BORING node_number
+BORING node_index
+BORING num_sites
+BORING gaugefixscratch
+BORING save_lattice
+BORING reload_lattice
+BORING ask_starting_lattice
+BORING ask_ending_lattice
+BORING get_s
+BORING get_prompt
+BORING qcdhdr_get_int
+BORING qcdhdr_get_int32x
+BORING qcdhdr_get_double
+BORING error_exit
+BORING complete_U
+BORING big_endian
+BORING __inline_strcpy_chk
+BORING swrite_data
+BORING pwrite_data
+BORING pswrite_data
+BORING sread_data
+BORING pread_data
+BORING pread_byteorder
+BORING sread_byteorder
+BORING psread_data
+BORING psread_byteorder
+BORING pwrite_gauge_hdr
+BORING swrite_gauge_hdr
+BORING write_gauge_info_file
+BORING setup_input_gauge_file
+BORING w_serial_i
+BORING read_checksum
+BORING write_checksum
+BORING __inline_memcpy_chk
+BORING w_serial_f
+BORING read_site_list
+BORING r_serial_i
+BORING r_serial_f
+BORING write_site_list
+BORING parallel_open
+BORING w_parallel_i
+BORING w_checkpoint_i
+BORING w_parallel_setup
+BORING w_parallel_f
+BORING r_parallel_i
+BORING r_parallel_f
+BORING restore_serial
+BORING restore_parallel
+BORING save_serial
+BORING save_parallel
+BORING save_checkpoint
+BORING save_parallel_archive
+BORING initialize_prn
+BORING myrand
+BORING check_deviation
+BORING reunit_su3
+BORING printpath
+BORING mat_invert_cg
+BORING is_path_equal
+BORING side_link_force
+BORING side_link_3f_force
+BORING cmplx
+BORING clearvec
+BORING make_anti_hermitian
+BORING random_anti_hermitian
+BORING scalar_mult_su3_matrix
+BORING su3_dot
+BORING su3_rdot
+BORING trace_su3
+BORING uncompress_anti_hermitian
+BORING magsq_su3vec
+BORING sub_four_su3_vecs
+BORING mult_su2_mat_vec_elem_n
+BORING mult_su2_mat_vec_elem_a
+BORING gaussian_rand_no
+BORING byterevn
+BORING mult_su3_mat_hwvec
+BORING mult_adj_su3_mat_hwvec
+BORING cleanup_gathers
+BORING cleanup_dslash_temps
+FAIL ks_congrad:Maybe.fromJust: Nothing
+BORING initialize_machine
+BORING make_nn_gathers
+BORING neighbor_coords_special
+BORING sort_eight_special
+BORING sort_eight_neighborlists
+BORING terminate
+BORING neighbor_coords
+BORING start_handlers
+BORING restart_gather
+BORING restart_gather_from_temp
+BORING wait_gather
+BORING cleanup_gather
+BORING wait_general_gather
+BORING cleanup_general_gather
+BORING field_pointer_at_coordinates
+BORING field_pointer_at_direction
+BORING cleanup_field_pointer
+BORING send_field
+BORING get_field
+BORING machine_type
+BORING mynode
+BORING numnodes
+BORING g_sync
+BORING g_floatsum
+BORING g_doublesum
+BORING g_vecdoublesum
+BORING g_complexsum
+BORING g_dcomplexsum
+BORING g_veccomplexsum
+BORING g_wvectorsum
+BORING g_xor32
+BORING g_floatmax
+BORING g_doublemax
+BORING broadcast_float
+BORING broadcast_double
+BORING broadcast_complex
+BORING broadcast_dcomplex
+BORING broadcast_bytes
+BORING send_integer
+BORING receive_integer
+BORING dclock
+BORING time_stamp
+BORING normal_exit
+BORING g_open
+BORING g_seek
+BORING g_write
+BORING g_read
+BORING g_close
+"main"
+OK 349 3.5994e-2 main
+"f_meas_imp"
+OK 305 2.8996e-2 f_meas_imp
+"update"
+OK 193 9.999e-3 update
+"update_u"
+OK 148 5.999e-3 update_u
+"setup_layout"
+ALARM (term)setup_layout:272
+"check_unitarity"
+OK 363 3.0996e-2 check_unitarity
+"check_su3"
+OK 421 9.0987e-2 check_su3
+"d_plaquette"
+OK 352 4.0993e-2 d_plaquette
+"accum_gauge_hit"
+ALARM (term)accum_gauge_hit:403
+"do_hit"
+OK 552 8.0987e-2 do_hit
+"get_gauge_fix_action"
+OK 214 1.3998e-2 get_gauge_fix_action
+"gaugefixstep"
+OK 426 5.9991e-2 gaugefixstep
+"gaugefix"
+ALARM (term)gaugefix:180
+"coldlat"
+OK 148 8.998e-3 coldlat
+"funnylat"
+OK 190 7.999e-3 funnylat
+"get_f"
+OK 148 1.0998e-2 get_f
+"get_i"
+OK 148 1.1998e-2 get_i
+"qcdhdr_get_str"
+OK 77 3.0e-3 qcdhdr_get_str
+"qcdhdr_get_hdr"
+OK 217 1.6997e-2 qcdhdr_get_hdr
+"qcdhdr_destroy_hdr"
+OK 79 4.0e-3 qcdhdr_destroy_hdr
+"write_gauge_info_item"
+OK 305 2.9995e-2 write_gauge_info_item
+"setup_output_gauge_file"
+OK 188 1.4997e-2 setup_output_gauge_file
+"w_serial"
+ALARM (term)w_serial:620
+"read_v3_gauge_hdr"
+OK 431 6.9989e-2 read_v3_gauge_hdr
+"read_1996_gauge_hdr"
+OK 469 0.276958 read_1996_gauge_hdr
+"read_gauge_hdr"
+OK 567 0.13198 read_gauge_hdr
+"r_serial"
+OK 734 0.270958 r_serial
+"r_serial_arch"
+OK 742 0.185972 r_serial_arch
+"w_parallel"
+OK 901 0.316952 w_parallel
+"w_checkpoint"
+OK 444 6.299e-2 w_checkpoint
+"r_parallel"
+OK 948 0.324951 r_parallel
+"restore_ascii"
+ALARM (term)restore_ascii:523
+"save_ascii"
+ALARM (term)save_ascii:402
+"save_serial_archive"
+ALARM (term)save_serial_archive:920
+"make_lattice"
+OK 401 5.5991e-2 make_lattice
+"path_product"
+OK 935 0.292956 path_product
+"ploop"
+OK 365 4.4993e-2 ploop
+"ranmom"
+OK 63 2.0e-3 ranmom
+"reunit_report_problem_matrix"
+OK 205 1.2998e-2 reunit_report_problem_matrix
+"reunitarize"
+OK 168 9.998e-3 reunitarize
+"make_loop_table"
+OK 815 0.307953 make_loop_table
+"char_num"
+OK 253 1.9997e-2 char_num
+"imp_gauge_action"
+OK 178 8.999e-3 imp_gauge_action
+"imp_gauge_force"
+OK 500 8.0987e-2 imp_gauge_force
+"g_measure"
+ALARM (term)g_measure:354
+"grsource_imp"
+OK 174 1.3998e-2 grsource_imp
+"checkmul_imp"
+OK 170 9.998e-3 checkmul_imp
+"mat_invert_uml"
+OK 139 6.999e-3 mat_invert_uml
+"check_invert"
+OK 312 4.2994e-2 check_invert
+"make_path_table"
+OK 137 7.998e-3 make_path_table
+"add_basic_path"
+ALARM (term)add_basic_path:473
+"path_transport"
+ALARM (term)path_transport:422
+"path_transport_hwv"
+ALARM (term)path_transport_hwv:422
+"load_longlinks"
+ALARM (term)load_longlinks:209
+"load_fatlinks"
+OK 324 3.9994e-2 load_fatlinks
+"compute_gen_staple"
+OK 444 7.4989e-2 compute_gen_staple
+"eo_fermion_force"
+ALARM (term)eo_fermion_force:476
+"u_shift_fermion"
+ALARM (term)u_shift_fermion:109
+"add_force_to_mom"
+OK 104 3.999e-3 add_force_to_mom
+"eo_fermion_force_3f"
+ALARM (term)eo_fermion_force_3f:722
+"u_shift_hw_fermion"
+ALARM (term)u_shift_hw_fermion:109
+"add_3f_force_to_mom"
+OK 154 1.2998e-2 add_3f_force_to_mom
+"phaseset"
+ALARM (term)phaseset:134
+"rephase"
+ALARM (term)rephase:85
+"add_su3_matrix"
+OK 87 3.999e-3 add_su3_matrix
+"add_su3_vector"
+OK 65 2.0e-3 add_su3_vector
+"clear_su3mat"
+OK 56 1.999e-3 clear_su3mat
+"mult_adj_su3_mat_vec"
+OK 140 6.999e-3 mult_adj_su3_mat_vec
+"mult_su3_an"
+OK 324 2.8996e-2 mult_su3_an
+"mult_su3_na"
+OK 168 9.998e-3 mult_su3_na
+"mult_su3_nn"
+OK 169 1.0998e-2 mult_su3_nn
+"mult_su3_mat_vec"
+OK 139 6.999e-3 mult_su3_mat_vec
+"realtrace_su3"
+OK 89 4.0e-3 realtrace_su3
+"scalar_mult_add_su3_matrix"
+OK 92 3.999e-3 scalar_mult_add_su3_matrix
+"scalar_mult_add_su3_vector"
+OK 70 3.0e-3 scalar_mult_add_su3_vector
+"scalar_mult_sub_su3_matrix"
+OK 92 3.999e-3 scalar_mult_sub_su3_matrix
+"scalar_mult_su3_vector"
+OK 54 2.0e-3 scalar_mult_su3_vector
+"su3_adjoint"
+OK 72 2.999e-3 su3_adjoint
+"su3_projector"
+OK 99 4.0e-3 su3_projector
+"su3mat_copy"
+OK 69 1.999e-3 su3mat_copy
+"sub_su3_matrix"
+OK 87 4.0e-3 sub_su3_matrix
+"sub_su3_vector"
+OK 65 1.999e-3 sub_su3_vector
+"mult_adj_su3_mat_vec_4dir"
+OK 327 4.3994e-2 mult_adj_su3_mat_vec_4dir
+"mult_adj_su3_mat_4vec"
+OK 338 2.1996e-2 mult_adj_su3_mat_4vec
+"mult_su3_mat_vec_sum_4dir"
+OK 235 1.1998e-2 mult_su3_mat_vec_sum_4dir
+"left_su2_hit_n"
+OK 43 0.0 left_su2_hit_n
+"right_su2_hit_a"
+OK 43 0.0 right_su2_hit_a
+"dslash_fn"
+OK 722 6.699e-2 dslash_fn
+"dslash_fn_special"
+OK 764 0.105984 dslash_fn_special
+"dslash_fn_on_temp"
+ALARM (term)dslash_fn_on_temp:554
+"dslash_fn_on_temp_special"
+OK 847 0.147977 dslash_fn_on_temp_special
+"clear_latvec"
+ALARM (term)clear_latvec:80
+"copy_latvec"
+ALARM (term)copy_latvec:87
+"scalar_mult_add_latvec"
+OK 75 2.0e-3 scalar_mult_add_latvec
+"scalar2_mult_add_su3_vector"
+OK 75 1.999e-3 scalar2_mult_add_su3_vector
+"scalar2_mult_add_latvec"
+OK 76 1.0e-3 scalar2_mult_add_latvec
+"scalar_mult_latvec"
+OK 144 7.999e-3 scalar_mult_latvec
+"make_gather"
+OK 757 0.572913 make_gather
+"start_gather"
+OK 180 6.999e-3 start_gather
+"start_gather_from_temp"
+OK 168 6.999e-3 start_gather_from_temp
+"start_general_gather"
+OK 220 1.0998e-2 start_general_gather
+COMPLETE

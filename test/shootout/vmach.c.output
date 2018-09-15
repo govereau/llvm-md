@@ -1,0 +1,7 @@
+FAIL wordcode_interp:fetchVal:218
+OK 74 1.333ms main
+COMPLETE
+
+real	0m0.037s
+user	0m0.032s
+sys	0m0.004s

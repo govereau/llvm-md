@@ -1,0 +1,12 @@
+BORING __inline_memset_chk
+BORING dallocvector
+OK 44 0.56ms allocvector
+OK 102 2.238ms sturm
+FAIL dbisect:fetchVal:266
+ALARM 46 0.925ms test_matrix
+OK 174 3.593ms main
+COMPLETE
+
+real	0m0.055s
+user	0m0.048s
+sys	0m0.005s

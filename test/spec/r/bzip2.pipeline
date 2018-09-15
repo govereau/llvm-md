@@ -1,0 +1,169 @@
+BORING __inline_memset_chk
+BORING __inline_memcpy_chk
+BORING spec_rewind
+BORING spec_compress
+BORING spec_uncompress
+BORING spec_initbufs
+BORING debug_time
+FAIL mainQSort3:user error (Loop has 2 entries)
+FAIL mainQSort3:Maybe.fromJust: Nothing
+FAIL fallbackQSort3:user error (Loop has 2 entries)
+FAIL fallbackQSort3:Maybe.fromJust: Nothing
+BORING myfeof
+BORING configError
+BORING outOfMemory
+BORING ioError
+BORING panic
+BORING crcError
+BORING compressedStreamEOF
+BORING setExit
+BORING showFileNames
+BORING cleanUpAndFail
+BORING cadvise
+BORING BZ2_bz__AssertH__fail
+BORING BZ2_bzlibVersion
+BORING bz_config_ok
+BORING default_bzalloc
+BORING default_bzfree
+BORING init_RL
+FAIL BZ2_bzCompress:Maybe.fromJust: Nothing
+BORING isempty_RL
+FAIL unRLE_obuf_to_output_SMALL:user error (Loop has 2 entries)
+FAIL unRLE_obuf_to_output_FAST:loop has 2 entries
+FAIL unRLE_obuf_to_output_FAST:loop has 2 entries
+BORING BZ2_bzWriteClose
+BORING myfeof95
+BORING BZ2_bzopen
+BORING BZ2_bzdopen
+BORING BZ2_bzwrite
+BORING BZ2_bzflush
+BORING BZ2_bzerror
+BORING isdigit
+BORING __isctype
+BORING flush_RL
+BORING BZ2_bsInitWrite
+BORING bsPutUChar
+BORING bsPutUInt32
+FAIL BZ2_decompress:loop has 5 entries
+FAIL BZ2_decompress:loop has 5 entries
+"ran"
+OK 32 1.0e-3 ran
+"spec_init"
+OK 146 4.999e-3 spec_init
+"spec_random_load"
+OK 224 9.999e-3 spec_random_load
+"spec_load"
+ALARM (term)spec_load:180
+"spec_read"
+OK 126 6.999e-3 spec_read
+"spec_fread"
+OK 130 5.999e-3 spec_fread
+"spec_getc"
+OK 78 1.0e-3 spec_getc
+"spec_ungetc"
+OK 84 1.0e-3 spec_ungetc
+"spec_reset"
+OK 34 1.0e-3 spec_reset
+"spec_write"
+OK 82 1.999e-3 spec_write
+"spec_fwrite"
+OK 84 1.0e-3 spec_fwrite
+"spec_putc"
+OK 55 1.0e-3 spec_putc
+"main"
+OK 399 3.4995e-2 main
+"BZ2_blockSort"
+ALARM (term)BZ2_blockSort:148
+"fallbackSort"
+ALARM (term)fallbackSort:562
+"mainSort"
+ALARM (term)mainSort:845
+"mainSimpleSort"
+OK 346 4.5993e-2 mainSimpleSort
+"mmed3"
+OK 27 0.0 mmed3
+"mainGtU"
+ALARM (term)mainGtU:856
+"fallbackSimpleSort"
+OK 206 1.1998e-2 fallbackSimpleSort
+"compressStream"
+OK 309 7.4989e-2 compressStream
+"uInt64_from_UInt32s"
+OK 57 1.0e-3 uInt64_from_UInt32s
+"uInt64_to_double"
+OK 51 0.0 uInt64_to_double
+"uInt64_toAscii"
+OK 103 1.999e-3 uInt64_toAscii
+"uncompressStream"
+ALARM (term)uncompressStream:448
+"uInt64_qrm10"
+OK 53 1.0e-3 uInt64_qrm10
+"uInt64_isZero"
+OK 44 1.0e-3 uInt64_isZero
+"BZ2_bzCompressInit"
+ALARM (term)BZ2_bzCompressInit:218
+"prepare_new_block"
+OK 53 2.0e-3 prepare_new_block
+"handle_compress"
+ALARM (term)handle_compress:155
+"BZ2_bzCompressEnd"
+OK 81 3.0e-3 BZ2_bzCompressEnd
+"BZ2_bzDecompressInit"
+OK 151 9.998e-3 BZ2_bzDecompressInit
+"BZ2_indexIntoF"
+OK 62 2.0e-3 BZ2_indexIntoF
+"BZ2_bzDecompress"
+ALARM (term)BZ2_bzDecompress:296
+"BZ2_bzDecompressEnd"
+OK 80 4.999e-3 BZ2_bzDecompressEnd
+"BZ2_bzWriteOpen"
+OK 181 1.5998e-2 BZ2_bzWriteOpen
+"BZ2_bzWrite"
+OK 160 1.7997e-2 BZ2_bzWrite
+"BZ2_bzWriteClose64"
+OK 221 3.9994e-2 BZ2_bzWriteClose64
+"BZ2_bzReadOpen"
+ALARM (term)BZ2_bzReadOpen:152
+"BZ2_bzReadClose"
+OK 57 2.0e-3 BZ2_bzReadClose
+"BZ2_bzRead"
+OK 244 3.6994e-2 BZ2_bzRead
+"BZ2_bzReadGetUnused"
+OK 60 3.0e-3 BZ2_bzReadGetUnused
+"BZ2_bzBuffToBuffCompress"
+OK 106 8.998e-3 BZ2_bzBuffToBuffCompress
+"BZ2_bzBuffToBuffDecompress"
+OK 95 5.999e-3 BZ2_bzBuffToBuffDecompress
+"bzopen_or_bzdopen"
+OK 256 2.5996e-2 bzopen_or_bzdopen
+"BZ2_bzread"
+OK 33 1.0e-3 BZ2_bzread
+"BZ2_bzclose"
+OK 43 1.0e-3 BZ2_bzclose
+"copy_output_until_stop"
+ALARM (term)copy_output_until_stop:69
+"copy_input_until_stop"
+ALARM (term)copy_input_until_stop:235
+"add_pair_to_block"
+ALARM (term)add_pair_to_block:175
+"BZ2_compressBlock"
+ALARM (term)BZ2_compressBlock:265
+"bsW"
+ALARM (term)bsW:64
+"generateMTFValues"
+ALARM (term)generateMTFValues:324
+"sendMTFValues"
+FAIL TIMEOUT sendMTFValues
+"bsFinishWrite"
+ALARM (term)bsFinishWrite:43
+"makeMaps_e"
+ALARM (term)makeMaps_e:46
+"makeMaps_d"
+ALARM (term)makeMaps_d:48
+"BZ2_hbMakeCodeLengths"
+ALARM (term)BZ2_hbMakeCodeLengths:479
+"BZ2_hbAssignCodes"
+OK 75 3.0e-3 BZ2_hbAssignCodes
+"BZ2_hbCreateDecodeTables"
+OK 276 2.1997e-2 BZ2_hbCreateDecodeTables
+COMPLETE

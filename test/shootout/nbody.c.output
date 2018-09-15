@@ -1,0 +1,10 @@
+OK 258 12.366ms advance
+ALARM 157 4.134ms energy
+OK 102 2.566ms offset_momentum
+OK 65 1.05ms setup_bodies
+OK 73 1.423ms main
+COMPLETE
+
+real	0m0.051s
+user	0m0.045s
+sys	0m0.004s

@@ -1,0 +1,1644 @@
+BORING sqlite3_status
+BORING sqlite3_db_status
+BORING sqlite3_initialize
+BORING sqlite3MutexAlloc
+BORING sqlite3_mutex_enter
+BORING sqlite3_mutex_leave
+BORING sqlite3_vfs_register
+BORING vfsUnlink
+BORING sqlite3_vfs_unregister
+BORING sqlite3_mutex_alloc
+BORING sqlite3_mutex_free
+BORING sqlite3_mutex_try
+BORING sqlite3_soft_heap_limit
+BORING sqlite3MemoryAlarm
+BORING softHeapLimitEnforcer
+BORING sqlite3_memory_used
+BORING sqlite3_release_memory
+BORING sqlite3_memory_highwater
+BORING sqlite3_memory_alarm
+BORING sqlite3_malloc
+BORING sqlite3Malloc
+BORING sqlite3_free
+BORING sqlite3StatusAdd
+BORING sqlite3MallocSize
+BORING sqlite3_realloc
+BORING sqlite3Realloc
+BORING sqlite3_vmprintf
+BORING sqlite3StrAccumInit
+BORING sqlite3StrAccumFinish
+BORING sqlite3_mprintf
+BORING sqlite3_snprintf
+BORING sqlite3_randomness
+BORING randomByte
+BORING sqlite3_strnicmp
+BORING sqlite3_os_init
+BORING unixOpen
+BORING unixDelete
+BORING unixAccess
+BORING unixFullPathname
+BORING unixDlOpen
+BORING unixDlError
+BORING unixDlSym
+BORING unixDlClose
+BORING unixRandomness
+BORING unixSleep
+BORING unixCurrentTime
+BORING unixGetLastError
+BORING sqlite3_os_end
+BORING sqlite3_enable_shared_cache
+BORING sqlite3_backup_init
+BORING sqlite3Error
+BORING __inline_memset_chk
+BORING findBtree
+BORING isFatalError
+BORING sqlite3BtreePager
+BORING sqlite3BtreeGetMeta
+BORING sqlite3BtreeIsInReadTrans
+BORING sqlite3PagerPagecount
+BORING sqlite3PagerAcquire
+BORING sqlite3PagerGetData
+BORING sqlite3PagerUnref
+BORING attachBackupObject
+BORING sqlite3BtreeUpdateMeta
+BORING sqlite3BtreeGetPageSize
+BORING sqlite3PagerTruncateImage
+BORING sqlite3PagerFile
+BORING backupTruncateFile
+BORING sqlite3PagerSync
+BORING sqlite3OsWrite
+BORING sqlite3BtreeCommitPhaseTwo
+BORING sqlite3BtreeCommitPhaseOne
+BORING sqlite3BtreeLeave
+BORING sqlite3_backup_finish
+BORING sqlite3PagerBackupPtr
+BORING sqlite3BtreeRollback
+BORING sqlite3_backup_remaining
+BORING sqlite3_backup_pagecount
+BORING sqlite3_sql
+BORING sqlite3_expired
+BORING sqlite3_finalize
+BORING sqlite3VdbeFinalize
+BORING sqlite3ApiExit
+BORING sqlite3_reset
+BORING sqlite3VdbeReset
+BORING sqlite3VdbeMemRelease
+BORING sqlite3_value_blob
+BORING sqlite3VdbeMemExpandBlob
+BORING sqlite3_value_text
+BORING sqlite3_value_bytes
+BORING sqlite3ValueBytes
+BORING sqlite3_value_bytes16
+BORING sqlite3_value_double
+BORING sqlite3VdbeRealValue
+BORING sqlite3_value_int
+BORING sqlite3VdbeIntValue
+BORING sqlite3_value_int64
+BORING sqlite3ValueText
+BORING sqlite3_value_text16
+BORING sqlite3_value_text16be
+BORING sqlite3_value_text16le
+BORING sqlite3_value_type
+BORING sqlite3_result_blob
+BORING setResultStrOrError
+BORING sqlite3_result_double
+BORING sqlite3VdbeMemSetDouble
+BORING sqlite3_result_error
+BORING sqlite3VdbeMemSetStr
+BORING sqlite3_result_error16
+BORING sqlite3_result_int
+BORING sqlite3VdbeMemSetInt64
+BORING sqlite3_result_int64
+BORING sqlite3_result_null
+BORING sqlite3VdbeMemSetNull
+BORING sqlite3_result_text
+BORING sqlite3_result_text16
+BORING sqlite3_result_text16be
+BORING sqlite3_result_text16le
+BORING sqlite3_result_value
+BORING sqlite3VdbeMemCopy
+BORING sqlite3_result_zeroblob
+BORING sqlite3VdbeMemSetZeroBlob
+BORING sqlite3_result_error_code
+BORING sqlite3ErrStr
+BORING sqlite3_result_error_toobig
+BORING sqlite3_result_error_nomem
+BORING sqlite3Step
+BORING sqlite3Reprepare
+BORING sqlite3DbFree
+BORING sqlite3DbStrDup
+BORING sqlite3_user_data
+BORING sqlite3_context_db_handle
+BORING sqlite3_aggregate_context
+BORING sqlite3VdbeMemReleaseExternal
+BORING sqlite3VdbeMemGrow
+BORING sqlite3_get_auxdata
+BORING sqlite3_set_auxdata
+BORING sqlite3DbRealloc
+BORING sqlite3_aggregate_count
+BORING sqlite3_column_count
+BORING sqlite3_data_count
+BORING sqlite3_column_blob
+BORING columnMem
+BORING columnMallocFailure
+BORING sqlite3_column_bytes
+BORING sqlite3_column_bytes16
+BORING sqlite3_column_double
+BORING sqlite3_column_int
+BORING sqlite3_column_int64
+BORING sqlite3_column_text
+BORING sqlite3_column_value
+BORING sqlite3_column_text16
+BORING sqlite3_column_type
+BORING sqlite3_column_name
+BORING columnName
+BORING sqlite3_column_name16
+BORING sqlite3_column_decltype
+BORING sqlite3_column_decltype16
+BORING sqlite3_bind_blob
+BORING bindText
+BORING sqlite3_bind_double
+BORING vdbeUnbind
+BORING sqlite3_bind_int
+BORING sqlite3_bind_int64
+BORING sqlite3_bind_null
+BORING sqlite3_bind_text
+BORING sqlite3_bind_text16
+BORING sqlite3_bind_value
+BORING sqlite3_bind_zeroblob
+BORING sqlite3_bind_parameter_count
+BORING sqlite3_bind_parameter_name
+BORING sqlite3_bind_parameter_index
+BORING sqlite3Strlen30
+BORING sqlite3_transfer_bindings
+BORING sqlite3_db_handle
+BORING sqlite3_next_stmt
+BORING sqlite3_stmt_status
+BORING sqlite3_value_numeric_type
+BORING applyNumericAffinity
+BORING sqlite3VdbeMemStoreType
+BORING sqlite3DbMallocRaw
+BORING sqlite3LocateTable
+BORING sqlite3ErrorMsg
+BORING sqlite3StrICmp
+BORING sqlite3MPrintf
+BORING sqlite3VdbeCreate
+BORING sqlite3VdbeChangeP1
+BORING sqlite3VdbeChangeP2
+BORING sqlite3VdbeUsesBtree
+BORING sqlite3VdbeChangeP3
+BORING sqlite3VdbeChangeP4
+BORING sqlite3_errmsg
+BORING sqlite3DbMallocZero
+BORING sqlite3BtreeEnterCursor
+BORING sqlite3BtreeCacheOverflow
+BORING sqlite3BtreeLeaveCursor
+BORING sqlite3VdbeSerialTypeLen
+BORING sqlite3_blob_close
+BORING sqlite3_blob_read
+BORING blobReadWrite
+BORING sqlite3BtreeData
+BORING sqlite3_blob_write
+BORING sqlite3BtreePutData
+BORING sqlite3_blob_bytes
+BORING sqlite3_set_authorizer
+BORING sqlite3ExpirePreparedStatements
+FAIL sqlite3_exec:Maybe.fromJust: Nothing
+BORING sqlite3_prepare
+BORING sqlite3_errcode
+BORING __inline_memcpy_chk
+BORING sqlite3_load_extension
+BORING sqlite3LoadExtension
+BORING sqlite3_enable_load_extension
+BORING sqlite3_reset_auto_extension
+BORING sqlite3LockAndPrepare
+BORING sqlite3_prepare_v2
+BORING sqlite3_prepare16
+BORING sqlite3Prepare16
+BORING sqlite3_prepare16_v2
+BORING sqlite3_get_table
+BORING sqlite3_free_table
+BORING sqlite3_create_module
+BORING createModule
+BORING sqlite3_create_module_v2
+BORING sqlite3_declare_vtab
+FAIL sqlite3RunParser:Maybe.fromJust: Nothing
+BORING sqlite3DeleteTable
+BORING sqlite3_complete
+BORING sqlite3_complete16
+BORING sqlite3ValueNew
+BORING sqlite3ValueSetStr
+BORING sqlite3ValueFree
+BORING sqlite3_libversion
+BORING sqlite3_sourceid
+BORING sqlite3_libversion_number
+BORING sqlite3_threadsafe
+BORING sqlite3MutexInit
+BORING sqlite3MallocInit
+BORING sqlite3RegisterGlobalFunctions
+BORING sqlite3PcacheInitialize
+BORING sqlite3OsInit
+BORING sqlite3_shutdown
+BORING sqlite3PcacheShutdown
+BORING sqlite3MallocEnd
+BORING sqlite3MutexEnd
+BORING sqlite3_config
+BORING sqlite3MemSetDefault
+BORING sqlite3PCacheSetDefault
+BORING sqlite3_db_mutex
+BORING sqlite3_db_config
+BORING sqlite3_last_insert_rowid
+BORING sqlite3_changes
+BORING sqlite3_total_changes
+BORING sqlite3SafetyCheckSickOrOk
+BORING sqlite3VtabRollback
+BORING sqlite3BtreeIsInBackup
+BORING sqlite3BtreeClose
+BORING sqlite3HashClear
+BORING sqlite3_busy_handler
+BORING sqlite3_progress_handler
+BORING sqlite3_busy_timeout
+BORING sqliteDefaultBusyCallback
+BORING sqlite3_interrupt
+BORING sqlite3_create_function
+BORING sqlite3CreateFunc
+BORING sqlite3_create_function16
+BORING sqlite3Utf16to8
+BORING sqlite3_overload_function
+BORING sqlite3FindFunction
+BORING sqlite3InvalidFunction
+BORING sqlite3_trace
+BORING sqlite3_profile
+BORING sqlite3_commit_hook
+BORING sqlite3_update_hook
+BORING sqlite3_rollback_hook
+BORING sqlite3_errmsg16
+BORING sqlite3_extended_errcode
+BORING sqlite3_limit
+BORING sqlite3_open
+BORING openDatabase
+BORING sqlite3_open_v2
+BORING sqlite3_open16
+BORING sqlite3_create_collation
+BORING sqlite3_create_collation_v2
+BORING sqlite3_create_collation16
+BORING sqlite3_collation_needed
+BORING sqlite3_collation_needed16
+BORING sqlite3_global_recover
+BORING sqlite3_get_autocommit
+BORING sqlite3_thread_cleanup
+BORING sqlite3_sleep
+BORING sqlite3OsSleep
+BORING sqlite3_extended_result_codes
+BORING sqlite3OsFileControl
+BORING sqlite3_test_control
+BORING sqlite3PrngSaveState
+BORING sqlite3PrngRestoreState
+BORING sqlite3PrngResetState
+BORING sqlite3BenignMallocHooks
+BORING sqlite3BtreeSetPageSize
+BORING sqlite3KeywordCode
+BORING keywordCode
+BORING freeTempSpace
+BORING sqlite3PagerSetPagesize
+BORING sqlite3PcacheRefCount
+BORING sqlite3PageMalloc
+BORING pager_reset
+BORING sqlite3PageFree
+BORING sqlite3PcacheSetPageSize
+BORING pcache1Free
+BORING sqlite3BackupRestart
+BORING sqlite3PcacheClear
+BORING sqlite3PcacheTruncate
+BORING sqlite3PcacheMakeClean
+BORING pcacheRemoveFromDirtyList
+BORING pcacheUnpin
+BORING pcache1Alloc
+BORING sqlite3StatusSet
+BORING sqlite3BitvecCreate
+BORING sqlite3BitvecSize
+BORING sqlite3MallocZero
+BORING sqlite3FindCollSeq
+BORING sqlite3HashFind
+BORING strHash
+BORING findElementGivenHash
+BORING findCollSeqEntry
+BORING sqlite3HashInsert
+BORING removeElementGivenHash
+BORING rehash
+BORING insertElement
+BORING sqlite3BeginBenignMalloc
+BORING sqlite3EndBenignMalloc
+BORING sqlite3HashInit
+BORING binCollFunc
+BORING nocaseCollatingFunc
+BORING sqlite3BtreeFactory
+BORING sqlite3SchemaGet
+BORING sqlite3RegisterBuiltinFunctions
+BORING sqlite3AlterFunctions
+BORING sqlite3DbStrNDup
+BORING sqlite3BtreeSchema
+BORING sqlite3SchemaFree
+BORING sqlite3DeleteTrigger
+BORING sqlite3DeleteTriggerStep
+BORING sqlite3ExprDelete
+BORING sqlite3SelectDelete
+BORING clearSelect
+BORING sqlite3TempInMemory
+BORING sqlite3BtreeSetCacheSize
+BORING sqlite3PagerSetCachesize
+BORING sqlite3PcacheSetCachesize
+BORING sqlite3OsFullPathname
+BORING sqlite3PagerFilename
+BORING sqlite3PagerVfs
+BORING sqlite3PagerOpen
+BORING pageReinit
+BORING sqlite3PagerReadFileheader
+BORING sqlite3PagerSetBusyhandler
+BORING btreeInvokeBusyHandler
+BORING sqlite3PagerIsreadonly
+BORING sqlite3Get4byte
+BORING sqlite3PagerClose
+BORING pager_unlock
+BORING pagerUnlockAndRollback
+BORING sqlite3OsClose
+BORING sqlite3PcacheClose
+BORING sqlite3PagerRollback
+BORING pager_end_transaction
+BORING pager_error
+BORING sqlite3OsFileSize
+BORING sqlite3OsAccess
+BORING readJournalHdr
+BORING pager_truncate
+BORING pager_playback_one_page
+BORING setSectorSize
+BORING sqlite3OsSectorSize
+BORING sqlite3OsOpen
+BORING sqlite3OsRead
+BORING sqlite3OsDelete
+BORING read32bits
+BORING pager_cksum
+BORING pager_lookup
+BORING sqlite3BackupUpdate
+BORING sqlite3PcacheMakeDirty
+BORING sqlite3PcacheRelease
+BORING pcacheAddToDirtyList
+BORING sqlite3PcacheFetch
+BORING sqlite3OsTruncate
+BORING journalHdrOffset
+BORING sqlite3IsMemJournal
+BORING zeroJournalHdr
+BORING osUnlock
+BORING sqlite3OsUnlock
+BORING sqlite3OsSync
+BORING memjrnlClose
+BORING memjrnlTruncate
+BORING memjrnlSync
+BORING memjrnlFileSize
+BORING sqlite3MemJournalOpen
+BORING sqlite3MemJournalSize
+BORING sqlite3InvokeBusyHandler
+BORING sqlite3PagerGetExtra
+BORING sqlite3PagerPageRefcount
+BORING decodeFlags
+BORING sqlite3PcachePageRefcount
+BORING sqlite3PcacheSize
+BORING sqlite3PcacheOpen
+BORING pagerStress
+BORING syncJournal
+BORING sqlite3OsDeviceCharacteristics
+BORING subjournalPage
+BORING pagerOpentemp
+BORING sqlite3OsLock
+BORING write32bits
+BORING sqlite3Put4byte
+BORING sqlite3PcacheClearSyncFlags
+BORING allSpaces
+BORING matchQuality
+BORING sqlite3FuncDefInsert
+BORING sqlite3VdbeChangeEncoding
+BORING sqlite3VdbeMemTranslate
+BORING sqlite3VdbeMemMakeWriteable
+BORING sqlite3OsDlClose
+BORING removeFromSharingList
+BORING sqlite3BtreeClearCursor
+BORING releasePage
+BORING unlockBtreeIfUnused
+BORING invalidateOverflowCache
+BORING sqlite3VtabUnlock
+BORING pcache1Init
+BORING pcache1Shutdown
+BORING pcache1Create
+BORING pcache1Cachesize
+BORING pcache1Pagecount
+BORING pcache1Fetch
+BORING pcache1Unpin
+BORING pcache1Rekey
+BORING pcache1Truncate
+BORING pcache1Destroy
+BORING pcache1EnforceMaxPage
+BORING pcache1PinPage
+BORING pcache1RemoveFromHash
+BORING pcache1FreePage
+BORING pcache1AllocPage
+BORING sqlite3MemMalloc
+BORING sqlite3MemFree
+BORING sqlite3MemRealloc
+BORING sqlite3MemSize
+BORING sqlite3MemRoundup
+BORING sqlite3MemInit
+BORING sqlite3MemShutdown
+BORING minmaxFunc
+BORING minmaxStep
+BORING minMaxFinalize
+BORING typeofFunc
+BORING lengthFunc
+BORING substrFunc
+BORING absFunc
+BORING roundFunc
+BORING upperFunc
+BORING lowerFunc
+BORING versionFunc
+BORING hexFunc
+BORING randomFunc
+BORING randomBlob
+BORING nullifFunc
+BORING sourceidFunc
+BORING quoteFunc
+BORING last_insert_rowid
+BORING changes
+BORING total_changes
+BORING zeroblobFunc
+BORING loadExt
+BORING sumStep
+BORING sumFinalize
+BORING totalFinalize
+BORING avgFinalize
+BORING countStep
+BORING countFinalize
+BORING groupConcatStep
+BORING groupConcatFinalize
+BORING likeFunc
+BORING sqlite3RegisterDateTimeFunctions
+BORING juliandayFunc
+BORING dateFunc
+BORING timeFunc
+BORING datetimeFunc
+BORING ctimeFunc
+BORING ctimestampFunc
+BORING cdateFunc
+BORING isDate
+BORING computeJD
+BORING computeYMD_HMS
+BORING computeYMD
+BORING computeHMS
+BORING setDateTimeToCurrent
+BORING parseDateOrTime
+BORING parseModifier
+BORING localtimeOffset
+BORING clearYMD_HMS_TZ
+BORING sqlite3AtoF
+BORING parseHhMmSs
+BORING parseTimezone
+BORING parseYyyyMmDd
+BORING sqlite3OsCurrentTime
+BORING sqlite3Utf8CharLen
+BORING sqlite3Utf8Read
+BORING sqlite3StrAccumAppend
+BORING sqlite3StrAccumReset
+BORING contextMalloc
+BORING sqlite3GetFuncCollSeq
+BORING sqlite3MemCompare
+BORING sqlite3VdbeMemShallowCopy
+BORING sqlite3DefaultMutex
+BORING pthreadMutexInit
+BORING pthreadMutexEnd
+BORING pthreadMutexAlloc
+BORING pthreadMutexFree
+BORING pthreadMutexEnter
+BORING pthreadMutexTry
+BORING pthreadMutexLeave
+BORING sqlite3ParserAlloc
+BORING sqlite3SetString
+BORING sqlite3VdbeDelete
+BORING releaseMemArray
+BORING freeP4
+BORING freeEphemeralFunction
+BORING sqlite3VdbeProgramDelete
+BORING sqlite3VMPrintf
+BORING yy_pop_parser_stack
+BORING yy_destructor
+BORING yy_find_shift_action
+BORING yy_shift
+BORING yy_reduce
+BORING yy_syntax_error
+BORING sqlite3BeginParse
+BORING sqlite3CommitTransaction
+BORING sqlite3RollbackTransaction
+BORING sqlite3Savepoint
+BORING sqlite3StartTable
+BORING sqlite3EndTable
+BORING sqlite3AddColumnType
+BORING sqlite3AddDefaultValue
+BORING sqlite3PExpr
+BORING spanExpr
+BORING sqlite3AddNotNull
+BORING sqlite3AddCheckConstraint
+BORING sqlite3DeferForeignKey
+BORING sqlite3DropTable
+BORING sqlite3CreateView
+BORING sqlite3SelectNew
+BORING sqlite3ExprListAppend
+BORING sqlite3ExprListSetName
+BORING sqlite3ExprListSetSpan
+BORING sqlite3Expr
+BORING sqlite3SrcListAppendFromTerm
+BORING sqlite3SrcListIndexedBy
+BORING sqlite3SrcListAppend
+FAIL sqlite3JoinType:Maybe.fromJust: Nothing
+BORING sqlite3ExprListCheckLength
+BORING sqlite3IdListAppend
+BORING spanSet
+BORING sqlite3GetInt32
+BORING sqlite3ExprSetColl
+BORING sqlite3ExprFunction
+BORING spanBinaryExpr
+BORING spanUnaryPostfix
+BORING binaryToUnaryIfNull
+BORING spanUnaryPrefix
+BORING sqlite3ExprSetHeight
+BORING sqlite3DropIndex
+BORING sqlite3Vacuum
+BORING sqlite3FinishTrigger
+BORING sqlite3BeginTrigger
+BORING sqlite3TriggerUpdateStep
+BORING sqlite3TriggerInsertStep
+BORING sqlite3TriggerDeleteStep
+BORING sqlite3TriggerSelectStep
+BORING sqlite3Attach
+BORING sqlite3Detach
+BORING sqlite3Reindex
+BORING sqlite3AlterRenameTable
+BORING sqlite3AlterFinishAddColumn
+BORING sqlite3VtabFinishParse
+BORING sqlite3VtabBeginParse
+BORING sqlite3VtabArgInit
+BORING sqlite3VtabArgExtend
+BORING yy_find_reduce_action
+BORING addArgumentToVtab
+BORING sqlite3NameFromToken
+BORING sqlite3AuthCheck
+BORING sqliteAuthBadReturnCode
+BORING sqlite3NestedParse
+BORING sqlite3GetVdbe
+BORING sqlite3ChangeCookie
+BORING sqlite3VdbeAddOp2
+BORING sqlite3VdbeAddOp4
+BORING sqlite3VdbeAddOp3
+BORING growOpArray
+BORING sqlite3DbMallocSize
+BORING isLookaside
+BORING sqlite3GetTempReg
+BORING sqlite3ReleaseTempReg
+BORING sqlite3VdbeAddOp0
+BORING sqlite3BeginWriteOperation
+BORING sqlite3CodeVerifySchema
+BORING sqlite3OpenTempDatabase
+BORING sqlite3PagerJournalMode
+BORING sqlite3ValueFromExpr
+BORING sqlite3MinimumFileFormat
+BORING whereTempTriggers
+BORING whereOrName
+BORING sqlite3VdbeJumpHere
+BORING sqlite3ValueApplyAffinity
+BORING sqlite3HexToBlob
+BORING hexToInt
+BORING applyAffinity
+BORING sqlite3VdbeMemStringify
+BORING sqlite3VdbeIntegerAffinity
+BORING doubleToInt64
+BORING sqlite3CheckObjectName
+BORING sqlite3ViewGetColumnNames
+BORING sqlite3GetVTable
+BORING sqlite3MayAbort
+BORING sqlite3FkReferences
+BORING sqlite3VtabCallConnect
+BORING sqlite3SelectDup
+BORING sqlite3ResultSetOfSelect
+BORING sqlite3SelectPrep
+BORING sqlite3ExprAffinity
+BORING sqlite3CheckCollSeq
+BORING sqlite3GetCollSeq
+BORING callCollNeeded
+BORING synthCollSeq
+BORING sqlite3SelectExpand
+BORING sqlite3ResolveSelectNames
+BORING sqlite3SelectAddTypeInfo
+BORING exprWalkNoop
+BORING sqlite3WalkSelectExpr
+BORING sqlite3WalkSelectFrom
+BORING sqlite3WalkExprList
+BORING sqlite3WalkExpr
+BORING resolveExprStep
+BORING sqlite3ResolveExprNames
+BORING sqlite3ExprIsInteger
+BORING resolveOutOfRangeError
+BORING sqlite3ExprDup
+BORING sqlite3ErrorClear
+BORING exprDup
+BORING dupedExprSize
+BORING dupedExprStructSize
+BORING exprStructSize
+BORING dupedExprNodeSize
+BORING resolveAlias
+BORING sqlite3ExprCheckHeight
+BORING sqlite3IsRowid
+BORING sqlite3AuthReadCol
+BORING sqlite3IndexedByLookup
+BORING addWhereTerm
+BORING sqlite3ExprAnd
+BORING sqlite3ExprAlloc
+BORING sqlite3ExprAttachSubtrees
+BORING exprSetHeight
+BORING heightOfExpr
+BORING heightOfSelect
+BORING sqlite3CreateColumnExpr
+BORING sqlite3ReadSchema
+BORING analyzeDatabase
+BORING sqlite3FindDb
+BORING analyzeTable
+BORING sqlite3TwoPartName
+BORING loadAnalysis
+BORING sqlite3VdbeAddOp1
+BORING sqlite3VdbeMakeLabel
+BORING sqlite3VdbeCurrentAddr
+BORING sqlite3VdbeChangeP5
+BORING sqlite3VdbeResolveLabel
+BORING sqlite3DbReallocOrFree
+BORING sqlite3LocateCollSeq
+BORING sqlite3CommitInternalChanges
+BORING sqlite3InitCallback
+BORING sqlite3AnalysisLoad
+BORING sqlite3BtreeCommit
+BORING sqlite3DefaultRowEst
+BORING sqlite3DeleteIndexSamples
+BORING corruptSchema
+BORING sqlite3MAppendf
+BORING sqlite3RefillIndex
+BORING sqlite3OpenTable
+BORING sqlite3HaltConstraint
+BORING sqlite3GetTempRange
+BORING sqlite3ColumnDefault
+BORING sqlite3ReleaseTempRange
+BORING sqlite3ExprCacheRemove
+BORING cacheEntryClear
+BORING sqlite3VdbeDb
+BORING codeAttach
+BORING resolveAttachExpr
+BORING sqlite3ExprCode
+BORING sqlite3ExprCodeGetColumn
+BORING codeInteger
+BORING codeReal
+BORING sqlite3VdbeGetOp
+BORING codeAlias
+BORING sqlite3ExprCacheAffinityChange
+BORING sqlite3ExprCodeTemp
+BORING codeCompare
+BORING sqlite3ExprCachePush
+BORING sqlite3VtabOverloadFunction
+BORING sqlite3ExprIsConstant
+BORING sqlite3ExprCodeIN
+BORING sqlite3ExprIfFalse
+BORING sqlite3ExprIfTrue
+BORING exprCodeBetween
+BORING comparisonAffinity
+BORING sqlite3VdbeAddOp4Int
+BORING sqlite3CompareAffinity
+BORING isCandidateForInOpt
+BORING sqlite3BinaryCompareCollSeq
+BORING sqlite3SelectDestInit
+BORING exprIsConst
+BORING exprNodeIsConstant
+BORING selectNodeIsConstant
+BORING sqlite3ExprHardCopy
+BORING binaryCompareP5
+BORING dup8bytes
+BORING sqlite3FitsIn64Bits
+BORING sqlite3Atoi64
+BORING compare2pow63
+BORING sqlite3ExprCachePinRegister
+BORING sqlite3ExprCacheStore
+BORING sqlite3PagerLockingMode
+BORING sqlite3DropTriggerPtr
+BORING tableOfTrigger
+BORING sqlite3OpenMasterTable
+BORING triggerStepAllocate
+BORING sqlite3SrcListLookup
+BORING sqlite3FixInit
+BORING sqlite3FixSelect
+BORING sqlite3FixTriggerStep
+BORING sqlite3VdbeSetColName
+BORING returnSingleInt
+BORING sqlite3BtreeMaxPageCount
+BORING getLockingMode
+BORING sqlite3PagerJournalSizeLimit
+BORING sqlite3BtreeGetAutoVacuum
+BORING getAutoVacuum
+BORING sqlite3BtreeSetAutoVacuum
+BORING changeTempStorage
+BORING invalidateTempStorage
+BORING getSafetyLevel
+BORING flagPragma
+BORING sqlite3BtreeGetFilename
+BORING actionName
+BORING sqlite3RegisterLikeFunctions
+BORING getBoolean
+BORING sqlite3OpenTableAndIndices
+BORING sqlite3BtreeSetSafetyLevel
+BORING sqlite3PagerSetSafetyLevel
+BORING setLikeOptFlag
+BORING getTempStore
+BORING sqlite3PagerMaxPageCount
+BORING destroyRootPage
+BORING sqlite3ArrayAllocate
+BORING sqlite3TriggersExist
+BORING sqlite3IsReadOnly
+BORING sqlite3VdbeCountChanges
+BORING autoIncBegin
+BORING sqlite3ExprCodeAndCache
+BORING sqlite3CodeRowTrigger
+BORING autoIncStep
+BORING sqlite3ExprCacheClear
+BORING whereClauseClear
+BORING whereOrInfoDelete
+BORING whereAndInfoDelete
+BORING whereClauseInit
+BORING sqlite3ExprCodeConstants
+BORING whereSplit
+BORING sqlite3ExprIsConstantNotJoin
+BORING createMask
+BORING exprAnalyzeAll
+BORING disableTerm
+FAIL findTerm:Maybe.fromJust: Nothing
+BORING codeEqualityTerm
+BORING sqlite3ExprCodeIsNullJump
+BORING sqlite3ExprNeedsNoAffinityChange
+BORING codeApplyAffinity
+BORING sqlite3ExprCanBeNull
+BORING sqlite3IndexAffinityOk
+BORING whereRangeScanEst
+FAIL isSortingIndex:Maybe.fromJust: Nothing
+BORING estLog
+BORING bestIndex
+BORING exprTableUsage
+BORING exprSelectTableUsage
+BORING allowedOp
+BORING operatorMask
+BORING whereClauseInsert
+BORING exprCommute
+FAIL exprAnalyzeOrTerm:Maybe.fromJust: Nothing
+BORING isMatchOfColumn
+BORING sqlite3IsLikeFunction
+BORING sqlite3VdbeGetValue
+BORING sqlite3VdbeSetVarmask
+BORING transferJoinMarkings
+BORING evalConstExpr
+BORING isAppropriateForFactoring
+BORING sqlite3MultiWrite
+BORING sqlite3FkActions
+BORING sqlite3CodeRowTriggerDirect
+BORING getRowTrigger
+BORING codeRowTrigger
+BORING transferParseError
+BORING sqlite3VdbeTakeOpArray
+BORING targetSrcList
+BORING fkTriggerDelete
+BORING xferCompatibleCollation
+BORING sqlite3AuthContextPush
+BORING sqlite3MaterializeView
+BORING sqlite3AuthContextPop
+BORING sqlite3SelectExprHeight
+BORING checkForMultiColumnSelectError
+BORING computeLimitRegisters
+BORING selectInnerLoop
+BORING sqlite3ExprAnalyzeAggregates
+BORING isSimpleCount
+BORING minMaxQuery
+BORING codeOffset
+BORING codeDistinct
+BORING analyzeAggregatesInSelect
+BORING addAggInfoColumn
+BORING addAggInfoFunc
+BORING pushOntoSorter
+BORING selectOpName
+BORING multiSelectCollSeq
+BORING generateOutputSubroutine
+BORING substExpr
+BORING substSelect
+BORING sqliteViewResetAll
+BORING sqlite3ExprIsConstantOrFunction
+BORING identLength
+BORING sqlite3DeleteIndex
+BORING freeIndex
+BORING sqlite3SafetyCheckOk
+BORING sqlite3BtreeSchemaLocked
+BORING sqlite3VtabUnlockList
+BORING sqlite3VdbeSetSql
+BORING sqlite3VdbeSwap
+BORING sqlite3VdbeResetStepResult
+BORING sqlite3OsDlOpen
+BORING sqlite3OsDlError
+BORING sqlite3OsDlSym
+BORING btreeRestoreCursorPosition
+BORING btreeParseCell
+BORING copyPayload
+BORING ptrmapPageno
+BORING pagerPagecount
+BORING ptrmapGet
+BORING btreeGetPage
+BORING btreePageFromDbPage
+BORING pager_write
+BORING pageInJournal
+BORING sqlite3PagerBegin
+BORING pager_open_journal
+BORING openSubJournal
+BORING btreeParseCellPtr
+BORING sqlite3GetVarint32
+BORING sqlite3GetVarint
+BORING btreeMoveto
+FAIL sqlite3VdbeRecordCompare:Maybe.fromJust: Nothing
+BORING moveToChild
+BORING getAndInitPage
+BORING sqlite3VdbeSerialGet
+BORING sqlite3IsNaN
+BORING sqlite3VtabLock
+BORING unlockBtreeMutex
+BORING lockBtreeMutex
+BORING sqlite3VdbeMemNulTerminate
+BORING sqlite3VdbeMemRealify
+BORING sqlite3VdbeMemMove
+BORING sqlite3VdbeMemFinalize
+BORING sqlite3VdbeMutexArrayEnter
+BORING sqlite3VdbeSetChanges
+BORING sqlite3VdbeFrameRestore
+BORING sqlite3VdbeHalt
+BORING sqlite3VdbeMemTooBig
+BORING sqlite3VdbeCheckFk
+BORING sqlite3VdbeMemIntegerify
+BORING sqlite3VdbeMemNumerify
+BORING sqlite3VdbeCursorMoveto
+BORING sqlite3BtreeKeySize
+BORING sqlite3BtreeDataSize
+BORING sqlite3BtreeKeyFetch
+BORING sqlite3BtreeDataFetch
+BORING sqlite3VdbeMemFromBtree
+BORING sqlite3VdbeSerialType
+BORING sqlite3VarintLen
+BORING sqlite3PutVarint32
+BORING sqlite3BtreeSavepoint
+BORING sqlite3BtreeBeginStmt
+BORING allocateCursor
+BORING sqlite3BtreeCursor
+BORING sqlite3BtreeCreateTable
+BORING sqlite3VdbeFreeCursor
+BORING sqlite3BtreeFirst
+BORING sqlite3BtreeLast
+BORING sqlite3BtreeEof
+BORING sqlite3BtreeGetCachedRowid
+BORING sqlite3BtreeInsert
+BORING sqlite3BtreeKey
+BORING sqlite3VdbeIdxRowid
+BORING sqlite3VdbeIdxKeyCompare
+BORING sqlite3BtreeDropTable
+BORING sqlite3RootPageMoved
+BORING sqlite3BtreeClearTable
+BORING sqlite3UnlinkAndDeleteTable
+BORING sqlite3UnlinkAndDeleteIndex
+BORING sqlite3UnlinkAndDeleteTrigger
+BORING sqlite3VdbeMemSetRowSet
+BORING sqlite3RowSetInsert
+BORING sqlite3RowSetNext
+BORING sqlite3RowSetTest
+BORING sqlite3RunVacuum
+BORING sqlite3BtreeIncrVacuum
+BORING sqlite3BtreeLockTable
+BORING sqlite3VtabCallCreate
+BORING sqlite3VtabCallDestroy
+BORING sqlite3XPrintf
+BORING addToVTrans
+BORING invalidateAllOverflowCache
+BORING relocatePage
+BORING sqlite3PagerMovepage
+BORING ptrmapPut
+BORING ptrmapPutOvflPtr
+BORING sqlite3PcacheMove
+BORING sqlite3PcacheDrop
+BORING btreeGetHasContent
+BORING sqlite3PagerIsMemdb
+BORING execSql
+BORING sqlite3BtreeGetReserve
+BORING execExecSql
+BORING sqlite3BtreeCopyFile
+BORING rowSetToList
+BORING rowSetListToTree
+BORING rowSetNDeepTree
+BORING rowSetTreeToList
+BORING rowSetMerge
+BORING sqlite3RowSetInit
+BORING sqlite3PagerRefcount
+FAIL checkList:Maybe.fromJust: Nothing
+BORING checkPtrmap
+BORING checkAppendMsg
+BORING checkRef
+BORING cellSizePtr
+BORING clearDatabasePage
+BORING clearCell
+BORING freePage
+BORING zeroPage
+BORING freePage2
+BORING sqlite3PagerRef
+BORING btreePageLookup
+BORING sqlite3PagerDontWrite
+BORING btreeSetHasContent
+BORING sqlite3PagerLookup
+BORING sqlite3PcacheRef
+BORING allocateTempSpace
+BORING insertCell
+FAIL balance:Maybe.fromJust: Nothing
+BORING balance_deeper
+BORING balance_quick
+BORING sqlite3ScratchMalloc
+BORING sqlite3PutVarint
+BORING copyNodeContent
+BORING sqlite3ScratchFree
+BORING mallocWithAlarm
+BORING sqlite3StatusValue
+BORING sqlite3MallocAlarm
+BORING sqlite3PagerTempSpace
+BORING moveToParent
+BORING btreeCursor
+BORING sqlite3BtreeCursorSize
+BORING sqlite3BtreeCursorZero
+BORING sqlite3BtreeIsInTrans
+BORING newDatabase
+BORING fetchPayload
+BORING sqlite3BtreeCursorHasMoved
+BORING sqlite3VtabCommit
+BORING sqlite3OsOpenMalloc
+BORING sqlite3BtreeGetJournalname
+BORING sqlite3BtreeSyncDisabled
+BORING sqlite3OsCloseFree
+BORING sqlite3PagerNosync
+BORING sqlite3PagerJournalname
+BORING sqlite3OpcodeName
+BORING sqlite3VdbeMemHandleBom
+BORING __inline_memmove_chk
+BORING allocSpace
+BORING Cleanup
+BORING btreeEndTransaction
+BORING btreeClearHasContent
+BORING downgradeAllSharedCacheTableLocks
+BORING clearAllSharedCacheTableLocks
+BORING sqlite3PagerCommitPhaseTwo
+BORING pager_incr_changecounter
+BORING writeMasterJournal
+BORING sqlite3PcacheDirtyList
+BORING pcacheMergeDirtyList
+BORING pagerUnlockIfUnused
+BORING readDbPage
+BORING lockBtree
+BORING sqlite3PagerSharedLock
+BORING hasHotJournal
+BORING sqlite3PcachePagecount
+BORING sqlite3OsCheckReservedLock
+BORING proxyIoFinderImpl
+BORING proxyClose
+BORING unixRead
+BORING unixWrite
+BORING unixTruncate
+BORING unixSync
+BORING unixFileSize
+BORING proxyLock
+BORING proxyUnlock
+BORING proxyCheckReservedLock
+BORING unixFileControl
+BORING unixSectorSize
+BORING unixDeviceCharacteristics
+BORING proxyFileControl
+BORING proxyTakeConch
+BORING switchLockProxyPath
+BORING proxyTransformUnixFile
+BORING proxyGetDbPathForUnixFile
+BORING proxyCreateUnixFile
+BORING __inline_strcpy_chk
+BORING dotlockClose
+BORING dotlockLock
+BORING dotlockUnlock
+BORING dotlockCheckReservedLock
+BORING sqliteErrorFromPosixError
+BORING closeUnixFile
+BORING afpClose
+BORING afpLock
+BORING afpUnlock
+BORING afpCheckReservedLock
+BORING afpSetLock
+BORING unixEnterMutex
+BORING unixLeaveMutex
+BORING setPendingFd
+BORING releaseOpenCnt
+BORING proxyGetHostID
+BORING proxyGetLockPath
+BORING proxyGetHostIDPath
+BORING proxyGenerateHostID
+BORING full_fsync
+BORING seekAndWrite
+BORING seekAndRead
+BORING proxyReleaseConch
+BORING afpIoFinderImpl
+BORING flockIoFinderImpl
+BORING flockClose
+BORING flockLock
+BORING flockUnlock
+BORING flockCheckReservedLock
+BORING posixIoFinderImpl
+BORING unixClose
+BORING unixLock
+BORING unixUnlock
+BORING unixCheckReservedLock
+BORING rangeLock
+BORING releaseLockInfo
+BORING posixWflIoFinderImpl
+BORING dotlockIoFinderImpl
+BORING nolockIoFinderImpl
+BORING nolockClose
+BORING nolockLock
+BORING nolockUnlock
+BORING nolockCheckReservedLock
+BORING openDirectory
+BORING fillInUnixFile
+BORING sqlite3OsRandomness
+BORING et_getdigit
+BORING appendSpace
+"sqlite3_vfs_find"
+ALARM (term)sqlite3_vfs_find:52
+"sqlite3VXPrintf"
+ALARM (term)sqlite3VXPrintf:2723
+"sqlite3_backup_step"
+OK 700 0.211968 sqlite3_backup_step
+"sqlite3BtreeEnter"
+OK 128 4.999e-3 sqlite3BtreeEnter
+"sqlite3BtreeBeginTrans"
+OK 410 8.7986e-2 sqlite3BtreeBeginTrans
+"backupOnePage"
+OK 236 1.2998e-2 backupOnePage
+"sqlite3ResetInternalSchema"
+OK 271 1.5998e-2 sqlite3ResetInternalSchema
+"sqlite3PagerCommitPhaseOne"
+OK 326 4.8992e-2 sqlite3PagerCommitPhaseOne
+"sqlite3VdbeMakeReady"
+OK 418 4.3994e-2 sqlite3VdbeMakeReady
+"sqlite3_clear_bindings"
+OK 92 2.999e-3 sqlite3_clear_bindings
+"sqlite3_step"
+OK 183 6.999e-3 sqlite3_step
+"createVarMap"
+OK 104 3.0e-3 createVarMap
+"sqlite3VdbeParameterIndex"
+OK 102 2.999e-3 sqlite3VdbeParameterIndex
+"sqlite3TransferBindings"
+OK 68 1.0e-3 sqlite3TransferBindings
+"sqlite3_blob_open"
+ALARM (term)sqlite3_blob_open:613
+"sqlite3BtreeEnterAll"
+OK 218 1.5997e-2 sqlite3BtreeEnterAll
+"sqlite3BtreeLeaveAll"
+OK 87 3.0e-3 sqlite3BtreeLeaveAll
+"sqlite3SchemaToIndex"
+ALARM (term)sqlite3SchemaToIndex:30
+"sqlite3VdbeAddOpList"
+OK 165 8.999e-3 sqlite3VdbeAddOpList
+"sqlite3VdbeChangeToNoop"
+OK 99 3.0e-3 sqlite3VdbeChangeToNoop
+"sqlite3_auto_extension"
+ALARM (term)sqlite3_auto_extension:100
+"sqlite3_get_table_cb"
+OK 259 2.1996e-2 sqlite3_get_table_cb
+"sqlite3PCacheBufferSetup"
+OK 70 3.0e-3 sqlite3PCacheBufferSetup
+"setupLookaside"
+OK 144 6.999e-3 setupLookaside
+"sqlite3_close"
+OK 500 5.9991e-2 sqlite3_close
+"sqlite3CloseSavepoints"
+OK 50 9.99e-4 sqlite3CloseSavepoints
+"sqlite3CloseExtensions"
+OK 54 1.0e-3 sqlite3CloseExtensions
+"createCollation"
+OK 192 8.999e-3 createCollation
+"sqlite3_file_control"
+ALARM (term)sqlite3_file_control:146
+"sqlite3BitvecBuiltinTest"
+OK 370 4.0994e-2 sqlite3BitvecBuiltinTest
+"sqlite3BitvecSet"
+OK 437 6.0991e-2 sqlite3BitvecSet
+"sqlite3BitvecClear"
+OK 275 2.1996e-2 sqlite3BitvecClear
+"sqlite3BitvecTest"
+OK 170 1.1998e-2 sqlite3BitvecTest
+"sqlite3BitvecDestroy"
+OK 58 2.0e-3 sqlite3BitvecDestroy
+"sqlite3AutoLoadExtensions"
+OK 123 6.999e-3 sqlite3AutoLoadExtensions
+"renameTableFunc"
+OK 141 8.999e-3 renameTableFunc
+"renameTriggerFunc"
+OK 188 1.0998e-2 renameTriggerFunc
+"renameParentFunc"
+ALARM (term)renameParentFunc:142
+"sqlite3GetToken"
+ALARM (term)sqlite3GetToken:582
+"sqlite3Dequote"
+ALARM (term)sqlite3Dequote:69
+"sqlite3IdListDelete"
+OK 62 2.0e-3 sqlite3IdListDelete
+"sqlite3ExprListDelete"
+OK 82 2.0e-3 sqlite3ExprListDelete
+"sqlite3SrcListDelete"
+OK 123 2.999e-3 sqlite3SrcListDelete
+"sqlite3BtreeOpen"
+ALARM (term)sqlite3BtreeOpen:588
+"pager_playback"
+OK 434 8.0988e-2 pager_playback
+"readMasterJournal"
+ALARM (term)readMasterJournal:126
+"pager_delmaster"
+OK 268 2.5996e-2 pager_delmaster
+"releaseAllSavepoints"
+OK 102 4.999e-3 releaseAllSavepoints
+"sqlite3PcacheCleanAll"
+OK 28 1.0e-3 sqlite3PcacheCleanAll
+"memjrnlRead"
+OK 193 9.999e-3 memjrnlRead
+"memjrnlWrite"
+OK 168 7.999e-3 memjrnlWrite
+"btreeInitPage"
+OK 271 1.3997e-2 btreeInitPage
+"writeJournalHdr"
+OK 295 1.7998e-2 writeJournalHdr
+"subjRequiresPage"
+OK 82 2.999e-3 subjRequiresPage
+"pager_write_pagelist"
+OK 210 1.4998e-2 pager_write_pagelist
+"pager_wait_on_lock"
+OK 77 1.999e-3 pager_wait_on_lock
+"addToSavepointBitvecs"
+OK 76 2.0e-3 addToSavepointBitvecs
+"functionSearch"
+OK 80 2.0e-3 functionSearch
+"sqlite3BtreeCloseCursor"
+OK 94 3.999e-3 sqlite3BtreeCloseCursor
+"callFinaliser"
+OK 111 4.999e-3 callFinaliser
+"pcache1TruncateUnsafe"
+OK 96 3.0e-3 pcache1TruncateUnsafe
+"pcache1ResizeHash"
+OK 156 6.999e-3 pcache1ResizeHash
+"trimFunc"
+ALARM (term)trimFunc:369
+"replaceFunc"
+OK 353 3.2995e-2 replaceFunc
+"strftimeFunc"
+ALARM (term)strftimeFunc:532
+"getDigits"
+OK 319 7.5988e-2 getDigits
+"sqlite3IsNumber"
+OK 256 3.2995e-2 sqlite3IsNumber
+"patternCompare"
+OK 834 0.168974 patternCompare
+"sqlite3Parser"
+OK 149 6.0e-3 sqlite3Parser
+"sqlite3ParserFree"
+OK 40 9.99e-4 sqlite3ParserFree
+"vdbeFreeOpArray"
+OK 57 1.0e-3 vdbeFreeOpArray
+"sqlite3VdbeDeleteAuxData"
+OK 85 3.0e-3 sqlite3VdbeDeleteAuxData
+"sqlite3FinishCoding"
+OK 347 4.3993e-2 sqlite3FinishCoding
+"sqlite3BeginTransaction"
+OK 79 2.0e-3 sqlite3BeginTransaction
+"sqlite3AddColumn"
+OK 246 1.4997e-2 sqlite3AddColumn
+"sqlite3AddPrimaryKey"
+ALARM (term)sqlite3AddPrimaryKey:287
+"sqlite3CreateIndex"
+ALARM (term)sqlite3CreateIndex:1338
+"sqlite3CreateForeignKey"
+ALARM (term)sqlite3CreateForeignKey:304
+"sqlite3AddCollateType"
+OK 105 3.0e-3 sqlite3AddCollateType
+"sqlite3Select"
+OK 2044 1.526767 sqlite3Select
+"sqlite3SrcListShiftJoinType"
+OK 62 2.0e-3 sqlite3SrcListShiftJoinType
+"sqlite3DeleteFrom"
+OK 641 0.214968 sqlite3DeleteFrom
+"sqlite3Update"
+ALARM (term)sqlite3Update:1425
+"sqlite3Insert"
+ALARM (term)sqlite3Insert:1777
+"sqlite3ExprAssignVarNumber"
+ALARM (term)sqlite3ExprAssignVarNumber:235
+"sqlite3Pragma"
+FAIL TIMEOUT sqlite3Pragma
+"sqlite3DropTrigger"
+OK 175 7.998e-3 sqlite3DropTrigger
+"sqlite3Analyze"
+OK 131 5.0e-3 sqlite3Analyze
+"sqlite3AlterBeginAddColumn"
+OK 253 1.7997e-2 sqlite3AlterBeginAddColumn
+"yy_accept"
+OK 32 0.0 yy_accept
+"addModuleArgument"
+OK 86 2.999e-3 addModuleArgument
+"sqlite3FindTable"
+OK 122 5.0e-3 sqlite3FindTable
+"reloadTableSchema"
+OK 132 4.999e-3 reloadTableSchema
+"sqlite3TriggerList"
+OK 143 4.999e-3 sqlite3TriggerList
+"sqlite3FindIndex"
+OK 122 4.999e-3 sqlite3FindIndex
+"whereForeignKeys"
+OK 53 1.0e-3 whereForeignKeys
+"sqlite3SrcListAssignCursors"
+OK 91 2.0e-3 sqlite3SrcListAssignCursors
+"selectColumnsFromExprList"
+ALARM (term)selectColumnsFromExprList:213
+"selectAddColumnTypeAndCollation"
+OK 146 3.999e-3 selectAddColumnTypeAndCollation
+"columnType"
+ALARM (term)columnType:349
+"sqlite3ExprCollSeq"
+FAIL sqlite3ExprCollSeq:traceCycle fetch 31
+"sqlite3AffinityType"
+OK 201 1.4998e-2 sqlite3AffinityType
+"selectAddSubqueryTypeInfo"
+OK 121 3.999e-3 selectAddSubqueryTypeInfo
+"sqlite3WalkSelect"
+OK 101 4.0e-3 sqlite3WalkSelect
+"resolveSelectStep"
+OK 558 9.1986e-2 resolveSelectStep
+"resolveOrderGroupBy"
+OK 150 5.999e-3 resolveOrderGroupBy
+"resolveCompoundOrderBy"
+OK 444 5.0992e-2 resolveCompoundOrderBy
+"resolveAsName"
+OK 88 2.999e-3 resolveAsName
+"resolveOrderByTermToExprList"
+OK 98 3.0e-3 resolveOrderByTermToExprList
+"sqlite3ExprCompare"
+OK 290 2.9995e-2 sqlite3ExprCompare
+"sqlite3ExprListDup"
+OK 160 4.999e-3 sqlite3ExprListDup
+"sqlite3ResolveOrderGroupBy"
+OK 121 4.0e-3 sqlite3ResolveOrderGroupBy
+"lookupName"
+OK 1198 0.72389 lookupName
+"sqlite3AuthRead"
+ALARM (term)sqlite3AuthRead:162
+"selectExpander"
+ALARM (term)selectExpander:714
+"sqliteProcessJoin"
+OK 375 4.2993e-2 sqliteProcessJoin
+"tableAndColumnIndex"
+OK 70 2.0e-3 tableAndColumnIndex
+"sqlite3IdListIndex"
+OK 63 1.0e-3 sqlite3IdListIndex
+"columnIndex"
+OK 61 1.0e-3 columnIndex
+"setJoinExpr"
+OK 57 0.0 setJoinExpr
+"heightOfExprList"
+OK 50 1.0e-3 heightOfExprList
+"sqlite3SrcListDup"
+OK 258 1.5998e-2 sqlite3SrcListDup
+"sqlite3IdListDup"
+OK 105 2.999e-3 sqlite3IdListDup
+"vtabCallConstructor"
+OK 407 3.4995e-2 vtabCallConstructor
+"openStatTable"
+OK 199 7.999e-3 openStatTable
+"analyzeOneTable"
+OK 500 5.5991e-2 analyzeOneTable
+"sqlite3TableLock"
+OK 178 1.2998e-2 sqlite3TableLock
+"sqlite3IndexKeyinfo"
+OK 117 4.0e-3 sqlite3IndexKeyinfo
+"sqlite3FindDbName"
+ALARM (term)sqlite3FindDbName:53
+"sqlite3Init"
+OK 194 9.999e-3 sqlite3Init
+"sqlite3InitOne"
+OK 608 0.208968 sqlite3InitOne
+"analysisLoader"
+OK 166 6.999e-3 analysisLoader
+"reindexDatabases"
+OK 79 2.0e-3 reindexDatabases
+"reindexTable"
+OK 79 1.999e-3 reindexTable
+"sqlite3GenerateIndexKey"
+OK 120 4.0e-3 sqlite3GenerateIndexKey
+"sqlite3IndexAffinityStr"
+OK 111 3.999e-3 sqlite3IndexAffinityStr
+"collationMatch"
+OK 55 1.0e-3 collationMatch
+"detachFunc"
+ALARM (term)detachFunc:146
+"sqlite3ExprCodeTarget"
+OK 1073 0.545917 sqlite3ExprCodeTarget
+"sqlite3ExprCachePop"
+OK 74 2.0e-3 sqlite3ExprCachePop
+"sqlite3ExprCodeExprList"
+OK 124 3.999e-3 sqlite3ExprCodeExprList
+"sqlite3CodeSubselect"
+OK 461 4.3994e-2 sqlite3CodeSubselect
+"sqlite3FindInIndex"
+OK 419 4.5993e-2 sqlite3FindInIndex
+"attachFunc"
+OK 620 0.174973 attachFunc
+"sqlite3FixSrcList"
+OK 154 6.999e-3 sqlite3FixSrcList
+"sqlite3FixExpr"
+OK 135 5.999e-3 sqlite3FixExpr
+"sqlite3FixExprList"
+OK 62 1.0e-3 sqlite3FixExprList
+"sqlite3VdbeSetNumCols"
+OK 81 2.0e-3 sqlite3VdbeSetNumCols
+"xferOptimization"
+ALARM (term)xferOptimization:533
+"readsTable"
+OK 169 7.999e-3 readsTable
+"sqlite3TableAffinityStr"
+OK 90 3.999e-3 sqlite3TableAffinityStr
+"sqlite3VtabMakeWritable"
+OK 111 5.0e-3 sqlite3VtabMakeWritable
+"sqlite3GenerateConstraintChecks"
+OK 911 0.327949 sqlite3GenerateConstraintChecks
+"sqlite3FkCheck"
+OK 551 8.0988e-2 sqlite3FkCheck
+"sqlite3CompleteInsertion"
+OK 216 1.0998e-2 sqlite3CompleteInsertion
+"sqlite3AutoincrementEnd"
+OK 191 4.999e-3 sqlite3AutoincrementEnd
+"locateFkeyIndex"
+ALARM (term)locateFkeyIndex:318
+"fkLookupParent"
+OK 455 5.6991e-2 fkLookupParent
+"fkScanChildren"
+OK 375 3.2995e-2 fkScanChildren
+"sqlite3WhereBegin"
+ALARM (term)sqlite3WhereBegin:1064
+"sqlite3WhereEnd"
+ALARM (term)sqlite3WhereEnd:489
+"whereInfoFree"
+OK 97 3.0e-3 whereInfoFree
+"getMask"
+OK 51 2.0e-3 getMask
+"bestVirtualIndex"
+OK 307 3.3994e-2 bestVirtualIndex
+"bestBtreeIndex"
+ALARM (term)bestBtreeIndex:862
+"codeOneLoopStart"
+ALARM (term)codeOneLoopStart:1183
+"codeAllEqualityTerms"
+ALARM (term)codeAllEqualityTerms:152
+"bestOrClauseIndex"
+OK 351 3.2995e-2 bestOrClauseIndex
+"referencesOtherTables"
+OK 67 1.0e-3 referencesOtherTables
+"exprListTableUsage"
+OK 61 1.0e-3 exprListTableUsage
+"allocateIndexInfo"
+ALARM (term)allocateIndexInfo:249
+"vtabBestIndex"
+OK 129 4.999e-3 vtabBestIndex
+"exprAnalyze"
+OK 730 0.347947 exprAnalyze
+"isLikeOrGlob"
+ALARM (term)isLikeOrGlob:348
+"sqlite3FkRequired"
+OK 286 2.5996e-2 sqlite3FkRequired
+"sqlite3GenerateRowDelete"
+OK 189 1.0999e-2 sqlite3GenerateRowDelete
+"sqlite3GenerateRowIndexDelete"
+OK 89 2.999e-3 sqlite3GenerateRowIndexDelete
+"sqlite3TriggerColmask"
+OK 122 4.0e-3 sqlite3TriggerColmask
+"sqlite3FkOldmask"
+OK 221 1.3997e-2 sqlite3FkOldmask
+"fkActionTrigger"
+OK 732 0.167975 fkActionTrigger
+"codeTriggerProgram"
+OK 229 1.4998e-2 codeTriggerProgram
+"resolveP2Values"
+OK 240 1.5997e-2 resolveP2Values
+"checkColumnOverlap"
+OK 65 2.0e-3 checkColumnOverlap
+"xferCompatibleIndex"
+OK 128 3.999e-3 xferCompatibleIndex
+"updateVirtualTable"
+OK 297 1.6997e-2 updateVirtualTable
+"sqlite3SrcListEnlarge"
+OK 163 7.999e-3 sqlite3SrcListEnlarge
+"flattenSubquery"
+FAIL flattenSubquery:fetchVal:79
+"multiSelect"
+OK 754 0.325951 multiSelect
+"keyInfoFromExprList"
+OK 116 3.999e-3 keyInfoFromExprList
+"sqlite3ExprAnalyzeAggList"
+OK 51 1.0e-3 sqlite3ExprAnalyzeAggList
+"sqlite3ExprCodeMove"
+OK 74 2.0e-3 sqlite3ExprCodeMove
+"updateAccumulator"
+OK 330 2.5996e-2 updateAccumulator
+"finalizeAggFunctions"
+OK 86 2.0e-3 finalizeAggFunctions
+"resetAccumulator"
+OK 173 7.998e-3 resetAccumulator
+"generateSortTail"
+OK 217 1.0999e-2 generateSortTail
+"generateColumnNames"
+ALARM (term)generateColumnNames:268
+"generateColumnTypes"
+OK 66 2.0e-3 generateColumnTypes
+"analyzeAggregate"
+FAIL analyzeAggregate:fetchVal:318
+"multiSelectOrderBy"
+ALARM (term)multiSelectOrderBy:1027
+"sqlite3ExprCodeCopy"
+OK 47 1.0e-3 sqlite3ExprCodeCopy
+"substExprList"
+OK 62 9.99e-4 substExprList
+"sqlite3FkDropTable"
+ALARM (term)sqlite3FkDropTable:130
+"destroyTable"
+OK 136 5.999e-3 destroyTable
+"sqliteResetColumnNames"
+OK 99 3.0e-3 sqliteResetColumnNames
+"createTableStmt"
+OK 329 3.0995e-2 createTableStmt
+"identPut"
+ALARM (term)identPut:150
+"codeTableLocks"
+OK 68 2.0e-3 codeTableLocks
+"sqlite3AutoincrementBegin"
+OK 172 3.999e-3 sqlite3AutoincrementBegin
+"yyStackOverflow"
+OK 47 1.0e-3 yyStackOverflow
+"sqlite3FkDelete"
+OK 158 7.999e-3 sqlite3FkDelete
+"sqlite3VtabClear"
+OK 66 1.0e-3 sqlite3VtabClear
+"vtabDisconnectAll"
+OK 68 1.0e-3 vtabDisconnectAll
+"sqlite3Utf16ByteLen"
+OK 104 4.0e-3 sqlite3Utf16ByteLen
+"sqlite3Prepare"
+OK 546 0.205969 sqlite3Prepare
+"schemaIsValid"
+OK 161 5.999e-3 schemaIsValid
+"querySharedCacheTableLock"
+OK 108 3.999e-3 querySharedCacheTableLock
+"accessPayload"
+OK 460 4.7993e-2 accessPayload
+"getOverflowPage"
+OK 202 1.2998e-2 getOverflowPage
+"sqlite3PagerWrite"
+OK 328 2.2996e-2 sqlite3PagerWrite
+"sqlite3VdbeRecordUnpack"
+OK 242 1.3998e-2 sqlite3VdbeRecordUnpack
+"sqlite3BtreeMovetoUnpacked"
+OK 700 0.140979 sqlite3BtreeMovetoUnpacked
+"sqlite3VdbeDeleteUnpackedRecord"
+OK 87 1.999e-3 sqlite3VdbeDeleteUnpackedRecord
+"moveToRoot"
+OK 209 1.6998e-2 moveToRoot
+"sqlite3BtreeMutexArrayInsert"
+OK 121 5.999e-3 sqlite3BtreeMutexArrayInsert
+"sqlite3RowSetClear"
+OK 60 1.999e-3 sqlite3RowSetClear
+"sqlite3VdbeList"
+ALARM (term)sqlite3VdbeList:473
+"sqlite3VdbeExec"
+FAIL TIMEOUT sqlite3VdbeExec
+"sqlite3VdbeCloseStatement"
+OK 143 4.999e-3 sqlite3VdbeCloseStatement
+"sqlite3VdbeSerialPut"
+ALARM (term)sqlite3VdbeSerialPut:129
+"sqlite3BtreeCount"
+OK 306 2.7996e-2 sqlite3BtreeCount
+"sqlite3RollbackAll"
+OK 189 8.998e-3 sqlite3RollbackAll
+"sqlite3BtreeNext"
+OK 187 1.2998e-2 sqlite3BtreeNext
+"sqlite3BtreePrevious"
+OK 217 1.5998e-2 sqlite3BtreePrevious
+"sqlite3BtreeSetCachedRowid"
+OK 57 2.0e-3 sqlite3BtreeSetCachedRowid
+"sqlite3BtreeDelete"
+OK 303 5.3991e-2 sqlite3BtreeDelete
+"sqlite3BtreeIntegrityCheck"
+OK 478 7.099e-2 sqlite3BtreeIntegrityCheck
+"sqlite3VtabBegin"
+OK 105 4.999e-3 sqlite3VtabBegin
+"sqlite3VdbeExpandSql"
+OK 398 3.7994e-2 sqlite3VdbeExpandSql
+"sqlite3BtreeMutexArrayLeave"
+OK 64 1.0e-3 sqlite3BtreeMutexArrayLeave
+"findNextHostParameter"
+ALARM (term)findNextHostParameter:35
+"setSharedCacheTableLock"
+OK 131 5.999e-3 setSharedCacheTableLock
+"incrVacuumStep"
+OK 330 5.4991e-2 incrVacuumStep
+"allocateBtreePage"
+OK 1092 0.52792 allocateBtreePage
+"setChildPtrmaps"
+OK 167 7.999e-3 setChildPtrmaps
+"modifyPagePointer"
+ALARM (term)modifyPagePointer:157
+"rowSetSort"
+OK 130 3.999e-3 rowSetSort
+"checkTreePage"
+ALARM (term)checkTreePage:484
+"invalidateIncrblobCursors"
+OK 75 2.0e-3 invalidateIncrblobCursors
+"saveAllCursors"
+OK 92 2.999e-3 saveAllCursors
+"saveCursorPosition"
+OK 106 3.0e-3 saveCursorPosition
+"btreeDropTable"
+OK 222 2.2996e-2 btreeDropTable
+"dropCell"
+OK 161 7.999e-3 dropCell
+"balance_nonroot"
+FAIL balance_nonroot:fetchVal:974
+"findOverflowCell"
+OK 134 5.999e-3 findOverflowCell
+"assemblePage"
+OK 182 6.999e-3 assemblePage
+"allocateSpace"
+OK 306 2.0997e-2 allocateSpace
+"defragmentPage"
+OK 286 2.0997e-2 defragmentPage
+"freeSpace"
+OK 504 8.8986e-2 freeSpace
+"fillInCell"
+OK 485 4.0994e-2 fillInCell
+"moveToRightmost"
+OK 141 4.999e-3 moveToRightmost
+"moveToLeftmost"
+OK 133 5.0e-3 moveToLeftmost
+"btreeCreateTable"
+OK 387 7.3988e-2 btreeCreateTable
+"sqlite3PagerOpenSavepoint"
+OK 178 8.999e-3 sqlite3PagerOpenSavepoint
+"sqlite3PagerSavepoint"
+OK 132 6.999e-3 sqlite3PagerSavepoint
+"pagerPlaybackSavepoint"
+OK 310 2.2996e-2 pagerPlaybackSavepoint
+"closeAllCursors"
+OK 137 7.999e-3 closeAllCursors
+"invalidateCursorsOnModifiedBtrees"
+OK 70 1.0e-3 invalidateCursorsOnModifiedBtrees
+"vdbeCommit"
+OK 881 0.211968 vdbeCommit
+"sqlite3VtabSync"
+OK 123 4.0e-3 sqlite3VtabSync
+"sqlite3BtreeTripAllCursors"
+OK 95 2.0e-3 sqlite3BtreeTripAllCursors
+"sqlite3BtreeMutexArrayEnter"
+OK 64 1.999e-3 sqlite3BtreeMutexArrayEnter
+"displayP4"
+ALARM (term)displayP4:290
+"sqlite3VdbeFrameDelete"
+OK 69 1.0e-3 sqlite3VdbeFrameDelete
+"autoVacuumCommit"
+OK 262 2.3997e-2 autoVacuumCommit
+"pcacheSortDirtyList"
+ALARM (term)pcacheSortDirtyList:121
+"proxyCreateConchPathname"
+OK 161 7.999e-3 proxyCreateConchPathname
+"closePendingFds"
+OK 91 2.0e-3 closePendingFds
+"findReusableFd"
+ALARM (term)findReusableFd:109
+"getTempname"
+OK 251 1.1998e-2 getTempname
+"findLockInfo"
+OK 417 4.7993e-2 findLockInfo
+"autolockIoFinderImpl"
+OK 129 5.999e-3 autolockIoFinderImpl
+COMPLETE

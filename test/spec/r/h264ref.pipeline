@@ -1,0 +1,1098 @@
+BORING WriteAnnexbNALU
+BORING OpenAnnexbFile
+BORING CloseAnnexbFile
+BORING arienco_create_encoding_environment
+BORING arienco_delete_encoding_environment
+BORING arienco_start_encoding
+BORING arienco_bits_written
+BORING cabac_new_slice
+BORING create_contexts_MotionInfo
+BORING create_contexts_TextureInfo
+BORING delete_contexts_MotionInfo
+BORING delete_contexts_TextureInfo
+BORING writeSyntaxElement_CABAC
+BORING JMHelpExit
+BORING GetConfigFileContent
+BORING LevelCheck
+BORING __inline_strncpy_chk
+BORING __inline_memcpy_chk
+BORING decode_one_mb
+BORING __inline_memcpy_chk234
+BORING compute_residue_mb
+BORING isdigit
+BORING __isctype
+BORING DefineThreshold
+BORING free_mem_FME
+BORING __inline_memset_chk
+BORING error
+BORING write_PPS
+BORING FmoEndPicture
+BORING FmoMB2SliceGroup
+BORING FmoSetLastMacroblockInSlice
+BORING FmoGetFirstMacroblockInSlice
+BORING FmoSliceGroupCompletelyCoded
+BORING __inline_memset_chk260
+BORING field_mode_buffer
+BORING ReportNALNonVLCBits
+BORING dummy_slice_too_big
+BORING __inline_memcpy_chk339
+BORING put_buffer_bot
+BORING put_buffer_top
+BORING put_buffer_frame
+BORING init_dec_ref_pic_marking_buffer
+BORING RandomIntraUninit
+BORING PutBigDoubleWord
+BORING free_picture
+BORING malloc_picture
+BORING free_orig_planes
+BORING __inline_memcpy_chk508
+BORING decide_fld_frame
+BORING write_terminating_bit
+BORING BType2CtxRef
+FAIL writeCoeff4x4_CAVLC:Maybe.fromJust: Nothing
+BORING get_mb_pos
+BORING getNeighbour
+BORING getLuma4x4Neighbour
+BORING getChroma4x4Neighbour
+BORING dump_dpb
+BORING alloc_frame_store
+BORING is_short_ref
+BORING is_long_ref
+BORING __inline_memcpy_chk571
+BORING mm_unmark_all_long_term_for_reference
+BORING get_pic_num_x
+BORING no_mem_exit
+BORING free_top_bot_planes
+FAIL Get_Direct_Motion_Vectors:Maybe.fromJust: Nothing
+BORING sign
+BORING __inline_memcpy_chk648
+BORING AllocNALU
+BORING __inline_memcpy_chk656
+BORING __inline_memset_chk657
+BORING write_picture
+BORING init_out_buffer
+BORING uninit_out_buffer
+BORING flush_direct_output
+BORING write_stored_frame
+BORING FreeParameterSets
+BORING IdentifyLevel
+BORING IdentifyProfile
+BORING AllocPPS
+BORING AllocSPS
+BORING FreeSPS
+BORING __inline_memcpy_chk787
+BORING setbitscount
+BORING clear_rdopt
+BORING init_rdopt
+BORING I16Offset
+FAIL encode_one_macroblock:user error (Loop has 2 entries)
+BORING store_coding_state_cs_cm
+BORING reset_coding_state_cs_cm
+BORING __inline_memcpy_chk837
+BORING rd_pic_decision
+BORING PutPel_14
+BORING PutPel_11
+BORING FastLine16Y_11
+BORING FastLineX
+BORING UMVPelY_14
+BORING FastPelY_14
+BORING __inline_memcpy_chk857
+BORING OpenRTPFile
+BORING CloseRTPFile
+BORING HaveAggregationSEI
+BORING __inline_memcpy_chk884
+BORING __inline_memset_chk885
+BORING CalculateSparePicture
+BORING CloseSubseqLayerInfo
+BORING UpdateSceneInformation
+BORING UpdatePanScanRectInfo
+BORING UpdateRandomAccess
+BORING init_ref_pic_list_reordering
+BORING modify_redundant_pic_cnt
+BORING ue_v
+BORING se_v
+BORING u_1
+BORING u_v
+BORING cbp_linfo_intra
+BORING cbp_linfo_inter
+BORING writeSyntaxElement2Buf_Fixed
+BORING spec_srand
+"arienco_done_encoding"
+ALARM (term)arienco_done_encoding:482
+"biari_encode_symbol"
+ALARM (term)biari_encode_symbol:393
+"biari_encode_symbol_eq_prob"
+ALARM (term)biari_encode_symbol_eq_prob:319
+"biari_encode_symbol_final"
+ALARM (term)biari_encode_symbol_final:349
+"biari_init_context"
+OK 52 1.0e-3 biari_init_context
+"intrapred_luma"
+FAIL TIMEOUT intrapred_luma
+"intrapred_luma_16x16"
+FAIL TIMEOUT intrapred_luma_16x16
+"dct_luma_16x16"
+FAIL TIMEOUT dct_luma_16x16
+"dct_luma"
+ALARM (term)dct_luma:1014
+"dct_chroma"
+ALARM (term)dct_chroma:3112
+"dct_chroma4x4"
+ALARM (term)dct_chroma4x4:958
+"dct_chroma_DC"
+ALARM (term)dct_chroma_DC:117
+"dct_luma_sp"
+ALARM (term)dct_luma_sp:1277
+"dct_chroma_sp"
+ALARM (term)dct_chroma_sp:2050
+"copyblock_sp"
+ALARM (term)copyblock_sp:526
+"CheckAvailabilityOfNeighborsCABAC"
+OK 65 1.0e-3 CheckAvailabilityOfNeighborsCABAC
+"writeFieldModeInfo_CABAC"
+OK 90 3.999e-3 writeFieldModeInfo_CABAC
+"writeMB_skip_flagInfo_CABAC"
+OK 132 6.999e-3 writeMB_skip_flagInfo_CABAC
+"writeMB_transform_size_CABAC"
+OK 62 1.0e-3 writeMB_transform_size_CABAC
+"writeMB_typeInfo_CABAC"
+OK 482 5.1992e-2 writeMB_typeInfo_CABAC
+"writeB8_typeInfo_CABAC"
+OK 148 4.999e-3 writeB8_typeInfo_CABAC
+"writeIntraPredMode_CABAC"
+OK 49 1.0e-3 writeIntraPredMode_CABAC
+"writeRefFrame_CABAC"
+OK 443 5.4992e-2 writeRefFrame_CABAC
+"unary_bin_encode"
+OK 47 1.0e-3 unary_bin_encode
+"writeDquant_CABAC"
+ALARM (term)writeDquant_CABAC:75
+"writeMVD_CABAC"
+OK 386 5.8991e-2 writeMVD_CABAC
+"unary_exp_golomb_mv_encode"
+OK 116 4.999e-3 unary_exp_golomb_mv_encode
+"writeCIPredMode_CABAC"
+OK 71 2.0e-3 writeCIPredMode_CABAC
+"unary_bin_max_encode"
+OK 53 2.0e-3 unary_bin_max_encode
+"writeCBP_BIT_CABAC"
+OK 124 1.999e-3 writeCBP_BIT_CABAC
+"writeCBP_CABAC"
+OK 291 3.8995e-2 writeCBP_CABAC
+"write_and_store_CBP_block_bit"
+ALARM (term)write_and_store_CBP_block_bit:462
+"write_significance_map"
+OK 254 1.8997e-2 write_significance_map
+"write_significant_coefficients"
+OK 200 8.999e-3 write_significant_coefficients
+"unary_exp_golomb_level_encode"
+OK 76 2.0e-3 unary_exp_golomb_level_encode
+"writeRunLevel_CABAC"
+ALARM (term)writeRunLevel_CABAC:133
+"exp_golomb_encode_eq_prob"
+OK 75 2.0e-3 exp_golomb_encode_eq_prob
+"Configure"
+OK 524 6.699e-2 Configure
+"ParseContent"
+ALARM (term)ParseContent:430
+"CeilLog2"
+OK 31 0.0 CeilLog2
+"PatchInputNoFrames"
+OK 44 1.0e-3 PatchInputNoFrames
+"PatchInp"
+FAIL TIMEOUT PatchInp
+"TestEncoderParams"
+OK 290 2.4996e-2 TestEncoderParams
+"ProfileCheck"
+ALARM (term)ProfileCheck:692
+"DisplayEncoderParams"
+OK 122 5.999e-3 DisplayEncoderParams
+"InitEncoderParams"
+OK 78 3.999e-3 InitEncoderParams
+"ParameterNameToMapIndex"
+OK 55 1.0e-3 ParameterNameToMapIndex
+"create_context_memory"
+ALARM (term)create_context_memory:272
+"free_context_memory"
+OK 117 4.0e-3 free_context_memory
+"SetCtxModelNumber"
+OK 87 4.999e-3 SetCtxModelNumber
+"init_contexts"
+OK 1405 0.498924 init_contexts
+"XRate"
+OK 82 2.0e-3 XRate
+"GetCtxModelNumber"
+OK 1788 0.592909 GetCtxModelNumber
+"store_contexts"
+OK 61 1.0e-3 store_contexts
+"update_field_frame_contexts"
+OK 208 6.999e-3 update_field_frame_contexts
+"decode_one_b8block"
+ALARM (term)decode_one_b8block:505
+"Get_Reference_Block"
+OK 80 2.0e-3 Get_Reference_Block
+"Get_Reference_Pixel"
+ALARM (term)Get_Reference_Pixel:312
+"UpdateDecoders"
+OK 97 2.999e-3 UpdateDecoders
+"Build_Status_Map"
+OK 284 1.8997e-2 Build_Status_Map
+"Error_Concealment"
+OK 75 1.0e-3 Error_Concealment
+"DecOneForthPix"
+ALARM (term)DecOneForthPix:86
+"compute_residue_b8block"
+OK 225 8.999e-3 compute_residue_b8block
+"Conceal_Error"
+ALARM (term)Conceal_Error:258
+"create_pyramid"
+ALARM (term)create_pyramid:257
+"gop_pyramid"
+OK 54 1.0e-3 gop_pyramid
+"init_gop_structure"
+OK 52 1.0e-3 init_gop_structure
+"clear_gop_structure"
+OK 15 1.0e-3 clear_gop_structure
+"interpret_gop_structure"
+ALARM (term)interpret_gop_structure:564
+"encode_enhancement_layer"
+OK 996 0.533919 encode_enhancement_layer
+"poc_based_ref_management"
+OK 208 1.7997e-2 poc_based_ref_management
+"DefineThresholdMB"
+OK 89 4.0e-3 DefineThresholdMB
+"get_mem_mincost"
+ALARM (term)get_mem_mincost:253
+"get_mem_bwmincost"
+ALARM (term)get_mem_bwmincost:253
+"get_mem_FME"
+OK 64 9.99e-4 get_mem_FME
+"free_mem_mincost"
+ALARM (term)free_mem_mincost:123
+"free_mem_bwmincost"
+ALARM (term)free_mem_bwmincost:123
+"PartCalMad"
+ALARM (term)PartCalMad:119
+"FastIntegerPelBlockMotionSearch"
+FAIL TIMEOUT FastIntegerPelBlockMotionSearch
+"AddUpSADQuarter"
+OK 614 0.117982 AddUpSADQuarter
+"FastSubPelBlockMotionSearch"
+ALARM (term)FastSubPelBlockMotionSearch:517
+"decide_intrabk_SAD"
+OK 105 4.0e-3 decide_intrabk_SAD
+"skip_intrabk_SAD"
+OK 179 7.999e-3 skip_intrabk_SAD
+"start_sequence"
+OK 99 3.0e-3 start_sequence
+"terminate_sequence"
+OK 37 0.0 terminate_sequence
+"FmoInit"
+OK 47 0.0 FmoInit
+"FmoGenerateMapUnitToSliceGroupMap"
+ALARM (term)FmoGenerateMapUnitToSliceGroupMap:160
+"FmoGenerateMBAmap"
+ALARM (term)FmoGenerateMBAmap:115
+"FmoUninit"
+OK 24 0.0 FmoUninit
+"FmoStartPicture"
+OK 36 1.0e-3 FmoStartPicture
+"FmoGetFirstMBOfSliceGroup"
+OK 68 1.999e-3 FmoGetFirstMBOfSliceGroup
+"FmoGetNextMBNr"
+ALARM (term)FmoGetNextMBNr:35
+"FmoGetPreviousMBNr"
+ALARM (term)FmoGetPreviousMBNr:30
+"FmoGetLastCodedMBOfSliceGroup"
+OK 54 1.0e-3 FmoGetLastCodedMBOfSliceGroup
+"FmoGenerateType0MapUnitMap"
+OK 126 6.998e-3 FmoGenerateType0MapUnitMap
+"FmoGenerateType1MapUnitMap"
+OK 61 2.0e-3 FmoGenerateType1MapUnitMap
+"FmoGenerateType2MapUnitMap"
+OK 137 5.999e-3 FmoGenerateType2MapUnitMap
+"FmoGenerateType3MapUnitMap"
+FAIL FmoGenerateType3MapUnitMap:no calss for 331
+"FmoGenerateType4MapUnitMap"
+ALARM (term)FmoGenerateType4MapUnitMap:55
+"FmoGenerateType5MapUnitMap"
+OK 122 6.999e-3 FmoGenerateType5MapUnitMap
+"FmoGenerateType6MapUnitMap"
+OK 43 1.0e-3 FmoGenerateType6MapUnitMap
+"SliceHeader"
+ALARM (term)SliceHeader:1543
+"get_picture_type"
+OK 35 9.99e-4 get_picture_type
+"Partition_BC_Header"
+OK 84 5.0e-3 Partition_BC_Header
+"pred_weight_table"
+ALARM (term)pred_weight_table:396
+"dec_ref_pic_marking"
+OK 257 1.8997e-2 dec_ref_pic_marking
+"ref_pic_list_reordering"
+ALARM (term)ref_pic_list_reordering:339
+"MbAffPostProc"
+ALARM (term)MbAffPostProc:467
+"code_a_picture"
+ALARM (term)code_a_picture:236
+"encode_one_frame"
+ALARM (term)encode_one_frame:1672
+"ReadOneFrame"
+OK 239 7.999e-3 ReadOneFrame
+"PaddAutoCropBorders"
+OK 302 1.3998e-2 PaddAutoCropBorders
+"field_picture"
+ALARM (term)field_picture:414
+"frame_picture"
+OK 506 0.108984 frame_picture
+"picture_structure_decision"
+OK 68 9.99e-4 picture_structure_decision
+"writeout_picture"
+OK 77 1.0e-3 writeout_picture
+"frame_mode_buffer"
+OK 102 2.0e-3 frame_mode_buffer
+"ReportFirstframe"
+OK 110 5.999e-3 ReportFirstframe
+"ReportIntra"
+OK 69 2.0e-3 ReportIntra
+"ReportSP"
+OK 60 1.0e-3 ReportSP
+"ReportRB"
+OK 70 1.999e-3 ReportRB
+"ReportB"
+OK 70 1.0e-3 ReportB
+"ReportP"
+OK 60 0.0 ReportP
+"copy_params"
+OK 79 2.0e-3 copy_params
+"distortion_fld"
+OK 83 1.0e-3 distortion_fld
+"UnifiedOneForthPix"
+ALARM (term)UnifiedOneForthPix:1312
+"GenerateFullPelRepresentation"
+OK 59 1.0e-3 GenerateFullPelRepresentation
+"copy_rdopt_data"
+ALARM (term)copy_rdopt_data:1381
+"buf2img"
+OK 374 2.4996e-2 buf2img
+"rdPictureCoding"
+OK 518 0.251962 rdPictureCoding
+"CalculateFrameNumber"
+OK 100 6.999e-3 CalculateFrameNumber
+"copy_motion_vectors_MB"
+OK 1087 0.685895 copy_motion_vectors_MB
+"find_distortion"
+ALARM (term)find_distortion:574
+"find_snr"
+ALARM (term)find_snr:1088
+"init_field"
+ALARM (term)init_field:949
+"init_frame"
+ALARM (term)init_frame:848
+"writeUnit"
+OK 183 1.6997e-2 writeUnit
+"RandomIntraInit"
+ALARM (term)RandomIntraInit:117
+"RandomIntra"
+OK 46 1.0e-3 RandomIntra
+"RandomIntraNewPicture"
+ALARM (term)RandomIntraNewPicture:39
+"get_LeakyBucketRate"
+OK 95 3.0e-3 get_LeakyBucketRate
+"write_buffer"
+OK 111 2.999e-3 write_buffer
+"Sort"
+OK 60 3.0e-3 Sort
+"calc_buffer"
+ALARM (term)calc_buffer:348
+"main"
+OK 1406 1.05084 main
+"report_stats_on_error"
+OK 149 2.0e-3 report_stats_on_error
+"init_poc"
+OK 103 2.0e-3 init_poc
+"CAVLC_init"
+OK 95 3.999e-3 CAVLC_init
+"init_img"
+ALARM (term)init_img:924
+"get_mem_mv"
+ALARM (term)get_mem_mv:245
+"get_mem_ACcoeff"
+OK 183 6.999e-3 get_mem_ACcoeff
+"get_mem_DCcoeff"
+OK 120 3.999e-3 get_mem_DCcoeff
+"free_img"
+OK 229 3.999e-3 free_img
+"free_mem_mv"
+OK 193 6.999e-3 free_mem_mv
+"free_mem_ACcoeff"
+OK 115 3.0e-3 free_mem_ACcoeff
+"free_mem_DCcoeff"
+OK 71 1.999e-3 free_mem_DCcoeff
+"report_frame_statistic"
+ALARM (term)report_frame_statistic:1504
+"report"
+ALARM (term)report:1686
+"information_init"
+OK 122 1.999e-3 information_init
+"init_orig_buffers"
+OK 166 9.999e-3 init_orig_buffers
+"init_global_buffers"
+OK 647 0.26396 init_global_buffers
+"free_global_buffers"
+OK 690 0.359945 free_global_buffers
+"combine_field"
+ALARM (term)combine_field:451
+"process_2nd_IGOP"
+OK 89 6.0e-3 process_2nd_IGOP
+"SetImgType"
+OK 56 2.999e-3 SetImgType
+"DeblockFrame"
+OK 34 1.0e-3 DeblockFrame
+"DeblockMb"
+OK 492 9.1986e-2 DeblockMb
+"GetStrength"
+ALARM (term)GetStrength:828
+"EdgeLoop"
+FAIL EdgeLoop:fetchVal:265
+"set_MB_parameters"
+OK 223 2.5996e-2 set_MB_parameters
+"clip1a"
+OK 17 1.0e-3 clip1a
+"clip1a_chr"
+OK 17 0.0 clip1a_chr
+"proceed2nextMacroblock"
+ALARM (term)proceed2nextMacroblock:387
+"start_macroblock"
+ALARM (term)start_macroblock:1655
+"terminate_macroblock"
+OK 976 1.265808 terminate_macroblock
+"slice_too_big"
+OK 165 1.1998e-2 slice_too_big
+"OneComponentLumaPrediction4x4"
+OK 138 2.999e-3 OneComponentLumaPrediction4x4
+"copyblock4x4"
+OK 77 1.0e-3 copyblock4x4
+"LumaPrediction4x4"
+OK 861 0.335949 LumaPrediction4x4
+"LumaPrediction4x4Bi"
+OK 826 0.312953 LumaPrediction4x4Bi
+"LumaResidualCoding8x8"
+ALARM (term)LumaResidualCoding8x8:988
+"ChromaPrediction4x4"
+OK 766 0.181972 ChromaPrediction4x4
+"SetModesAndRefframe"
+OK 137 5.999e-3 SetModesAndRefframe
+"LumaResidualCoding"
+OK 324 2.0997e-2 LumaResidualCoding
+"TransformDecision"
+OK 334 3.1995e-2 TransformDecision
+"OneComponentChromaPrediction4x4"
+FAIL OneComponentChromaPrediction4x4:fetchVal:274
+"IntraChromaPrediction4x4"
+OK 85 2.0e-3 IntraChromaPrediction4x4
+"ChromaResidualCoding"
+FAIL TIMEOUT ChromaResidualCoding
+"IntraChromaPrediction"
+FAIL IntraChromaPrediction:traceCycle fetch 361
+"ZeroRef"
+OK 92 4.999e-3 ZeroRef
+"MBType2Value"
+OK 97 6.0e-3 MBType2Value
+"writeIntra4x4Modes"
+OK 336 2.9995e-2 writeIntra4x4Modes
+"B8Mode2Value"
+OK 27 1.0e-3 B8Mode2Value
+"writeMBLayer"
+ALARM (term)writeMBLayer:1204
+"writeChromaIntraPredMode"
+OK 85 1.0e-3 writeChromaIntraPredMode
+"set_last_dquant"
+OK 87 7.999e-3 set_last_dquant
+"write_one_macroblock"
+ALARM (term)write_one_macroblock:339
+"writeReferenceFrame"
+ALARM (term)writeReferenceFrame:187
+"writeMotionVector8x8"
+OK 385 3.6994e-2 writeMotionVector8x8
+"writeMotionInfo2NAL"
+OK 771 0.487926 writeMotionInfo2NAL
+"writeChromaCoeff"
+ALARM (term)writeChromaCoeff:644
+"writeLumaCoeff4x4_CABAC"
+OK 232 1.6997e-2 writeLumaCoeff4x4_CABAC
+"writeLumaCoeff8x8_CABAC"
+OK 233 1.6998e-2 writeLumaCoeff8x8_CABAC
+"writeLumaCoeff8x8"
+FAIL TIMEOUT writeLumaCoeff8x8
+"writeCBPandLumaCoeff"
+ALARM (term)writeCBPandLumaCoeff:1010
+"predict_nnz"
+OK 204 2.3996e-2 predict_nnz
+"predict_nnz_chroma"
+ALARM (term)predict_nnz_chroma:310
+"find_sad_16x16"
+ALARM (term)find_sad_16x16:578
+"mb_is_available"
+OK 42 1.0e-3 mb_is_available
+"CheckAvailabilityOfNeighbors"
+ALARM (term)CheckAvailabilityOfNeighbors:367
+"get_mb_block_pos"
+OK 39 1.0e-3 get_mb_block_pos
+"getNonAffNeighbour"
+OK 199 2.2996e-2 getNonAffNeighbour
+"getAffNeighbour"
+OK 494 0.158976 getAffNeighbour
+"getDpbSize"
+OK 94 1.0e-3 getDpbSize
+"init_dpb"
+OK 319 3.3995e-2 init_dpb
+"free_dpb"
+OK 143 7.999e-3 free_dpb
+"free_frame_store"
+OK 46 1.0e-3 free_frame_store
+"alloc_storable_picture"
+OK 245 3.3994e-2 alloc_storable_picture
+"free_storable_picture"
+OK 182 4.0e-3 free_storable_picture
+"init_lists"
+ALARM (term)init_lists:1760
+"compare_pic_by_pic_num_desc"
+OK 24 1.0e-3 compare_pic_by_pic_num_desc
+"compare_pic_by_lt_pic_num_asc"
+OK 24 1.0e-3 compare_pic_by_lt_pic_num_asc
+"compare_fs_by_frame_num_desc"
+OK 24 1.0e-3 compare_fs_by_frame_num_desc
+"gen_pic_list_from_frame_list"
+ALARM (term)gen_pic_list_from_frame_list:376
+"compare_fs_by_lt_pic_idx_asc"
+OK 24 0.0 compare_fs_by_lt_pic_idx_asc
+"compare_pic_by_poc_desc"
+OK 23 0.0 compare_pic_by_poc_desc
+"compare_pic_by_poc_asc"
+OK 23 0.0 compare_pic_by_poc_asc
+"compare_fs_by_poc_desc"
+OK 24 9.99e-4 compare_fs_by_poc_desc
+"compare_fs_by_poc_asc"
+OK 24 0.0 compare_fs_by_poc_asc
+"init_mbaff_lists"
+OK 275 2.3997e-2 init_mbaff_lists
+"reorder_ref_pic_list"
+OK 171 1.2998e-2 reorder_ref_pic_list
+"reorder_short_term"
+OK 136 6.0e-3 reorder_short_term
+"reorder_long_term"
+OK 125 5.999e-3 reorder_long_term
+"update_ref_list"
+OK 109 2.999e-3 update_ref_list
+"is_short_term_reference"
+OK 106 4.999e-3 is_short_term_reference
+"update_ltref_list"
+OK 110 3.0e-3 update_ltref_list
+"is_long_term_reference"
+OK 106 4.999e-3 is_long_term_reference
+"mm_update_max_long_term_frame_idx"
+OK 67 2.0e-3 mm_update_max_long_term_frame_idx
+"unmark_for_long_term_reference"
+OK 125 1.7997e-2 unmark_for_long_term_reference
+"store_picture_in_dpb"
+OK 456 0.124981 store_picture_in_dpb
+"idr_memory_management"
+OK 181 1.2998e-2 idr_memory_management
+"adaptive_memory_management"
+OK 266 2.6996e-2 adaptive_memory_management
+"insert_picture_in_dpb"
+OK 164 2.5996e-2 insert_picture_in_dpb
+"sliding_window_memory_management"
+ALARM (term)sliding_window_memory_management:65
+"get_smallest_poc"
+OK 83 3.0e-3 get_smallest_poc
+"replace_top_pic_with_frame"
+ALARM (term)replace_top_pic_with_frame:164
+"dpb_split_field"
+FAIL TIMEOUT dpb_split_field
+"flush_dpb"
+OK 80 3.0e-3 flush_dpb
+"unmark_for_reference"
+OK 179 3.6994e-2 unmark_for_reference
+"gen_field_ref_ids"
+OK 164 7.999e-3 gen_field_ref_ids
+"dpb_combine_field"
+ALARM (term)dpb_combine_field:1831
+"alloc_ref_pic_list_reordering_buffer"
+OK 137 2.0e-3 alloc_ref_pic_list_reordering_buffer
+"free_ref_pic_list_reordering_buffer"
+OK 74 9.99e-4 free_ref_pic_list_reordering_buffer
+"fill_frame_num_gap"
+OK 95 2.0e-3 fill_frame_num_gap
+"alloc_colocated"
+OK 107 3.0e-3 alloc_colocated
+"free_colocated"
+OK 118 1.999e-3 free_colocated
+"compute_colocated"
+ALARM (term)compute_colocated:4908
+"output_one_frame_from_dpb"
+OK 104 5.999e-3 output_one_frame_from_dpb
+"is_used_for_reference"
+OK 86 2.999e-3 is_used_for_reference
+"remove_frame_from_dpb"
+OK 125 6.999e-3 remove_frame_from_dpb
+"remove_unused_frame_from_dpb"
+OK 83 3.0e-3 remove_unused_frame_from_dpb
+"mm_unmark_short_term_for_reference"
+ALARM (term)mm_unmark_short_term_for_reference:199
+"mm_unmark_long_term_for_reference"
+ALARM (term)mm_unmark_long_term_for_reference:274
+"mm_assign_long_term_frame_idx"
+ALARM (term)mm_assign_long_term_frame_idx:86
+"mm_mark_current_picture_long_term"
+OK 28 0.0 mm_mark_current_picture_long_term
+"unmark_long_term_frame_for_reference_by_frame_idx"
+OK 61 1.0e-3 unmark_long_term_frame_for_reference_by_frame_idx
+"unmark_long_term_field_for_reference_by_frame_idx"
+OK 243 3.3995e-2 unmark_long_term_field_for_reference_by_frame_idx
+"mm_unmark_all_short_term_for_reference"
+OK 46 1.0e-3 mm_unmark_all_short_term_for_reference
+"mark_pic_long_term"
+ALARM (term)mark_pic_long_term:529
+"get_long_term_pic"
+ALARM (term)get_long_term_pic:93
+"get_short_term_pic"
+ALARM (term)get_short_term_pic:93
+"init_top_bot_planes"
+OK 91 2.0e-3 init_top_bot_planes
+"get_mem2Dpel"
+OK 79 2.0e-3 get_mem2Dpel
+"get_mem3Dpel"
+OK 62 1.0e-3 get_mem3Dpel
+"free_mem2Dpel"
+OK 30 0.0 free_mem2Dpel
+"free_mem3Dpel"
+OK 53 1.0e-3 free_mem3Dpel
+"get_mem2D"
+OK 76 1.0e-3 get_mem2D
+"get_mem2Dint"
+OK 79 2.0e-3 get_mem2Dint
+"get_mem2Dint64"
+OK 78 2.0e-3 get_mem2Dint64
+"get_mem3D"
+OK 58 9.99e-4 get_mem3D
+"get_mem3Dint"
+OK 62 1.0e-3 get_mem3Dint
+"get_mem3Dint64"
+OK 61 2.0e-3 get_mem3Dint64
+"get_mem4Dint"
+OK 64 1.0e-3 get_mem4Dint
+"free_mem2D"
+OK 29 0.0 free_mem2D
+"free_mem2Dint"
+OK 30 9.99e-4 free_mem2Dint
+"free_mem2Dint64"
+OK 30 0.0 free_mem2Dint64
+"free_mem3D"
+OK 53 1.0e-3 free_mem3D
+"free_mem3Dint"
+OK 53 1.0e-3 free_mem3Dint
+"free_mem3Dint64"
+OK 53 1.0e-3 free_mem3Dint64
+"free_mem4Dint"
+OK 54 1.0e-3 free_mem4Dint
+"get_mem2Dshort"
+OK 79 1.999e-3 get_mem2Dshort
+"get_mem3Dshort"
+OK 62 1.0e-3 get_mem3Dshort
+"get_mem4Dshort"
+OK 64 1.0e-3 get_mem4Dshort
+"free_mem2Dshort"
+OK 30 0.0 free_mem2Dshort
+"free_mem3Dshort"
+OK 53 1.0e-3 free_mem3Dshort
+"free_mem4Dshort"
+OK 54 1.0e-3 free_mem4Dshort
+"InitializeFastFullIntegerSearch"
+ALARM (term)InitializeFastFullIntegerSearch:615
+"ClearFastFullIntegerSearch"
+OK 292 1.3998e-2 ClearFastFullIntegerSearch
+"ResetFastFullIntegerSearch"
+OK 60 1.0e-3 ResetFastFullIntegerSearch
+"SetupLargerBlocks"
+OK 1169 0.198969 SetupLargerBlocks
+"SetupFastFullPelSearch"
+ALARM (term)SetupFastFullPelSearch:885
+"SetMotionVectorPredictor"
+FAIL SetMotionVectorPredictor:fetchVal:1035
+"Init_Motion_Search_Module"
+ALARM (term)Init_Motion_Search_Module:500
+"Clear_Motion_Search_Module"
+OK 77 1.0e-3 Clear_Motion_Search_Module
+"FullPelBlockMotionSearch"
+ALARM (term)FullPelBlockMotionSearch:431
+"FastFullPelBlockMotionSearch"
+ALARM (term)FastFullPelBlockMotionSearch:281
+"SATD"
+ALARM (term)SATD:391
+"SATD8X8"
+ALARM (term)SATD8X8:414
+"find_SATD"
+ALARM (term)find_SATD:186
+"SubPelBlockMotionSearch"
+OK 2008 1.084835 SubPelBlockMotionSearch
+"FullPelBlockMotionBiPred"
+ALARM (term)FullPelBlockMotionBiPred:796
+"SubPelBlockSearchBiPred"
+FAIL TIMEOUT SubPelBlockSearchBiPred
+"BPredPartitionCost"
+ALARM (term)BPredPartitionCost:454
+"BlockMotionSearch"
+FAIL TIMEOUT BlockMotionSearch
+"GetSkipCostMB"
+ALARM (term)GetSkipCostMB:253
+"BIDPartitionCost"
+ALARM (term)BIDPartitionCost:447
+"FindSkipModeMotionVector"
+FAIL FindSkipModeMotionVector:fetchVal:364
+"Get_Direct_Cost8x8"
+ALARM (term)Get_Direct_Cost8x8:197
+"Get_Direct_CostMB"
+ALARM (term)Get_Direct_CostMB:77
+"PartitionMotionSearch"
+ALARM (term)PartitionMotionSearch:367
+"SODBtoRBSP"
+ALARM (term)SODBtoRBSP:46
+"RBSPtoEBSP"
+OK 217 1.2998e-2 RBSPtoEBSP
+"AllocNalPayloadBuffer"
+OK 36 0.0 AllocNalPayloadBuffer
+"FreeNalPayloadBuffer"
+OK 15 0.0 FreeNalPayloadBuffer
+"RBSPtoNALU"
+ALARM (term)RBSPtoNALU:89
+"FreeNALU"
+OK 25 0.0 FreeNALU
+"testEndian"
+ALARM (term)testEndian:13
+"img2buf"
+OK 443 3.5994e-2 img2buf
+"write_out_picture"
+OK 339 4.3994e-2 write_out_picture
+"clear_picture"
+ALARM (term)clear_picture:116
+"write_unpaired_field"
+OK 116 6.999e-3 write_unpaired_field
+"direct_output"
+OK 190 3.0995e-2 direct_output
+"GenerateParameterSets"
+OK 122 3.0e-3 GenerateParameterSets
+"GenerateSequenceParameterSet"
+OK 654 0.182972 GenerateSequenceParameterSet
+"GeneratePictureParameterSet"
+ALARM (term)GeneratePictureParameterSet:392
+"GenerateSeq_parameter_set_NALU"
+OK 29 0.0 GenerateSeq_parameter_set_NALU
+"GenerateSeq_parameter_set_rbsp"
+OK 785 0.214967 GenerateSeq_parameter_set_rbsp
+"GeneratePic_parameter_set_NALU"
+OK 31 0.0 GeneratePic_parameter_set_NALU
+"GeneratePic_parameter_set_rbsp"
+OK 777 0.379942 GeneratePic_parameter_set_rbsp
+"Scaling_List"
+OK 178 6.999e-3 Scaling_List
+"GenerateVUISequenceParameters"
+OK 133 1.999e-3 GenerateVUISequenceParameters
+"FreePPS"
+OK 20 0.0 FreePPS
+"CheckParameterName"
+OK 119 3.999e-3 CheckParameterName
+"ParseMatrix"
+ALARM (term)ParseMatrix:362
+"PatchMatrix"
+ALARM (term)PatchMatrix:478
+"Init_QMatrix"
+OK 74 1.0e-3 Init_QMatrix
+"CalculateQuantParam"
+ALARM (term)CalculateQuantParam:504
+"CalculateQuant8Param"
+ALARM (term)CalculateQuant8Param:279
+"CheckOffsetParameterName"
+OK 119 4.0e-3 CheckOffsetParameterName
+"ParseQOffsetMatrix"
+ALARM (term)ParseQOffsetMatrix:362
+"Init_QOffsetMatrix"
+OK 62 1.0e-3 Init_QOffsetMatrix
+"CalculateOffsetParam"
+OK 426 4.6993e-2 CalculateOffsetParam
+"CalculateOffset8Param"
+OK 273 1.7997e-2 CalculateOffset8Param
+"rc_alloc"
+OK 212 2.3996e-2 rc_alloc
+"rc_free"
+OK 62 1.0e-3 rc_free
+"rc_init_seq"
+ALARM (term)rc_init_seq:355
+"rc_init_GOP"
+OK 379 7.7988e-2 rc_init_GOP
+"rc_init_pict"
+ALARM (term)rc_init_pict:2343
+"calc_MAD"
+OK 78 9.99e-4 calc_MAD
+"rc_update_pict"
+ALARM (term)rc_update_pict:41
+"rc_update_pict_frame"
+ALARM (term)rc_update_pict_frame:187
+"updateQuantizationParameter"
+ALARM (term)updateQuantizationParameter:1418
+"Qstep2QP"
+OK 121 4.999e-3 Qstep2QP
+"updateRCModel"
+ALARM (term)updateRCModel:436
+"QP2Qstep"
+OK 38 1.0e-3 QP2Qstep
+"RCModelEstimator"
+ALARM (term)RCModelEstimator:229
+"ComputeFrameMAD"
+OK 56 1.0e-3 ComputeFrameMAD
+"updateMADModel"
+ALARM (term)updateMADModel:270
+"MADModelEstimator"
+ALARM (term)MADModelEstimator:225
+"UpdatePixelMap"
+ALARM (term)UpdatePixelMap:120
+"CheckReliabilityOfRef"
+OK 1131 0.271959 CheckReliabilityOfRef
+"RDCost_for_4x4IntraBlocks"
+ALARM (term)RDCost_for_4x4IntraBlocks:268
+"RDCost_for_4x4Blocks_Chroma"
+OK 305 1.6998e-2 RDCost_for_4x4Blocks_Chroma
+"Mode_Decision_for_4x4IntraBlocks"
+ALARM (term)Mode_Decision_for_4x4IntraBlocks:2260
+"Mode_Decision_for_8x8IntraBlocks"
+OK 69 1.0e-3 Mode_Decision_for_8x8IntraBlocks
+"Mode_Decision_for_Intra4x4Macroblock"
+OK 65 1.999e-3 Mode_Decision_for_Intra4x4Macroblock
+"RDCost_for_8x8blocks"
+ALARM (term)RDCost_for_8x8blocks:1430
+"SetModesAndRefframeForBlocks"
+FAIL TIMEOUT SetModesAndRefframeForBlocks
+"Intra16x16_Mode_Decision"
+ALARM (term)Intra16x16_Mode_Decision:463
+"SetCoeffAndReconstruction8x8"
+OK 1530 0.417937 SetCoeffAndReconstruction8x8
+"StoreMV8x8"
+OK 64 1.999e-3 StoreMV8x8
+"RestoreMV8x8"
+OK 64 1.0e-3 RestoreMV8x8
+"SetMotionVectorsMB"
+OK 918 0.228966 SetMotionVectorsMB
+"RDCost_for_macroblocks"
+ALARM (term)RDCost_for_macroblocks:1236
+"store_macroblock_parameters"
+FAIL TIMEOUT store_macroblock_parameters
+"set_stored_macroblock_parameters"
+FAIL TIMEOUT set_stored_macroblock_parameters
+"SetRefAndMotionVectors"
+OK 2169 1.609755 SetRefAndMotionVectors
+"field_flag_inference"
+OK 45 0.0 field_flag_inference
+"StoreMVBlock8x8"
+OK 792 8.9986e-2 StoreMVBlock8x8
+"RestoreMVBlock8x8"
+OK 792 6.1991e-2 RestoreMVBlock8x8
+"StoreNewMotionVectorsBlock8x8"
+OK 677 5.5991e-2 StoreNewMotionVectorsBlock8x8
+"GetBestTransformP8x8"
+OK 297 1.5998e-2 GetBestTransformP8x8
+"set_mbaff_parameters"
+ALARM (term)set_mbaff_parameters:640
+"delete_coding_state"
+OK 46 1.0e-3 delete_coding_state
+"create_coding_state"
+ALARM (term)create_coding_state:135
+"store_coding_state"
+ALARM (term)store_coding_state:335
+"reset_coding_state"
+ALARM (term)reset_coding_state:335
+"picture_coding_decision"
+OK 77 1.0e-3 picture_coding_decision
+"UMVLine16Y_11"
+OK 167 5.999e-3 UMVLine16Y_11
+"UMVLineX"
+OK 167 6.0e-3 UMVLineX
+"ComposeRTPPacket"
+OK 119 1.999e-3 ComposeRTPPacket
+"WriteRTPPacket"
+OK 42 0.0 WriteRTPPacket
+"WriteRTPNALU"
+ALARM (term)WriteRTPNALU:217
+"RTPUpdateTimestamp"
+OK 31 0.0 RTPUpdateTimestamp
+"InitSEIMessages"
+OK 128 3.999e-3 InitSEIMessages
+"clear_sei_message"
+OK 33 0.0 clear_sei_message
+"CloseSEIMessages"
+OK 82 1.999e-3 CloseSEIMessages
+"write_sei_message"
+OK 148 5.999e-3 write_sei_message
+"finalize_sei_message"
+OK 23 0.0 finalize_sei_message
+"AppendTmpbits2Buf"
+OK 251 1.9997e-2 AppendTmpbits2Buf
+"InitSparePicture"
+ALARM (term)InitSparePicture:128
+"CloseSparePicture"
+OK 52 5.5991e-2 CloseSparePicture
+"ComposeSparePictureMessage"
+OK 34 0.0 ComposeSparePictureMessage
+"CompressSpareMBMap"
+ALARM (term)CompressSpareMBMap:416
+"FinalizeSpareMBMap"
+ALARM (term)FinalizeSpareMBMap:221
+"InitSubseqInfo"
+ALARM (term)InitSubseqInfo:129
+"UpdateSubseqInfo"
+ALARM (term)UpdateSubseqInfo:136
+"FinalizeSubseqInfo"
+ALARM (term)FinalizeSubseqInfo:124
+"ClearSubseqInfoPayload"
+OK 46 1.0e-3 ClearSubseqInfoPayload
+"CloseSubseqInfo"
+OK 28 0.0 CloseSubseqInfo
+"InitSubseqLayerInfo"
+OK 47 0.0 InitSubseqLayerInfo
+"FinalizeSubseqLayerInfo"
+OK 74 1.0e-3 FinalizeSubseqLayerInfo
+"InitSubseqChar"
+ALARM (term)InitSubseqChar:96
+"ClearSubseqCharPayload"
+OK 45 0.0 ClearSubseqCharPayload
+"UpdateSubseqChar"
+OK 70 2.0e-3 UpdateSubseqChar
+"FinalizeSubseqChar"
+ALARM (term)FinalizeSubseqChar:189
+"CloseSubseqChar"
+OK 25 0.0 CloseSubseqChar
+"InitSceneInformation"
+ALARM (term)InitSceneInformation:115
+"CloseSceneInformation"
+OK 25 0.0 CloseSceneInformation
+"FinalizeSceneInformation"
+ALARM (term)FinalizeSceneInformation:126
+"InitPanScanRectInfo"
+ALARM (term)InitPanScanRectInfo:74
+"ClearPanScanRectInfoPayload"
+OK 45 1.0e-3 ClearPanScanRectInfoPayload
+"FinalizePanScanRectInfo"
+ALARM (term)FinalizePanScanRectInfo:124
+"ClosePanScanRectInfo"
+OK 25 0.0 ClosePanScanRectInfo
+"InitUser_data_unregistered"
+ALARM (term)InitUser_data_unregistered:80
+"ClearUser_data_unregistered"
+OK 60 9.99e-4 ClearUser_data_unregistered
+"UpdateUser_data_unregistered"
+OK 58 2.0e-3 UpdateUser_data_unregistered
+"FinalizeUser_data_unregistered"
+ALARM (term)FinalizeUser_data_unregistered:112
+"CloseUser_data_unregistered"
+OK 33 1.0e-3 CloseUser_data_unregistered
+"InitUser_data_registered_itu_t_t35"
+ALARM (term)InitUser_data_registered_itu_t_t35:83
+"ClearUser_data_registered_itu_t_t35"
+OK 66 1.0e-3 ClearUser_data_registered_itu_t_t35
+"UpdateUser_data_registered_itu_t_t35"
+ALARM (term)UpdateUser_data_registered_itu_t_t35:47
+"FinalizeUser_data_registered_itu_t_t35"
+ALARM (term)FinalizeUser_data_registered_itu_t_t35:132
+"CloseUser_data_registered_itu_t_t35"
+OK 33 0.0 CloseUser_data_registered_itu_t_t35
+"InitRandomAccess"
+ALARM (term)InitRandomAccess:59
+"ClearRandomAccess"
+OK 51 1.0e-3 ClearRandomAccess
+"FinalizeRandomAccess"
+ALARM (term)FinalizeRandomAccess:119
+"CloseRandomAccess"
+OK 25 0.0 CloseRandomAccess
+"start_slice"
+OK 211 1.0998e-2 start_slice
+"terminate_slice"
+OK 198 8.999e-3 terminate_slice
+"encode_one_slice"
+ALARM (term)encode_one_slice:790
+"init_slice"
+ALARM (term)init_slice:1050
+"free_slice_list"
+OK 42 1.0e-3 free_slice_list
+"free_slice"
+OK 143 4.999e-3 free_slice
+"poc_ref_pic_reorder"
+ALARM (term)poc_ref_pic_reorder:417
+"set_ref_pic_num"
+OK 457 3.1995e-2 set_ref_pic_num
+"malloc_slice"
+OK 254 2.4996e-2 malloc_slice
+"Mode_Decision_for_new_Intra8x8Macroblock"
+OK 74 1.0e-3 Mode_Decision_for_new_Intra8x8Macroblock
+"Mode_Decision_for_new_8x8IntraBlocks"
+ALARM (term)Mode_Decision_for_new_8x8IntraBlocks:2368
+"intrapred_luma8x8"
+FAIL TIMEOUT intrapred_luma8x8
+"RDCost_for_8x8IntraBlocks"
+OK 367 5.0992e-2 RDCost_for_8x8IntraBlocks
+"dct_luma8x8"
+ALARM (term)dct_luma8x8:1808
+"LowPassForIntra8x8Pred"
+OK 350 4.1994e-2 LowPassForIntra8x8Pred
+"ue_linfo"
+OK 69 1.0e-3 ue_linfo
+"writeSyntaxElement_UVLC"
+OK 40 0.0 writeSyntaxElement_UVLC
+"se_linfo"
+OK 80 2.0e-3 se_linfo
+"writeSyntaxElement_fixed"
+OK 24 1.0e-3 writeSyntaxElement_fixed
+"levrun_linfo_c2x2"
+OK 107 3.999e-3 levrun_linfo_c2x2
+"levrun_linfo_inter"
+OK 109 4.0e-3 levrun_linfo_inter
+"levrun_linfo_intra"
+OK 109 3.999e-3 levrun_linfo_intra
+"symbol2uvlc"
+OK 20 0.0 symbol2uvlc
+"writeUVLC2buffer"
+ALARM (term)writeUVLC2buffer:68
+"writeSyntaxElement_Intra4x4PredictionMode"
+OK 59 2.0e-3 writeSyntaxElement_Intra4x4PredictionMode
+"writeSyntaxElement2Buf_UVLC"
+OK 28 1.0e-3 writeSyntaxElement2Buf_UVLC
+"symbol2vlc"
+ALARM (term)symbol2vlc:38
+"writeSyntaxElement_VLC"
+OK 27 0.0 writeSyntaxElement_VLC
+"writeSyntaxElement_NumCoeffTrailingOnes"
+OK 107 5.999e-3 writeSyntaxElement_NumCoeffTrailingOnes
+"writeSyntaxElement_NumCoeffTrailingOnesChromaDC"
+OK 91 2.999e-3 writeSyntaxElement_NumCoeffTrailingOnesChromaDC
+"writeSyntaxElement_TotalZeros"
+OK 76 3.0e-3 writeSyntaxElement_TotalZeros
+"writeSyntaxElement_TotalZerosChromaDC"
+OK 85 2.999e-3 writeSyntaxElement_TotalZerosChromaDC
+"writeSyntaxElement_Run"
+OK 76 3.0e-3 writeSyntaxElement_Run
+"writeSyntaxElement_Level_VLC1"
+OK 62 1.0e-3 writeSyntaxElement_Level_VLC1
+"writeSyntaxElement_Level_VLCN"
+OK 60 1.0e-3 writeSyntaxElement_Level_VLCN
+"writeVlcByteAlign"
+OK 64 1.999e-3 writeVlcByteAlign
+"estimate_weighting_factor_P_slice"
+ALARM (term)estimate_weighting_factor_P_slice:576
+"estimate_weighting_factor_B_slice"
+ALARM (term)estimate_weighting_factor_B_slice:1297
+"test_wp_P_slice"
+ALARM (term)test_wp_P_slice:389
+"test_wp_B_slice"
+ALARM (term)test_wp_B_slice:1001
+"spec_rand"
+OK 38 0.0 spec_rand
+COMPLETE

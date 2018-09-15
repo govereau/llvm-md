@@ -1,0 +1,37 @@
+BORING LBM_freeGrid
+BORING LBM_swapGrids
+"LBM_allocateGrid"
+OK 41 1.0e-3 LBM_allocateGrid
+"LBM_initializeGrid"
+OK 211 7.998e-3 LBM_initializeGrid
+"LBM_loadObstacleFile"
+OK 129 6.999e-3 LBM_loadObstacleFile
+"LBM_initializeSpecialCellsForLDC"
+OK 177 1.0999e-2 LBM_initializeSpecialCellsForLDC
+"LBM_initializeSpecialCellsForChannel"
+OK 146 5.999e-3 LBM_initializeSpecialCellsForChannel
+"LBM_performStreamCollide"
+OK 958 0.280957 LBM_performStreamCollide
+"LBM_handleInOutFlow"
+ALARM (term)LBM_handleInOutFlow:1359
+"LBM_showGridStatistics"
+FAIL LBM_showGridStatistics:traceCycle fetch 226
+"LBM_storeVelocityField"
+ALARM (term)LBM_storeVelocityField:317
+"storeValue"
+ALARM (term)storeValue:42
+"LBM_compareVelocityField"
+OK 477 6.399e-2 LBM_compareVelocityField
+"loadValue"
+ALARM (term)loadValue:42
+"main"
+OK 115 3.999e-3 main
+"MAIN_parseCommandLine"
+OK 165 7.999e-3 MAIN_parseCommandLine
+"MAIN_printInfo"
+OK 44 1.0e-3 MAIN_printInfo
+"MAIN_initialize"
+OK 70 1.0e-3 MAIN_initialize
+"MAIN_finalize"
+OK 57 1.999e-3 MAIN_finalize
+COMPLETE

@@ -1,0 +1,10 @@
+BORING buildlist
+OK 53 0.956ms reverselist
+OK 31 0.6ms reverse_inplace
+FAIL checklist:fetchVal:28
+FAIL main:fetchVal:80
+COMPLETE
+
+real	0m0.022s
+user	0m0.017s
+sys	0m0.004s

@@ -1,0 +1,10 @@
+BORING eval_AtA_times_u
+OK 15 0.136ms eval_A
+OK 69 1.179ms eval_A_times_u
+OK 69 0.938ms eval_At_times_u
+OK 146 3.517ms main
+COMPLETE
+
+real	0m0.024s
+user	0m0.018s
+sys	0m0.004s

@@ -1,0 +1,12 @@
+BORING main
+FAIL rijndaelKeySetupEnc:fetchVal:462
+OK 465 17.534ms rijndaelKeySetupDec
+OK 887 121.897ms rijndaelEncrypt
+OK 887 115.839ms rijndaelDecrypt
+OK 70 0.858ms do_test
+OK 44 0.533ms do_bench
+COMPLETE
+
+real	0m0.533s
+user	0m0.521s
+sys	0m0.010s

@@ -1,0 +1,275 @@
+BORING init_book
+BORING choose_book_move
+BORING text_to_piece
+BORING SwitchColor
+BORING SwitchPromoted
+BORING printHolding
+BORING __inline_memset_chk
+BORING free_ecache
+BORING isdigit
+BORING isalpha
+BORING __istype
+BORING isascii
+BORING __isctype
+BORING push_pawn_simple
+FAIL push_slidE:Maybe.fromJust: Nothing
+BORING push_king_castle
+BORING try_drop
+BORING in_check
+BORING add_move
+BORING ErrorIt
+BORING ResetHandValue
+BORING BegForPartner
+BORING GreetPartner
+BORING HandlePartner
+BORING Xfree
+FAIL proofnumberscan:Maybe.fromJust: Nothing
+FAIL proofnumbersearch:Maybe.fromJust: Nothing
+FAIL proofnumbercheck:Maybe.fromJust: Nothing
+FAIL qsearch:Maybe.fromJust: Nothing
+FAIL search_root:Maybe.fromJust: Nothing
+FAIL think:Maybe.fromJust: Nothing
+BORING suicide_eval
+BORING tolower
+BORING isalpha286
+BORING isdigit287
+BORING __isctype288
+BORING __istype289
+BORING isascii290
+BORING __inline_memset_chk298
+BORING free_hash
+BORING __inline_strcpy_chk
+BORING __inline_strcat_chk
+BORING init_game
+BORING isalpha388
+BORING isdigit389
+BORING tolower391
+BORING __inline_memset_chk394
+BORING rdifftime
+BORING rtime
+BORING rdelay
+BORING start_up
+BORING toggle_bool
+BORING interrupt
+BORING PutPiece
+BORING randomMT
+BORING __isctype409
+BORING __istype410
+BORING isascii411
+"calc_attackers"
+ALARM (term)calc_attackers:408
+"is_attacked"
+ALARM (term)is_attacked:299
+"nk_attacked"
+ALARM (term)nk_attacked:278
+"ProcessHoldings"
+ALARM (term)ProcessHoldings:639
+"addHolding"
+OK 78 3.999e-3 addHolding
+"removeHolding"
+OK 79 3.0e-3 removeHolding
+"DropaddHolding"
+OK 71 1.999e-3 DropaddHolding
+"DropremoveHolding"
+OK 72 3.0e-3 DropremoveHolding
+"is_draw"
+OK 164 9.998e-3 is_draw
+"storeECache"
+OK 28 1.0e-3 storeECache
+"checkECache"
+OK 44 1.0e-3 checkECache
+"reset_ecache"
+OK 29 0.0 reset_ecache
+"alloc_ecache"
+OK 39 1.0e-3 alloc_ecache
+"setup_epd_line"
+ALARM (term)setup_epd_line:542
+"check_solution"
+OK 61 1.0e-3 check_solution
+"run_epd_testsuite"
+OK 412 2.8996e-2 run_epd_testsuite
+"run_autotest"
+OK 3 0.0 run_autotest
+"initialize_eval"
+ALARM (term)initialize_eval:276
+"eval"
+FAIL TIMEOUT eval
+"losers_eval"
+FAIL TIMEOUT losers_eval
+"l_pawn_mobility"
+OK 39 1.0e-3 l_pawn_mobility
+"l_rook_mobility"
+OK 133 7.999e-3 l_rook_mobility
+"l_bishop_mobility"
+OK 133 7.998e-3 l_bishop_mobility
+"l_knight_mobility"
+OK 62 2.0e-3 l_knight_mobility
+"l_king_mobility"
+OK 62 2.999e-3 l_king_mobility
+"check_legal"
+OK 1135 0.834874 check_legal
+"gen"
+FAIL TIMEOUT gen
+"push_pawn"
+OK 104 4.999e-3 push_pawn
+"push_knighT"
+OK 49 2.0e-3 push_knighT
+"push_king"
+OK 52 3.0e-3 push_king
+"f_in_check"
+OK 2135 1.532767 f_in_check
+"extended_in_check"
+OK 362 0.148976 extended_in_check
+"make"
+ALARM (term)make:1300
+"add_capture"
+OK 80 2.0e-3 add_capture
+"unmake"
+ALARM (term)unmake:1180
+"check_phase"
+OK 167 1.3998e-2 check_phase
+"King"
+OK 67 2.999e-3 King
+"Queen"
+OK 70 2.0e-3 Queen
+"rook_mobility"
+OK 71 1.999e-3 rook_mobility
+"bishop_mobility"
+OK 71 2.0e-3 bishop_mobility
+"Rook"
+OK 133 1.0998e-2 Rook
+"Bishop"
+OK 85 7.999e-3 Bishop
+"Knight"
+OK 39 1.0e-3 Knight
+"Pawn"
+OK 103 6.999e-3 Pawn
+"std_eval"
+FAIL TIMEOUT std_eval
+"HandlePtell"
+OK 1415 0.823874 HandlePtell
+"CheckBadFlow"
+FAIL TIMEOUT CheckBadFlow
+"Xmalloc"
+OK 11 0.0 Xmalloc
+"freenodes"
+OK 84 3.999e-3 freenodes
+"pn_eval"
+OK 26 0.0 pn_eval
+"suicide_pn_eval"
+ALARM (term)suicide_pn_eval:106
+"losers_pn_eval"
+ALARM (term)losers_pn_eval:323
+"std_pn_eval"
+OK 147 1.3998e-2 std_pn_eval
+"select_most_proving"
+ALARM (term)select_most_proving:150
+"set_proof_and_disproof_numbers"
+ALARM (term)set_proof_and_disproof_numbers:397
+"develop_node"
+OK 354 7.199e-2 develop_node
+"update_ancestors"
+OK 77 2.999e-3 update_ancestors
+"pn2_eval"
+OK 89 2.999e-3 pn2_eval
+"read_rcfile"
+ALARM (term)read_rcfile:82
+"order_moves"
+ALARM (term)order_moves:1268
+"perft"
+OK 76 2.0e-3 perft
+"remove_one"
+ALARM (term)remove_one:43
+"search"
+FAIL TIMEOUT search
+"tree"
+OK 134 6.999e-3 tree
+"setup_attackers"
+ALARM (term)setup_attackers:530
+"findlowest"
+ALARM (term)findlowest:98
+"see"
+ALARM (term)see:183
+"suicide_mid_eval"
+ALARM (term)suicide_mid_eval:926
+"s_pawn_mobility"
+OK 42 1.999e-3 s_pawn_mobility
+"black_saccers"
+OK 179 1.6998e-2 black_saccers
+"white_saccers"
+OK 179 1.6997e-2 white_saccers
+"s_rook_mobility"
+OK 136 7.999e-3 s_rook_mobility
+"s_bishop_mobility"
+OK 136 7.999e-3 s_bishop_mobility
+"s_knight_mobility"
+OK 65 3.0e-3 s_knight_mobility
+"s_king_mobility"
+OK 65 3.0e-3 s_king_mobility
+"main"
+OK 3 0.0 main
+"clear_tt"
+OK 66 1.999e-3 clear_tt
+"clear_dp_tt"
+OK 29 1.0e-3 clear_dp_tt
+"initialize_zobrist"
+OK 70 2.0e-3 initialize_zobrist
+"initialize_hash"
+ALARM (term)initialize_hash:54
+"QStoreTT"
+OK 93 5.999e-3 QStoreTT
+"StoreTT"
+OK 301 9.1987e-2 StoreTT
+"LearnStoreTT"
+OK 71 1.999e-3 LearnStoreTT
+"ProbeTT"
+OK 422 0.106984 ProbeTT
+"QProbeTT"
+OK 87 3.999e-3 QProbeTT
+"alloc_hash"
+ALARM (term)alloc_hash:74
+"allocate_time"
+OK 384 8.8986e-2 allocate_time
+"comp_to_san"
+OK 568 0.175973 comp_to_san
+"comp_to_coord"
+OK 124 2.999e-3 comp_to_coord
+"display_board"
+OK 217 1.9997e-2 display_board
+"reset_piece_square"
+ALARM (term)reset_piece_square:137
+"is_move"
+OK 79 4.0e-3 is_move
+"perft_debug"
+OK 3 0.0 perft_debug
+"rinput"
+OK 77 2.999e-3 rinput
+"verify_coord"
+OK 197 1.6997e-2 verify_coord
+"hash_extract_pv"
+OK 117 3.0e-3 hash_extract_pv
+"stringize_pv"
+OK 148 8.998e-3 stringize_pv
+"post_thinking"
+OK 241 2.5997e-2 post_thinking
+"post_fail_thinking"
+OK 97 1.999e-3 post_fail_thinking
+"post_fh_thinking"
+OK 97 2.0e-3 post_fh_thinking
+"post_fl_thinking"
+OK 97 2.0e-3 post_fl_thinking
+"post_stat_thinking"
+OK 47 9.99e-4 post_stat_thinking
+"print_move"
+OK 33 0.0 print_move
+"check_piece_square"
+OK 314 5.4992e-2 check_piece_square
+"tree_debug"
+OK 94 2.0e-3 tree_debug
+"reset_board"
+OK 94 3.999e-3 reset_board
+"seedMT"
+ALARM (term)seedMT:34
+"reloadMT"
+OK 225 1.5998e-2 reloadMT
+COMPLETE

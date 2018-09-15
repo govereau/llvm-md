@@ -1,0 +1,11 @@
+BORING anpm
+BORING main
+ALARM 682 107.823ms planetpv
+OK 71 1.78ms radecdist
+OK 64 1.014ms test
+OK 93 1.589ms bench
+COMPLETE
+
+real	0m0.176s
+user	0m0.169s
+sys	0m0.005s

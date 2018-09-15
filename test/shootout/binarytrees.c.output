@@ -1,0 +1,10 @@
+BORING NewTreeNode
+OK 27 0.555ms ItemCheck
+OK 30 0.533ms BottomUpTree
+OK 24 0.294ms DeleteTree
+OK 188 4.645ms main
+COMPLETE
+
+real	0m0.023s
+user	0m0.018s
+sys	0m0.004s

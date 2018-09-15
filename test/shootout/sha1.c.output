@@ -1,0 +1,15 @@
+BORING __inline_memcpy_chk
+BORING __inline_memset_chk
+OK 32 0.283ms SHA1_init
+FAIL SHA1_add_data:fetchVal:107
+ALARM 426 27.627ms SHA1_transform
+OK 79 1.124ms SHA1_finish
+FAIL SHA1_copy_and_swap:fetchVal:59
+FAIL main:fetchVal:45
+OK 49 0.336ms do_test
+OK 49 0.952ms do_bench
+COMPLETE
+
+real	0m0.095s
+user	0m0.088s
+sys	0m0.005s

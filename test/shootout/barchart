@@ -1,0 +1,53 @@
+=stacked;Validated;Alarms
+=nolegoutline
+legendfill=
+=sortbmarks
+=nogridy
+=noupperright
+legendx=right
+legendy=center
+yformat=%g%%
+xlabel=Benchmarks
+ylabel=Number of functions
+=table
+extraops=set label "7" at 0.0,105 right font "Times,8"
+extraops=set label "6" at 0.0,105 right font "Times,8"
+extraops=set label "5" at 0.0,105 right font "Times,8"
+extraops=set label "7" at 0.0,105 right font "Times,8"
+extraops=set label "22" at 0.0,105 right font "Times,8"
+extraops=set label "2" at 0.0,105 right font "Times,8"
+extraops=set label "2" at 0.0,105 right font "Times,8"
+extraops=set label "2" at 0.0,105 right font "Times,8"
+extraops=set label "4" at 0.0,105 right font "Times,8"
+extraops=set label "18" at 0.0,105 right font "Times,8"
+extraops=set label "5" at 0.0,105 right font "Times,8"
+extraops=set label "1" at 0.0,105 right font "Times,8"
+extraops=set label "5" at 0.0,105 right font "Times,8"
+extraops=set label "3" at 0.0,105 right font "Times,8"
+extraops=set label "4" at 0.0,105 right font "Times,8"
+extraops=set label "6" at 0.0,105 right font "Times,8"
+extraops=set label "3" at 0.0,105 right font "Times,8"
+extraops=set label "10" at 0.0,105 right font "Times,8"
+extraops=set label "5" at 0.0,105 right font "Times,8"
+extraops=set label "2" at 0.0,105 right font "Times,8"
+aes  85  14
+almabench  83  16
+binarytrees 100   0
+bisect  71  28
+chomp  81  18
+fannkuch 100   0
+fft  50  50
+fib 100   0
+integr 100   0
+knucleotide  83  16
+lists 100   0
+mandelbrot 100   0
+nbody  80  20
+nsieve 100   0
+nsievebits 100   0
+perlin 100   0
+qsort 100   0
+sha1  90  10
+spectral 100   0
+vmach 100   0
+

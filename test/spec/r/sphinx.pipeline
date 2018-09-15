@@ -1,0 +1,675 @@
+BORING __inline_strcpy_chk
+FAIL parse_args_file:user error (Loop has 2 entries)
+FAIL parse_args_file:Maybe.fromJust: Nothing
+BORING __inline_strcpy_chk43
+BORING parse_args_free
+BORING live_free_memory
+BORING __inline_strcpy_chk218
+BORING beam_init
+BORING bio_writehdr_version
+FAIL bio_readhdr:Maybe.fromJust: Nothing
+BORING __ckd_calloc__
+BORING __ckd_malloc__
+BORING __ckd_realloc__
+BORING __inline_strcpy_chk261
+BORING ckd_free
+BORING ckd_free_2d
+BORING cmd_ln_print_help
+BORING cmd_ln_access
+BORING cmd_ln_free
+BORING cmn_free
+BORING mgau_init
+BORING __inline_memcpy_chk
+BORING __inline_memcpy_chk380
+BORING dict_wordid
+BORING _dict_basewid
+BORING _dict_wordstr
+BORING _dict_nextalt
+BORING dict_filler_word
+BORING _E__pr_header
+BORING _E__pr_info_header
+BORING __inline_memcpy_chk481
+BORING feat_free
+BORING fillpen
+BORING glist_add_ptr
+BORING glist_add_int32
+BORING glist_add_uint32
+BORING glist_add_float32
+BORING glist_add_float64
+BORING glist_free
+BORING glist_myfree
+BORING gs_fread_int32
+BORING gs_fread_float32
+BORING gs_fread_bitvec_t
+BORING gs_free
+BORING gs_delete
+BORING hash_lookup
+BORING hash_lookup_bkey
+BORING hash_enter
+BORING hash_enter_bkey
+BORING heap_new
+BORING heap_insert
+BORING heap_pop
+BORING heap_top
+BORING heap_destroy
+BORING NO_UFLOW_ADD
+BORING fclose_comp
+BORING __inline_strcpy_chk563
+BORING stat_mtime
+BORING _myfopen
+BORING __inline_memset_chk
+BORING lm_delete
+BORING lm_uglist
+BORING lmclass_newset
+BORING lmclass_set_dictwid
+BORING logs3_add
+BORING logs3
+BORING log_to_logs3
+BORING log_to_logs3_factor
+BORING logs3_to_log
+BORING logs3_to_p
+BORING log10_to_logs3
+BORING mdef_ciphone_id
+BORING mdef_ciphone_str
+BORING mdef_is_ciphone
+BORING __inline_memcpy_chk919
+BORING __inline_memset_chk927
+BORING __inline_memcpy_chk929
+BORING fe_mel
+BORING fe_melinv
+FAIL fe_fft:Maybe.fromJust: Nothing
+BORING fe_free_2d
+BORING fe_print_current
+BORING pctr_reset
+BORING host_pclk
+BORING ptmr_start
+BORING ptmr_stop
+BORING ptmr_reset
+BORING ptmr_init
+BORING spec_srand
+BORING isspace
+BORING __istype
+BORING isascii
+BORING unlimit
+BORING __inline_strcat_chk
+BORING NO_UFLOW_ADD1125
+BORING __inline_memset_chk1127
+BORING __inline_memcpy_chk1139
+BORING vector_gautbl_alloc
+BORING vector_gautbl_free
+BORING vithist_id2entry
+FAIL vithist_prune:Maybe.fromJust: Nothing
+BORING vithist_free
+"main"
+ALARM (term)main:597
+"live_initialize_decoder"
+OK 421 9.5985e-2 live_initialize_decoder
+"live_get_partialhyp"
+OK 306 5.2992e-2 live_get_partialhyp
+"live_utt_set_uttid"
+OK 27 1.0e-3 live_utt_set_uttid
+"live_utt_decode_block"
+OK 139 3.999e-3 live_utt_decode_block
+"live_utt_summary"
+OK 97 4.0e-3 live_utt_summary
+"agc_max"
+OK 95 4.999e-3 agc_max
+"approx_isskip"
+OK 28 1.0e-3 approx_isskip
+"approx_mgau_eval"
+OK 121 4.999e-3 approx_mgau_eval
+"approx_cont_mgau_ci_eval"
+OK 53 2.0e-3 approx_cont_mgau_ci_eval
+"approx_cont_mgau_frame_eval"
+ALARM (term)approx_cont_mgau_frame_eval:391
+"ascr_init"
+OK 33 9.99e-4 ascr_init
+"bio_hdrarg_free"
+OK 55 2.0e-3 bio_hdrarg_free
+"bcomment_read"
+OK 66 2.0e-3 bcomment_read
+"swap_check"
+OK 103 3.999e-3 swap_check
+"bio_fread"
+OK 40 1.0e-3 bio_fread
+"swap_buf"
+OK 124 4.999e-3 swap_buf
+"chksum_accum"
+OK 154 7.999e-3 chksum_accum
+"bio_fread_1d"
+OK 114 6.999e-3 bio_fread_1d
+"bio_verify_chksum"
+OK 82 4.999e-3 bio_verify_chksum
+"lcase"
+OK 62 3.0e-3 lcase
+"ucase"
+OK 62 2.999e-3 ucase
+"strcmp_nocase"
+ALARM (term)strcmp_nocase:50
+"__ckd_salloc__"
+OK 34 1.0e-3 __ckd_salloc__
+"__ckd_calloc_2d__"
+OK 58 1.0e-3 __ckd_calloc_2d__
+"__ckd_calloc_3d__"
+OK 124 4.999e-3 __ckd_calloc_3d__
+"ckd_free_3d"
+OK 29 0.0 ckd_free_3d
+"__mymalloc__"
+ALARM (term)__mymalloc__:220
+"__myfree__"
+OK 110 7.999e-3 __myfree__
+"cmd_ln_parse"
+ALARM (term)cmd_ln_parse:513
+"arg_str2val"
+OK 88 3.0e-3 arg_str2val
+"arg_dump"
+OK 418 7.4988e-2 arg_dump
+"arg_strlen"
+OK 91 5.999e-3 arg_strlen
+"arg_sort"
+OK 52 2.0e-3 arg_sort
+"cmp_name"
+OK 23 0.0 cmp_name
+"cmn"
+ALARM (term)cmn:172
+"cmn_prior"
+OK 353 5.0992e-2 cmn_prior
+"mgau_var_nzvec_floor"
+OK 170 1.0998e-2 mgau_var_nzvec_floor
+"mgau_file_read"
+ALARM (term)mgau_file_read:1077
+"mgau_mixw_read"
+ALARM (term)mgau_mixw_read:750
+"mgau_uninit_compact"
+OK 329 5.5991e-2 mgau_uninit_compact
+"mgau_var_floor"
+OK 152 8.999e-3 mgau_var_floor
+"mgau_precomp"
+ALARM (term)mgau_precomp:157
+"mgau_comp_eval"
+OK 159 9.999e-3 mgau_comp_eval
+"mgau_eval"
+OK 494 0.108983 mgau_eval
+"mgau_free"
+OK 120 1.8997e-2 mgau_free
+"dict_ciphone_str"
+OK 36 9.99e-4 dict_ciphone_str
+"dict_add_word"
+OK 243 3.9994e-2 dict_add_word
+"dict_word2basestr"
+OK 80 5.0e-3 dict_word2basestr
+"dict_init"
+ALARM (term)dict_init:309
+"dict_read"
+ALARM (term)dict_read:210
+"dict_build_comp"
+OK 410 5.7992e-2 dict_build_comp
+"dict_wids2compwid"
+ALARM (term)dict_wids2compwid:77
+"dict_free"
+OK 222 2.2997e-2 dict_free
+"dict_comp_head"
+OK 119 6.999e-3 dict_comp_head
+"dict_ciphone_id"
+ALARM (term)dict_ciphone_id:111
+"dict2pid_build"
+ALARM (term)dict2pid_build:963
+"ldiph_comsseq"
+OK 124 5.999e-3 ldiph_comsseq
+"ssidlist2comsseq"
+ALARM (term)ssidlist2comsseq:289
+"rdiph_comsseq"
+OK 124 5.999e-3 rdiph_comsseq
+"single_comsseq"
+ALARM (term)single_comsseq:85
+"single_lc_comsseq"
+OK 125 5.999e-3 single_lc_comsseq
+"dict2pid_comsenscr"
+OK 109 6.999e-3 dict2pid_comsenscr
+"dict2pid_comsseq2sen_active"
+OK 124 5.999e-3 dict2pid_comsseq2sen_active
+"dict2pid_dump"
+ALARM (term)dict2pid_dump:482
+"_E__pr_warn"
+OK 28 0.0 _E__pr_warn
+"_E__pr_info"
+OK 23 0.0 _E__pr_info
+"_E__die_error"
+OK 36 9.99e-4 _E__die_error
+"_E__fatal_sys_error"
+OK 52 1.0e-3 _E__fatal_sys_error
+"_E__sys_error"
+OK 44 1.0e-3 _E__sys_error
+"_E__abort_error"
+OK 31 0.0 _E__abort_error
+"feat_readfile"
+ALARM (term)feat_readfile:455
+"feat_writefile"
+OK 176 1.3998e-2 feat_writefile
+"feat_s2mfc_read"
+ALARM (term)feat_s2mfc_read:271
+"feat_vector_alloc"
+OK 90 3.999e-3 feat_vector_alloc
+"feat_stream_len_sum"
+OK 44 2.0e-3 feat_stream_len_sum
+"feat_array_alloc"
+OK 122 4.999e-3 feat_array_alloc
+"feat_1s_c_d_dd_cep2feat"
+ALARM (term)feat_1s_c_d_dd_cep2feat:128
+"feat_init"
+ALARM (term)feat_init:538
+"feat_s2_4x_cep2feat"
+ALARM (term)feat_s2_4x_cep2feat:228
+"feat_s3_1x39_cep2feat"
+ALARM (term)feat_s3_1x39_cep2feat:208
+"feat_s3_cep_dcep"
+ALARM (term)feat_s3_cep_dcep:71
+"feat_s3_cep"
+OK 36 1.0e-3 feat_s3_cep
+"feat_print"
+OK 130 4.999e-3 feat_print
+"feat_s2mfc2feat"
+OK 496 0.103984 feat_s2mfc2feat
+"feat_s2mfc2feat_block"
+ALARM (term)feat_s2mfc2feat_block:457
+"fillpen_init"
+OK 462 0.108983 fillpen_init
+"fillpen_free"
+OK 24 1.0e-3 fillpen_free
+"glist_chkdup_ptr"
+OK 44 2.0e-3 glist_chkdup_ptr
+"glist_chkdup_int32"
+OK 46 1.0e-3 glist_chkdup_int32
+"glist_chkdup_uint32"
+OK 46 2.0e-3 glist_chkdup_uint32
+"glist_chkdup_float32"
+OK 46 9.99e-4 glist_chkdup_float32
+"glist_chkdup_float64"
+OK 46 2.0e-3 glist_chkdup_float64
+"glist_apply_ptr"
+OK 37 1.0e-3 glist_apply_ptr
+"glist_apply_int32"
+OK 39 1.0e-3 glist_apply_int32
+"glist_apply_uint32"
+OK 39 1.0e-3 glist_apply_uint32
+"glist_apply_float32"
+OK 39 1.0e-3 glist_apply_float32
+"glist_apply_float64"
+OK 39 9.99e-4 glist_apply_float64
+"glist_count"
+OK 33 1.0e-3 glist_count
+"glist_tail"
+OK 36 2.0e-3 glist_tail
+"glist_reverse"
+OK 32 1.0e-3 glist_reverse
+"gs_display"
+OK 333 3.6994e-2 gs_display
+"gs_read"
+OK 310 1.9997e-2 gs_read
+"gc_compute_closest_cw"
+ALARM (term)gc_compute_closest_cw:70
+"gs_mgau_shortlist"
+OK 154 1.0999e-2 gs_mgau_shortlist
+"hash_new"
+ALARM (term)hash_new:43
+"prime_size"
+ALARM (term)prime_size:54
+"key2hash"
+OK 163 2.3997e-2 key2hash
+"lookup"
+OK 154 1.9997e-2 lookup
+"makekey"
+OK 99 3.999e-3 makekey
+"enter"
+OK 60 1.0e-3 enter
+"hash_tolist"
+OK 128 5.999e-3 hash_tolist
+"hash_free"
+OK 77 2.999e-3 hash_free
+"keycmp_nocase"
+ALARM (term)keycmp_nocase:53
+"keycmp_case"
+ALARM (term)keycmp_case:36
+"subheap_insert"
+OK 77 3.0e-3 subheap_insert
+"subheap_pop"
+OK 86 7.999e-3 subheap_pop
+"hmm_dump"
+OK 232 2.2996e-2 hmm_dump
+"hmm_clear"
+OK 62 2.0e-3 hmm_clear
+"hmm_vit_eval_5st"
+OK 496 0.362945 hmm_vit_eval_5st
+"hmm_vit_eval_3st"
+OK 264 5.0992e-2 hmm_vit_eval_3st
+"hmm_dump_vit_eval"
+OK 53 2.0e-3 hmm_dump_vit_eval
+"fopen_comp"
+OK 239 2.8995e-2 fopen_comp
+"fopen_compchk"
+OK 180 7.999e-3 fopen_compchk
+"fread_retry"
+OK 113 5.999e-3 fread_retry
+"stat_retry"
+OK 76 2.0e-3 stat_retry
+"kb_init"
+FAIL TIMEOUT kb_init
+"kb_setlm"
+ALARM (term)kb_setlm:362
+"kb_lextree_active_swap"
+OK 53 2.0e-3 kb_lextree_active_swap
+"kb_freehyps"
+OK 89 4.999e-3 kb_freehyps
+"kb_free"
+OK 173 6.999e-3 kb_free
+"kbcore_init"
+OK 989 1.930707 kbcore_init
+"kbcore_free"
+OK 115 1.999e-3 kbcore_free
+"lextree_build"
+ALARM (term)lextree_build:1227
+"lextree_node_alloc"
+OK 56 1.0e-3 lextree_node_alloc
+"lextree_free"
+ALARM (term)lextree_free:214
+"lextree_subtree_free"
+OK 97 4.999e-3 lextree_subtree_free
+"lextree_ci_active"
+OK 61 1.0e-3 lextree_ci_active
+"lextree_ssid_active"
+OK 71 2.0e-3 lextree_ssid_active
+"lextree_utt_end"
+OK 62 1.999e-3 lextree_utt_end
+"lextree_dump"
+ALARM (term)lextree_dump:75
+"lextree_subtree_print"
+OK 78 3.999e-3 lextree_subtree_print
+"lextree_node_print"
+OK 48 1.0e-3 lextree_node_print
+"lextree_enter"
+ALARM (term)lextree_enter:154
+"lextree_active_swap"
+OK 20 1.0e-3 lextree_active_swap
+"lextree_hmm_eval"
+OK 541 0.121981 lextree_hmm_eval
+"lextree_hmm_histbin"
+OK 183 1.1998e-2 lextree_hmm_histbin
+"lextree_hmm_propagate"
+FAIL TIMEOUT lextree_hmm_propagate
+"lm_get_classid"
+OK 72 2.999e-3 lm_get_classid
+"lm_set_param"
+OK 273 2.5996e-2 lm_set_param
+"lm_read_ctl"
+OK 703 0.229965 lm_read_ctl
+"lm_read_dump"
+FAIL TIMEOUT lm_read_dump
+"lm_read"
+OK 176 1.0998e-2 lm_read
+"lm_cache_reset"
+OK 352 4.6993e-2 lm_cache_reset
+"lm_cache_stats_dump"
+OK 76 2.0e-3 lm_cache_stats_dump
+"lm_ug_score"
+OK 57 2.0e-3 lm_ug_score
+"lm_ug_wordprob"
+OK 230 1.8997e-2 lm_ug_wordprob
+"lm_bglist"
+OK 110 8.998e-3 lm_bglist
+"load_bg"
+OK 231 1.6998e-2 load_bg
+"lm_bg_score"
+OK 212 3.5994e-2 lm_bg_score
+"find_bg"
+ALARM (term)find_bg:59
+"lm_tglist"
+ALARM (term)lm_tglist:171
+"load_tg"
+OK 409 0.108984 load_tg
+"lm_tg_score"
+ALARM (term)lm_tg_score:504
+"find_tg"
+ALARM (term)find_tg:59
+"lm_wid"
+OK 61 2.0e-3 lm_wid
+"lm_free"
+OK 134 1.1998e-2 lm_free
+"lm_fread_int32"
+OK 64 3.0e-3 lm_fread_int32
+"lm_build_lmclass_info"
+OK 108 6.999e-3 lm_build_lmclass_info
+"lm2logs3"
+OK 259 2.1996e-2 lm2logs3
+"lm_uw"
+OK 106 5.0e-3 lm_uw
+"lmclass_dump"
+OK 72 2.999e-3 lmclass_dump
+"lmclass_set_dump"
+OK 35 1.0e-3 lmclass_set_dump
+"lmclass_loadfile"
+ALARM (term)lmclass_loadfile:746
+"lmclass_add"
+OK 87 4.999e-3 lmclass_add
+"lmclass_addword"
+OK 87 4.999e-3 lmclass_addword
+"lmclass_get_lmclass"
+OK 54 2.0e-3 lmclass_get_lmclass
+"lmclass_get_nclass"
+OK 36 1.0e-3 lmclass_get_nclass
+"logs3_init"
+ALARM (term)logs3_init:228
+"logs_free"
+OK 15 0.0 logs_free
+"mdef_dump"
+OK 230 1.2998e-2 mdef_dump
+"mdef_phone_str"
+OK 71 1.999e-3 mdef_phone_str
+"mdef_phone_id"
+OK 110 8.999e-3 mdef_phone_id
+"find_ph_lc"
+OK 46 2.0e-3 find_ph_lc
+"find_ph_rc"
+OK 46 1.0e-3 find_ph_rc
+"mdef_phone_id_nearest"
+OK 240 3.3995e-2 mdef_phone_id_nearest
+"mdef_phone_components"
+OK 36 1.0e-3 mdef_phone_components
+"mdef_init"
+ALARM (term)mdef_init:881
+"noncomment_line"
+OK 45 1.999e-3 noncomment_line
+"parse_base_line"
+OK 246 2.3997e-2 parse_base_line
+"parse_tri_line"
+OK 242 9.998e-3 parse_tri_line
+"sseq_compress"
+OK 232 1.8996e-2 sseq_compress
+"mdef_sseq2sen_active"
+OK 85 3.0e-3 mdef_sseq2sen_active
+"mdef_free_recursive_lc"
+OK 34 1.0e-3 mdef_free_recursive_lc
+"mdef_free_recursive_rc"
+OK 25 1.0e-3 mdef_free_recursive_rc
+"mdef_free"
+OK 331 4.1993e-2 mdef_free
+"triphone_add"
+OK 128 4.0e-3 triphone_add
+"parse_tmat_senmap"
+ALARM (term)parse_tmat_senmap:270
+"ciphone_add"
+OK 52 1.0e-3 ciphone_add
+"fe_init"
+ALARM (term)fe_init:179
+"fe_start_utt"
+OK 40 1.0e-3 fe_start_utt
+"fe_process_utt"
+ALARM (term)fe_process_utt:482
+"fe_end_utt"
+OK 170 1.3997e-2 fe_end_utt
+"fe_close"
+OK 65 1.0e-3 fe_close
+"fe_build_melfilters"
+FAIL fe_build_melfilters:no calss for 293
+"fe_create_2d"
+OK 81 3.0e-3 fe_create_2d
+"fe_compute_melcosine"
+OK 116 3.999e-3 fe_compute_melcosine
+"fe_pre_emphasis"
+OK 62 1.0e-3 fe_pre_emphasis
+"fe_short_to_double"
+OK 37 0.0 fe_short_to_double
+"fe_create_hamming"
+OK 58 2.999e-3 fe_create_hamming
+"fe_hamming_window"
+OK 44 2.0e-3 fe_hamming_window
+"fe_frame_to_fea"
+OK 86 2.999e-3 fe_frame_to_fea
+"fe_spec_magnitude"
+OK 252 6.599e-2 fe_spec_magnitude
+"fe_mel_spec"
+ALARM (term)fe_mel_spec:110
+"fe_mel_cep"
+ALARM (term)fe_mel_cep:117
+"fe_parse_general_params"
+OK 85 3.0e-3 fe_parse_general_params
+"fe_parse_melfb_params"
+OK 296 0.108983 fe_parse_melfb_params
+"pctr_reset_all"
+OK 33 1.0e-3 pctr_reset_all
+"pctr_print_all"
+OK 62 2.999e-3 pctr_print_all
+"ptmr_reset_all"
+OK 33 1.0e-3 ptmr_reset_all
+"ptmr_print_all"
+OK 53 1.0e-3 ptmr_print_all
+"host_endian"
+OK 123 5.999e-3 host_endian
+"spec_rand"
+OK 38 2.0e-3 spec_rand
+"str2words"
+ALARM (term)str2words:169
+"subvq_init"
+ALARM (term)subvq_init:1000
+"subvq_maha_precomp"
+OK 86 3.999e-3 subvq_maha_precomp
+"subvq_map_compact"
+ALARM (term)subvq_map_compact:299
+"subvq_map_linearize"
+OK 119 5.999e-3 subvq_map_linearize
+"subvq_mgau_shortlist"
+OK 431 4.3993e-2 subvq_mgau_shortlist
+"subvq_subvec_eval_logs3"
+OK 83 3.999e-3 subvq_subvec_eval_logs3
+"subvq_gautbl_eval_logs3"
+OK 114 6.999e-3 subvq_gautbl_eval_logs3
+"subvq_frame_eval"
+FAIL TIMEOUT subvq_frame_eval
+"subvq_mgau_eval"
+OK 269 4.8992e-2 subvq_mgau_eval
+"subvq_free"
+OK 188 2.4996e-2 subvq_free
+"tmat_dump"
+ALARM (term)tmat_dump:102
+"tmat_chk_uppertri"
+OK 101 5.999e-3 tmat_chk_uppertri
+"tmat_chk_1skip"
+OK 103 6.999e-3 tmat_chk_1skip
+"tmat_init"
+ALARM (term)tmat_init:699
+"tmat_free"
+OK 25 1.0e-3 tmat_free
+"matchseg_write"
+OK 189 4.2993e-2 matchseg_write
+"match_write"
+OK 161 1.0999e-2 match_write
+"utt_begin"
+OK 55 9.99e-4 utt_begin
+"utt_end"
+OK 1304 0.642903 utt_end
+"utt_word_trans"
+OK 398 5.4991e-2 utt_word_trans
+"computePhnHeur"
+OK 535 0.12998 computePhnHeur
+"utt_decode_block"
+ALARM (term)utt_decode_block:1103
+"vector_sum_norm"
+OK 81 3.0e-3 vector_sum_norm
+"vector_floor"
+OK 46 1.0e-3 vector_floor
+"vector_nz_floor"
+OK 55 1.999e-3 vector_nz_floor
+"vector_print"
+OK 57 2.0e-3 vector_print
+"vector_is_zero"
+OK 48 1.0e-3 vector_is_zero
+"vector_maxcomp_int32"
+OK 59 2.0e-3 vector_maxcomp_int32
+"vector_mincomp_int32"
+OK 59 2.999e-3 vector_mincomp_int32
+"vector_maxcomp_float32"
+OK 59 2.0e-3 vector_maxcomp_float32
+"vector_mincomp_float32"
+OK 59 1.999e-3 vector_mincomp_float32
+"vector_accum"
+OK 39 1.0e-3 vector_accum
+"vector_cmp"
+OK 57 2.0e-3 vector_cmp
+"vector_mean"
+OK 114 3.999e-3 vector_mean
+"vector_dist_eucl"
+OK 49 2.0e-3 vector_dist_eucl
+"vector_maha_precomp"
+ALARM (term)vector_maha_precomp:46
+"vector_dist_maha"
+OK 58 2.0e-3 vector_dist_maha
+"vector_vqlabel"
+OK 82 3.0e-3 vector_vqlabel
+"vector_vqgen"
+ALARM (term)vector_vqgen:416
+"vector_pdf_entropy"
+ALARM (term)vector_pdf_entropy:37
+"vector_pdf_cross_entropy"
+ALARM (term)vector_pdf_cross_entropy:41
+"vector_gautbl_var_floor"
+OK 45 1.0e-3 vector_gautbl_var_floor
+"vector_gautbl_maha_precomp"
+OK 56 1.999e-3 vector_gautbl_maha_precomp
+"vector_gautbl_eval_logs3"
+OK 296 3.3995e-2 vector_gautbl_eval_logs3
+"vithist_init"
+ALARM (term)vithist_init:145
+"vithist_utt_begin"
+OK 68 2.0e-3 vithist_utt_begin
+"vithist_entry_alloc"
+OK 61 1.999e-3 vithist_entry_alloc
+"vithist_rescore"
+OK 284 3.4995e-2 vithist_rescore
+"vithist_enter"
+OK 80 2.0e-3 vithist_enter
+"vithist_frame_gc"
+OK 208 1.5997e-2 vithist_frame_gc
+"vithist_frame_windup"
+OK 69 3.0e-3 vithist_frame_windup
+"vithist_dump"
+ALARM (term)vithist_dump:316
+"vithist_lmstate_reset"
+OK 114 3.999e-3 vithist_lmstate_reset
+"vithist_utt_end"
+ALARM (term)vithist_utt_end:177
+"vithist_partialutt_end"
+ALARM (term)vithist_partialutt_end:103
+"vithist_utt_reset"
+OK 75 3.0e-3 vithist_utt_reset
+"vithist_backtrace"
+OK 139 5.999e-3 vithist_backtrace
+"vithist_dag_write"
+ALARM (term)vithist_dag_write:944
+"vh_lmstate_find"
+OK 76 4.0e-3 vh_lmstate_find
+"vithist_lmstate_enter"
+OK 76 2.0e-3 vithist_lmstate_enter
+"wid_dict_lm_map"
+OK 614 0.142978 wid_dict_lm_map
+"wid_wordprob2alt"
+OK 101 3.999e-3 wid_wordprob2alt
+COMPLETE

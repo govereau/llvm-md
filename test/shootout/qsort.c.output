@@ -1,0 +1,8 @@
+BORING cmpint
+FAIL quicksort:fetchVal:88
+FAIL main:fetchVal:94
+COMPLETE
+
+real	0m0.022s
+user	0m0.017s
+sys	0m0.004s

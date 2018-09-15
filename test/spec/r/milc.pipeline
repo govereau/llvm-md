@@ -1,0 +1,396 @@
+BORING write_appl_gauge_info
+BORING setup
+BORING initial_set
+BORING node_number
+BORING num_sites
+FAIL get_gauge_fix_action:Maybe.fromJust: Nothing
+FAIL gaugefixstep:Maybe.fromJust: Nothing
+BORING save_lattice
+BORING error_exit
+BORING __inline_strcpy_chk
+BORING swrite_data
+BORING pwrite_data
+BORING pswrite_data
+BORING sread_data
+BORING pread_data
+BORING pread_byteorder
+BORING sread_byteorder
+BORING psread_data
+BORING psread_byteorder
+BORING __inline_memcpy_chk
+BORING r_serial_i
+BORING parallel_open
+BORING w_parallel_i
+BORING w_checkpoint_i
+BORING r_parallel_i
+BORING restore_serial
+BORING restore_parallel
+BORING save_serial
+BORING save_parallel
+BORING save_checkpoint
+BORING save_parallel_archive
+BORING check_deviation
+FAIL path_transport:Maybe.fromJust: Nothing
+FAIL path_transport_hwv:Maybe.fromJust: Nothing
+BORING side_link_force
+BORING cmplx
+FAIL ks_congrad:Maybe.fromJust: Nothing
+BORING initialize_machine
+BORING sort_eight_neighborlists
+BORING terminate
+BORING start_handlers
+BORING restart_gather
+BORING restart_gather_from_temp
+BORING wait_gather
+BORING cleanup_gather
+BORING wait_general_gather
+BORING cleanup_general_gather
+BORING field_pointer_at_coordinates
+BORING field_pointer_at_direction
+BORING cleanup_field_pointer
+BORING send_field
+BORING get_field
+BORING machine_type
+BORING mynode
+BORING numnodes
+BORING g_sync
+BORING g_floatsum
+BORING g_doublesum
+BORING g_vecdoublesum
+BORING g_complexsum
+BORING g_dcomplexsum
+BORING g_veccomplexsum
+BORING g_wvectorsum
+BORING g_xor32
+BORING g_floatmax
+BORING g_doublemax
+BORING broadcast_float
+BORING broadcast_double
+BORING broadcast_complex
+BORING broadcast_dcomplex
+BORING broadcast_bytes
+BORING send_integer
+BORING receive_integer
+BORING time_stamp
+BORING normal_exit
+BORING g_seek
+BORING g_write
+BORING g_read
+BORING g_close
+"main"
+OK 349 2.1997e-2 main
+"f_meas_imp"
+OK 306 2.0996e-2 f_meas_imp
+"readin"
+OK 495 0.228966 readin
+"make_3n_gathers"
+ALARM (term)make_3n_gathers:34
+"third_neighbor"
+OK 100 2.999e-3 third_neighbor
+"update"
+OK 193 9.999e-3 update
+"update_h"
+OK 52 9.99e-4 update_h
+"update_u"
+OK 148 5.0e-3 update_u
+"setup_layout"
+ALARM (term)setup_layout:274
+"node_index"
+OK 43 9.99e-4 node_index
+"check_unitarity"
+ALARM (term)check_unitarity:253
+"check_su3"
+ALARM (term)check_su3:280
+"d_plaquette"
+FAIL TIMEOUT d_plaquette
+"accum_gauge_hit"
+ALARM (term)accum_gauge_hit:403
+"do_hit"
+OK 551 8.5987e-2 do_hit
+"gaugefixscratch"
+OK 131 1.0998e-2 gaugefixscratch
+"gaugefix"
+ALARM (term)gaugefix:182
+"reload_lattice"
+OK 142 3.999e-3 reload_lattice
+"ask_starting_lattice"
+OK 140 4.0e-3 ask_starting_lattice
+"ask_ending_lattice"
+OK 170 1.7997e-2 ask_ending_lattice
+"coldlat"
+OK 148 7.999e-3 coldlat
+"funnylat"
+OK 190 1.0998e-2 funnylat
+"get_f"
+OK 148 1.0998e-2 get_f
+"get_i"
+OK 148 1.0999e-2 get_i
+"get_s"
+OK 136 9.998e-3 get_s
+"get_prompt"
+OK 73 2.0e-3 get_prompt
+"qcdhdr_get_str"
+ALARM (term)qcdhdr_get_str:47
+"qcdhdr_get_int"
+OK 28 1.0e-3 qcdhdr_get_int
+"qcdhdr_get_int32x"
+OK 33 0.0 qcdhdr_get_int32x
+"qcdhdr_get_double"
+OK 28 1.0e-3 qcdhdr_get_double
+"complete_U"
+OK 181 1.8997e-2 complete_U
+"big_endian"
+ALARM (term)big_endian:16
+"qcdhdr_get_hdr"
+OK 217 1.4998e-2 qcdhdr_get_hdr
+"qcdhdr_destroy_hdr"
+OK 79 3.999e-3 qcdhdr_destroy_hdr
+"pwrite_gauge_hdr"
+OK 52 1.0e-3 pwrite_gauge_hdr
+"swrite_gauge_hdr"
+OK 52 1.0e-3 swrite_gauge_hdr
+"write_gauge_info_item"
+ALARM (term)write_gauge_info_item:231
+"write_gauge_info_file"
+OK 124 2.999e-3 write_gauge_info_file
+"setup_input_gauge_file"
+OK 64 1.0e-3 setup_input_gauge_file
+"setup_output_gauge_file"
+OK 188 1.3998e-2 setup_output_gauge_file
+"w_serial_i"
+OK 98 3.999e-3 w_serial_i
+"read_checksum"
+OK 98 4.0e-3 read_checksum
+"write_checksum"
+OK 43 1.0e-3 write_checksum
+"w_serial"
+ALARM (term)w_serial:620
+"w_serial_f"
+OK 50 2.0e-3 w_serial_f
+"read_site_list"
+OK 194 2.0997e-2 read_site_list
+"read_v3_gauge_hdr"
+FAIL TIMEOUT read_v3_gauge_hdr
+"read_1996_gauge_hdr"
+ALARM (term)read_1996_gauge_hdr:569
+"read_gauge_hdr"
+OK 635 0.338948 read_gauge_hdr
+"r_serial"
+OK 800 0.427935 r_serial
+"r_serial_arch"
+OK 742 0.184972 r_serial_arch
+"r_serial_f"
+OK 47 1.0e-3 r_serial_f
+"write_site_list"
+OK 216 1.7997e-2 write_site_list
+"w_parallel_setup"
+OK 154 1.3998e-2 w_parallel_setup
+"w_parallel"
+ALARM (term)w_parallel:692
+"w_checkpoint"
+ALARM (term)w_checkpoint:278
+"w_parallel_f"
+OK 60 2.999e-3 w_parallel_f
+"r_parallel"
+ALARM (term)r_parallel:945
+"r_parallel_f"
+OK 44 2.0e-3 r_parallel_f
+"restore_ascii"
+ALARM (term)restore_ascii:566
+"save_ascii"
+ALARM (term)save_ascii:402
+"save_serial_archive"
+ALARM (term)save_serial_archive:922
+"make_lattice"
+OK 402 5.5992e-2 make_lattice
+"path_product"
+OK 925 0.287956 path_product
+"ploop"
+OK 359 4.3994e-2 ploop
+"ranmom"
+OK 63 1.999e-3 ranmom
+"initialize_prn"
+OK 86 2.0e-3 initialize_prn
+"myrand"
+OK 92 4.999e-3 myrand
+"reunit_report_problem_matrix"
+ALARM (term)reunit_report_problem_matrix:123
+"reunit_su3"
+OK 524 0.228965 reunit_su3
+"reunitarize"
+OK 168 1.0999e-2 reunitarize
+"make_loop_table"
+ALARM (term)make_loop_table:454
+"char_num"
+ALARM (term)char_num:155
+"imp_gauge_action"
+ALARM (term)imp_gauge_action:117
+"imp_gauge_force"
+ALARM (term)imp_gauge_force:320
+"g_measure"
+ALARM (term)g_measure:341
+"printpath"
+OK 80 3.0e-3 printpath
+"grsource_imp"
+OK 174 1.4997e-2 grsource_imp
+"checkmul_imp"
+OK 170 8.999e-3 checkmul_imp
+"mat_invert_cg"
+OK 63 1.0e-3 mat_invert_cg
+"mat_invert_uml"
+OK 139 6.999e-3 mat_invert_uml
+"check_invert"
+ALARM (term)check_invert:205
+"make_path_table"
+OK 140 8.999e-3 make_path_table
+"add_basic_path"
+ALARM (term)add_basic_path:406
+"is_path_equal"
+OK 46 1.0e-3 is_path_equal
+"load_longlinks"
+ALARM (term)load_longlinks:204
+"load_fatlinks"
+OK 324 3.8995e-2 load_fatlinks
+"compute_gen_staple"
+OK 441 7.3988e-2 compute_gen_staple
+"eo_fermion_force"
+ALARM (term)eo_fermion_force:439
+"u_shift_fermion"
+ALARM (term)u_shift_fermion:109
+"add_force_to_mom"
+OK 104 4.999e-3 add_force_to_mom
+"eo_fermion_force_3f"
+ALARM (term)eo_fermion_force_3f:711
+"u_shift_hw_fermion"
+ALARM (term)u_shift_hw_fermion:143
+"add_3f_force_to_mom"
+ALARM (term)add_3f_force_to_mom:135
+"side_link_3f_force"
+OK 47 1.0e-3 side_link_3f_force
+"phaseset"
+ALARM (term)phaseset:126
+"rephase"
+ALARM (term)rephase:85
+"add_su3_matrix"
+OK 87 3.999e-3 add_su3_matrix
+"add_su3_vector"
+OK 65 2.0e-3 add_su3_vector
+"clear_su3mat"
+OK 56 2.0e-3 clear_su3mat
+"clearvec"
+OK 24 0.0 clearvec
+"mult_adj_su3_mat_vec"
+OK 140 6.0e-3 mult_adj_su3_mat_vec
+"mult_su3_an"
+OK 324 2.3996e-2 mult_su3_an
+"mult_su3_na"
+OK 168 7.998e-3 mult_su3_na
+"mult_su3_nn"
+OK 169 8.999e-3 mult_su3_nn
+"mult_su3_mat_vec"
+OK 139 5.999e-3 mult_su3_mat_vec
+"make_anti_hermitian"
+OK 97 3.999e-3 make_anti_hermitian
+"random_anti_hermitian"
+ALARM (term)random_anti_hermitian:111
+"realtrace_su3"
+OK 89 3.0e-3 realtrace_su3
+"scalar_mult_add_su3_matrix"
+OK 92 3.999e-3 scalar_mult_add_su3_matrix
+"scalar_mult_add_su3_vector"
+OK 70 3.0e-3 scalar_mult_add_su3_vector
+"scalar_mult_sub_su3_matrix"
+OK 92 3.999e-3 scalar_mult_sub_su3_matrix
+"scalar_mult_su3_vector"
+OK 54 2.0e-3 scalar_mult_su3_vector
+"scalar_mult_su3_matrix"
+OK 125 5.999e-3 scalar_mult_su3_matrix
+"su3_adjoint"
+OK 72 2.999e-3 su3_adjoint
+"su3_dot"
+OK 79 2.0e-3 su3_dot
+"su3_rdot"
+OK 50 1.0e-3 su3_rdot
+"su3_projector"
+OK 99 3.999e-3 su3_projector
+"su3mat_copy"
+OK 69 2.0e-3 su3mat_copy
+"sub_su3_matrix"
+OK 87 3.999e-3 sub_su3_matrix
+"sub_su3_vector"
+OK 65 2.0e-3 sub_su3_vector
+"trace_su3"
+ALARM (term)trace_su3:69
+"uncompress_anti_hermitian"
+OK 88 3.0e-3 uncompress_anti_hermitian
+"magsq_su3vec"
+OK 35 9.99e-4 magsq_su3vec
+"sub_four_su3_vecs"
+OK 211 3.0996e-2 sub_four_su3_vecs
+"mult_adj_su3_mat_vec_4dir"
+OK 327 2.0997e-2 mult_adj_su3_mat_vec_4dir
+"mult_adj_su3_mat_4vec"
+OK 338 2.1997e-2 mult_adj_su3_mat_4vec
+"mult_su3_mat_vec_sum_4dir"
+OK 235 1.9997e-2 mult_su3_mat_vec_sum_4dir
+"mult_su2_mat_vec_elem_n"
+ALARM (term)mult_su2_mat_vec_elem_n:159
+"left_su2_hit_n"
+OK 43 1.0e-3 left_su2_hit_n
+"right_su2_hit_a"
+OK 43 9.99e-4 right_su2_hit_a
+"mult_su2_mat_vec_elem_a"
+ALARM (term)mult_su2_mat_vec_elem_a:159
+"gaussian_rand_no"
+OK 90 5.999e-3 gaussian_rand_no
+"byterevn"
+OK 60 2.0e-3 byterevn
+"mult_su3_mat_hwvec"
+ALARM (term)mult_su3_mat_hwvec:463
+"mult_adj_su3_mat_hwvec"
+ALARM (term)mult_adj_su3_mat_hwvec:463
+"cleanup_gathers"
+OK 122 4.999e-3 cleanup_gathers
+"cleanup_dslash_temps"
+OK 46 1.0e-3 cleanup_dslash_temps
+"dslash_fn"
+OK 722 0.119981 dslash_fn
+"dslash_fn_special"
+FAIL TIMEOUT dslash_fn_special
+"dslash_fn_on_temp"
+ALARM (term)dslash_fn_on_temp:544
+"dslash_fn_on_temp_special"
+FAIL TIMEOUT dslash_fn_on_temp_special
+"clear_latvec"
+ALARM (term)clear_latvec:80
+"copy_latvec"
+ALARM (term)copy_latvec:87
+"scalar_mult_add_latvec"
+OK 75 2.999e-3 scalar_mult_add_latvec
+"scalar2_mult_add_su3_vector"
+OK 75 2.0e-3 scalar2_mult_add_su3_vector
+"scalar2_mult_add_latvec"
+OK 76 2.999e-3 scalar2_mult_add_latvec
+"scalar_mult_latvec"
+OK 144 5.999e-3 scalar_mult_latvec
+"make_nn_gathers"
+ALARM (term)make_nn_gathers:44
+"make_gather"
+ALARM (term)make_gather:725
+"neighbor_coords_special"
+OK 96 2.999e-3 neighbor_coords_special
+"sort_eight_special"
+OK 86 2.0e-3 sort_eight_special
+"neighbor_coords"
+OK 88 1.999e-3 neighbor_coords
+"start_gather"
+OK 171 8.999e-3 start_gather
+"start_gather_from_temp"
+OK 159 8.999e-3 start_gather_from_temp
+"start_general_gather"
+OK 220 1.5997e-2 start_general_gather
+"dclock"
+ALARM (term)dclock:8
+"g_open"
+OK 98 3.0e-3 g_open
+COMPLETE
