@@ -1,0 +1,32 @@
+#!/bin/sh
+
+if [ -z "$1" -o -z "$2" ]; then
+    echo "usage: vcc bitcode opts"
+    exit 1
+fi
+
+file=$1; shift
+args=$@;
+
+echo Optimizing with flags $args...
+opt -f -o $file.m2r -mem2reg $file
+opt -f -o $file.opt $file.m2r $args
+llvm-dis -f -o $file.s $file.m2r
+llvm-dis -f -o $file.opt.s $file.opt
+
+echo Validating result...
+../../validate $file.s $file.opt.s -phi -ldst -ldphi -cf -ggep +RTS -K20M 2>&1 > $file.output
+sh ../../bin/stats.sh $file.output
+
+echo Merging functions...
+perl ../../bin/merge.pl $file.s $file.opt.s $file.output > $file.merged.s
+
+echo Linking...
+llvm-as -f -o $file.bc $file.merged.s
+llvm-ld -native -o $file.exe $file.bc
+
+echo Building others...
+llvm-ld -native -o $file.none.exe $file.m2r
+llvm-ld -native -o $file.opt.exe $file.opt
+opt -O1 -o $file.O1 $file
+llvm-ld -native -o $file.O1.exe $file.O1
